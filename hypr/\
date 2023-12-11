@@ -17,7 +17,6 @@ exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CUR
 exec-once = systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec-once = swww init
-exec-once = batsignal -b -f 80  -w 50 -c 40 -d 30 -F "Fully charged" -W "Warning" -C "charge" -D "notify-send Charge\Idiot" -m 5
 exec = waybar
 exec-once = mako
 exec-once = blueman-applet
@@ -120,6 +119,7 @@ windowrule = float,^(pavucontrol)$
 windowrule = float,^(blueman-manager)$
 windowrule = float,^(nm-connection-editor)$
 windowrule = float,^(chromium)$
+windowrule = float,^(thunar)$
 windowrule = float, title:^(btop)$
 windowrule = float, title:^(update-sys)$
 
@@ -154,15 +154,12 @@ bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, J, togglesplit, # dwindle
 bind = $mainMod, B, exec ,firefox
 bind = $mainMod, F, fullscreen
-bind = $mainMod, S, exec, LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 bind = $mainMod SHIFT, S, exec, grim -g "$(slurp)" - | wl-copy
 bind = ALT, V, exec, cliphist list | wofi -dmenu | cliphist decode | wl-copy # open clipboard manager
 bind = $mainMod, H, exec, ~/.config/HyprV/hyprv_util vswitch # switch HyprV version
 
 #Media player bindings
-bind = , F8, exec, playerctl play-pause
-bind = , F9, exec, playerctl next
-bind = , F7, exec, playerctl previous
+bind = , F8, exec, playerctl -play
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
