@@ -1,7 +1,8 @@
 import os
 import datetime
-loc_hypr = "~/.config/hypr"
-os.system("cp -r "+loc_hypr+" ../dotfiles")
+loc = ["~/.config/hypr","~/.config/alacritty","~/.config/waybar","~/.config/wofi","~/.config/nvim"]
+for i in loc:
+    os.system("cp -r "+i+" ../dotfiles")
 os.system("git add . ")
 x = datetime.datetime.now()
 os.system("git commit -m "+"\""+str(x.strftime("%c"))+"\"")
