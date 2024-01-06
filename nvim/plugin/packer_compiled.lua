@@ -180,6 +180,13 @@ _G.packer_plugins = {
     path = "/home/sabarno/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["typst.vim"] = {
+    loaded = false,
+    needs_bufread = true,
+    only_cond = false,
+    path = "/home/sabarno/.local/share/nvim/site/pack/packer/opt/typst.vim",
+    url = "https://github.com/kaarmu/typst.vim"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/sabarno/.local/share/nvim/site/pack/packer/start/vim-commentary",
@@ -203,6 +210,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Filetype lazy-loads
+time([[Defining lazy-load filetype autocommands]], true)
+vim.cmd [[au FileType typst ++once lua require("packer.load")({'typst.vim'}, { ft = "typst" }, _G.packer_plugins)]]
+time([[Defining lazy-load filetype autocommands]], false)
+vim.cmd("augroup END")
+vim.cmd [[augroup filetypedetect]]
+time([[Sourcing ftdetect script at: /home/sabarno/.local/share/nvim/site/pack/packer/opt/typst.vim/ftdetect/typst.vim]], true)
+vim.cmd [[source /home/sabarno/.local/share/nvim/site/pack/packer/opt/typst.vim/ftdetect/typst.vim]]
+time([[Sourcing ftdetect script at: /home/sabarno/.local/share/nvim/site/pack/packer/opt/typst.vim/ftdetect/typst.vim]], false)
+vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

@@ -12,7 +12,7 @@ return require('packer').startup(function()
     }
     use 'ryanoasis/vim-devicons'
     use "lukas-reineke/indent-blankline.nvim"
-
+    use { 'kaarmu/typst.vim', ft = { 'typst' } }
     -- Color Schemes
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     use 'gruvbox-community/gruvbox'
