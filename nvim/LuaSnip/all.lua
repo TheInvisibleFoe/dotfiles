@@ -10,37 +10,26 @@ local fmt = require("luasnip.extras.fmt").fmt
 local fmta = require("luasnip.extras.fmt").fmta
 local rep = require("luasnip.extras").rep
 return {
-    -- A snippet that expands the trigger "hi" into the string "Hello, world!".
-    s(
-        { "hi" },
-        { t("Hello, world!") }
+    -- Shorthand
+    s("hi", -- LuaSnip expands this to {trig = "hi"}
+        { t("Hello, world!"), }
     ),
-
-    -- To return multiple snippets, use one `return` statement per snippet file
-    -- and return a table of Lua snippets.
-    s(
-        { trig = "foo" },
-        { t("Another snippet.") }
+    -- Here is the equivalent longhand
+    s({ trig = ";a", snippetType = "autosnippet" },
+        { t("\\alpha"), }
     ),
-    -- The Latex Snippets reqd
-    s(
-        { trig = ";a" },
-        { t("\alpha") }
+    s({ trig = "env", snippetType = "autosnippet" },
+        fmta(
+            [[
+              \begin{<>}
+                <>
+              \end{<>}
+            ]],
+            {
+                i(1),
+                i(2),
+                rep(1), -- this node repeats insert node i(1)
+            }
+        )
     ),
-    -- Examples of Greek letter snippets, autotriggered for efficiency
-    -- s({ trig = "ga", snippetType = "autosnippet" },
-    --     {
-    --         t("\\alpha"),
-    --     }
-    -- ),
-    -- s({ trig = ";b", snippetType = "autosnippet" },
-    --     {
-    --         t("\\beta"),
-    --     }
-    -- ),
-    -- s({ trig = ";g", snippetType = "autosnippet" },
-    --     {
-    --         t("\\gamma"),
-    --     }
-    -- ),
 }
