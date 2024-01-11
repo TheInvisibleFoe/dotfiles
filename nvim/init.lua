@@ -1,7 +1,7 @@
 require('settings')
 require('packer-plugins')
 require('keys')
-require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
+-- require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
 require 'lspconfig'.typst_lsp.setup {
     settings = {
         exportPdf = "onType" -- Choose onType, onSave or never.
@@ -12,7 +12,7 @@ require 'lspconfig'.typst_lsp.setup {
 require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
 
 -- Lazy-load snippets, i.e. only load when required, e.g. for a given filetype
--- require("luasnip.loaders.from_lua").lazy_load({paths = "~/.config/nvim/LuaSnip/"})
+require("luasnip.loaders.from_lua").lazy_load({ paths = "~/.config/nvim/LuaSnip/tex" })
 
 -- Yes, we're just executing a bunch of Vimscript, but this is the officially
 -- endorsed method; see https://github.com/L3MON4D3/LuaSnip#keymaps
