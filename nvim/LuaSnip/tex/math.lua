@@ -51,7 +51,39 @@ return {
             { i(1) }
         )
     ),
+    s({ trig = ">>", snippetType = "autosnippet" },
+        {
+            t("\\rightarrow "),
+        }
+    ),
 
+    s({ trig = "gdd", snippetType = "autosnippet" },
+        {
+            t("\\grad "),
+        },
+        { condition = tex_utils.in_mathzone }
+    ),
+    -- CURL OPERATOR, i.e. \curl
+    s({ trig = "cll", snippetType = "autosnippet" },
+        {
+            t("\\curl "),
+        },
+        { condition = tex_utils.in_mathzone }
+    ),
+    -- DIVERGENCE OPERATOR, i.e. \divergence
+    s({ trig = "DI", snippetType = "autosnippet" },
+        {
+            t("\\div "),
+        },
+        { condition = tex_utils.in_mathzone }
+    ),
+    -- LAPLACIAN OPERATOR, i.e. \laplacian
+    s({ trig = "laa", snippetType = "autosnippet" },
+        {
+            t("\\laplacian "),
+        },
+        { condition = tex_utils.in_mathzone }
+    ),
     -- Auto environment
     s({ trig = "env", snippetType = "autosnippet" },
         fmta(
