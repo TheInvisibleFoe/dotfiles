@@ -10,6 +10,7 @@ return {
                 \usepackage[dutch]{babel}
                 \usepackage{amsmath, amssymb}
                 \usepackage{preamble}
+                \usepackage{mlmodern}
                 \usepackage{transparent}
                 \newcommand{\incfig}[1]{%
                     \def\svgwidth{\columnwidth}
@@ -26,6 +27,48 @@ return {
                 i(1),
                 i(2),
             }
+        )
+    ),
+    s({ trig = ":st", snippetType = "autosnippet" },
+        fmta(
+            [[
+                \section{<>}
+                <>
+            ]]
+            ,
+            {
+                i(1),
+                i(2),
+            }
+
+        )
+    ),
+    s({ trig = ":sst", snippetType = "autosnippet" },
+        fmta(
+            [[
+                \subsection{<>}
+                <>
+            ]]
+            ,
+            {
+                i(1),
+                i(2),
+            }
+
+        )
+    ),
+    s({ trig = ":ssst", snippetType = "autosnippet" },
+        fmta(
+            [[
+                \subsubsection{<>}
+                <>
+            ]]
+            ,
+            {
+                i(1),
+                i(2),
+            }
+
         )
     ),
 }

@@ -22,9 +22,10 @@ end
 tex_utils.in_tikz = function() -- TikZ picture environment detection
     return tex_utils.in_env('tikzpicture')
 end
+local line_begin = require("luasnip.extras.expand_conditions").line_begin
+-- local helpers = require('personal.luasnip-helper-funcs')
+-- local get_visual = helpers.get_visual
 
-
--- Place this in ${HOME}/.config/nvim/LuaSnip/all.lua
 local ls = require("luasnip")
 local s = ls.snippet
 local sn = ls.snippet_node
@@ -37,7 +38,7 @@ local fmta = require("luasnip.extras.fmt").fmta
 local rep = require("luasnip.extras").rep
 return {
 
-    s({ trig = "maxwell", snippetType = "autosnippet" },
+    s({ trig = ":maxwell", snippetType = "autosnippet" },
         fmta(
             [[
             \begin{align*}
@@ -49,11 +50,12 @@ return {
             <>
         ]],
             { i(1) }
-        )
+        ),
+        { condition = line_begin }
     ),
     s({ trig = ">>", snippetType = "autosnippet" },
         {
-            t("\\rightarrow "),
+            t("\\Rightarrow "),
         }
     ),
 
@@ -63,29 +65,25 @@ return {
         },
         { condition = tex_utils.in_mathzone }
     ),
-    -- CURL OPERATOR, i.e. \curl
     s({ trig = "cll", snippetType = "autosnippet" },
         {
             t("\\curl "),
         },
         { condition = tex_utils.in_mathzone }
     ),
-    -- DIVERGENCE OPERATOR, i.e. \divergence
     s({ trig = "DI", snippetType = "autosnippet" },
         {
             t("\\div "),
         },
         { condition = tex_utils.in_mathzone }
     ),
-    -- LAPLACIAN OPERATOR, i.e. \laplacian
     s({ trig = "laa", snippetType = "autosnippet" },
         {
             t("\\laplacian "),
         },
         { condition = tex_utils.in_mathzone }
     ),
-    -- Auto environment
-    s({ trig = "env", snippetType = "autosnippet" },
+    s({ trig = ":env", snippetType = "autosnippet" },
         fmta(
             [[
               \begin{<>}
@@ -97,7 +95,8 @@ return {
                 i(2),
                 rep(1),
             }
-        )
+        ),
+        { condition = line_begin }
     ),
 
     -- Function mapping from R to R
@@ -118,7 +117,7 @@ return {
     s({ trig = "nsum", snippetType = "autosnippet" },
         fmta(
             [[
-                \sum_{i=1}{n}<>
+                \sum_{i=1}^{n}<>
             ]],
             {
                 i(1),
@@ -128,7 +127,7 @@ return {
     s({ trig = "intg", snippetType = "autosnippet" },
         fmta(
             [[
-                \int_{<>}{<>}\dx
+                \int_{<>}^{<>}\dx
             ]],
             {
                 i(1),
@@ -172,7 +171,7 @@ return {
     s({ trig = "icup", snippetType = "autosnippet" },
         fmta(
             [[
-                \bigcup_{i=1}{\infty}<>
+                \bigcup_{i=1}^{\infty}<>
             ]],
             {
                 i(1),
@@ -182,7 +181,7 @@ return {
     s({ trig = "ncup", snippetType = "autosnippet" },
         fmta(
             [[
-                \bigcup_{i=1}{<>}<>
+                \bigcup_{i=1}^{<>}<>
             ]],
             {
                 i(1),
@@ -193,7 +192,7 @@ return {
     s({ trig = "icap", snippetType = "autosnippet" },
         fmta(
             [[
-                \bigcap_{i=1}{\infty}<>
+                \bigcap_{i=1}^{\infty}<>
             ]],
             {
                 i(1),
@@ -203,7 +202,7 @@ return {
     s({ trig = "ncap", snippetType = "autosnippet" },
         fmta(
             [[
-                \bigcap_{i=1}{<>}<>
+                \bigcap_{i=1}^{<>}<>
             ]],
             {
                 i(1),
@@ -211,4 +210,29 @@ return {
             }
         )
     ),
+    -- Non-word Triggers
+    s({ trig = "[^%a]dm", regTrig = true, wordTrig = false, snippetType = "autosnippet" },
+        fmta(
+            [[
+                \(<>\)<>
+            ]],
+            {
+                i(1),
+                i(2),
+            }
+        )
+    ),
+    s({ trig = ":al", snippetType = "autosnippet" },
+        fmta(
+            [[
+                \begin{align}
+                    <>
+                \end{align}
+            ]],
+            {
+                i(1),
+            }
+        )
+    ),
+
 }

@@ -14,7 +14,6 @@ tex.in_tikz = function()
     return (is_inside[1] > 0 and is_inside[2] > 0)
 end
 
--- Return snippet tables
 return
 {
     s({ trig = "nppg", snippetType = "autosnippet" },
@@ -29,12 +28,6 @@ return
         },
         { condition = tex.in_mathzone }
     ),
-    -- s({ trig = "all", snippetType = "autosnippet" },
-    --     {
-    --         t("\\text{ for all } "),
-    --     },
-    --     { condition = tex.in_mathzone }
-    -- ),
     s({ trig = "and", snippetType = "autosnippet" },
         {
             t("\\quad \\text{and} \\quad"),
