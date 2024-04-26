@@ -38,19 +38,19 @@ shape = "Block"
 size = 14
 
 [font.bold]
-family = "EnvyCodeRNerdFont Mono"
+family = "IosevkaTermSlabNerdFontMono"
 style = "Bold"
 
 [font.bold_italic]
-family = "EnvyCodeRNerdFont Mono"
+family = "IosevkaTermSlabNerdFontMono"
 style = "Bold Italic"
 
 [font.italic]
-family = "EnvyCodeRNerdFont Mono"
+family = "IosevkaTermSlabNerdFontMono"
 style = "Italic"
 
 [font.normal]
-family = "EnvyCodeRNerdFont Mono"
+family = "IosevkaTermSlabNerdFontMono"
 style = "Regular"
 
 [[keyboard.bindings]]
