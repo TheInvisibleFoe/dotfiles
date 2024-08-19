@@ -1,38 +1,55 @@
-require('settings')
-require('packer-plugins')
-require('keys')
--- require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
-require 'lspconfig'.typst_lsp.setup {
-    settings = {
-        exportPdf = "onType" -- Choose onType, onSave or never.
-        -- serverPath = "" -- Normally, there is no need to uncomment it.
-    }
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.g.mapleader = " " 
+vim.wo.relativenumber = true
+
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+local plugins ={
+	{ 
+    "catppuccin/nvim", name = "catppuccin", priority = 1000 
+  },
+  {
+    'nvim-telescope/telescope.nvim', tag = '0.1.6',
+     dependencies = { 'nvim-lua/plenary.nvim' }
+  },
+
+  {
+    "nvim-treesitter/nvim-treesitter", build = ":TSUpdate"
+  },
+  {
+        "andrewferrier/wrapping.nvim",
+  }
 }
--- Load all snippets from the nvim/LuaSnip directory at startup
-require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
+local opts = {}
 
--- Lazy-load snippets, i.e. only load when required, e.g. for a given filetype
-require("luasnip.loaders.from_lua").lazy_load({ paths = "~/.config/nvim/LuaSnip/tex" })
 
--- Yes, we're just executing a bunch of Vimscript, but this is the officially
--- endorsed method; see https://github.com/L3MON4D3/LuaSnip#keymaps
-vim.keymap.set('n', '<C-S>L',
-    '<Cmd>lua require("luasnip.loaders.from_lua").load({paths = "~/.config/nvim/LuaSnip/"})<CR>')
-vim.cmd [[
-" Use Tab to expand and jump through snippets
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>'
-smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Tab>'
+require("lazy").setup(plugins, opts)
+require("catppuccin").setup()
+require("wrapping").setup()
+vim.cmd.colorscheme "catppuccin"
 
-" Use Shift-Tab to jump backwards through snippets
-imap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
-smap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
-]]
-require("luasnip").config.set_config({ -- Setting LuaSnip config
+local configs = require("nvim-treesitter.configs")
 
-    -- Enable autotriggered snippets
-    enable_autosnippets = true,
-
-    update_events = 'TextChanged,TextChangedI',
-    -- Use Tab (or some other key if you prefer) to trigger visual selection
-    store_selection_keys = "<Tab>",
-})
+configs.setup({
+          ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "python", "typst" },
+          sync_install = false,
+          highlight = { enable = true },
+          indent = { enable = true },  
+        })
+local builtin = require("telescope.builtin")
+vim.keymap.set('n','<C-p>', builtin.find_files,{})
+vim.keymap.set('n','<leader>fg', builtin.live_grep,{})

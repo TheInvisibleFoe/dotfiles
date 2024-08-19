@@ -1,99 +1,16 @@
-live_config_reload = true
-
-[colors.bright]
-black = "0x686868"
-blue = "0x59C2FF"
-cyan = "0x95E6CB"
-green = "0xC2D94C"
-magenta = "0xFFEE99"
-red = "0xF07178"
-white = "0xFFFFFF"
-yellow = "0xFFB454"
-
-[colors.normal]
-black = "0x01060E"
-blue = "0x53BDFA"
-cyan = "0x90E1C6"
-green = "0x91B362"
-magenta = "0xFAE994"
-red = "0xEA6C73"
-white = "0xC7C7C7"
-yellow = "0xF9AF4F"
-
-[colors.primary]
-background = "0x0A0E14"
-foreground = "0xB3B1AD"
-
-[cursor]
-blink_interval = 300
-thickness = 0.1
-unfocused_hollow = false
-vi_mode_style = "Block"
-
-[cursor.style]
-blinking = "On"
-shape = "Block"
-
 [font]
-size = 14
-
-[font.bold]
-family = "IosevkaTermSlabNerdFontMono"
-style = "Bold"
-
-[font.bold_italic]
-family = "IosevkaTermSlabNerdFontMono"
-style = "Bold Italic"
-
-[font.italic]
-family = "IosevkaTermSlabNerdFontMono"
-style = "Italic"
+size = 12.0
 
 [font.normal]
-family = "IosevkaTermSlabNerdFontMono"
+family = "FiraCode"
 style = "Regular"
 
-[[keyboard.bindings]]
-action = "CreateNewWindow"
-key = "T"
-mods = "Shift|Control"
-
-[[keyboard.bindings]]
-action = "ToggleFullscreen"
-key = "F11"
-mods = "Shift|Control"
-
-[[keyboard.bindings]]
-action = "ToggleViMode"
-key = "Space"
-mode = "~Search"
-mods = "Shift|Control"
-
-[[keyboard.bindings]]
-action = "Copy"
-key = "Y"
-mode = "Vi|~Search"
-
-[[keyboard.bindings]]
-action = "Paste"
-key = "V"
-mode = "~Vi"
-mods = "Control|Shift"
-
-[[keyboard.bindings]]
-action = "Copy"
-key = "C"
-mods = "Control|Shift"
-
 [window]
-decorations = "none"
-opacity = 0.6
-startup_mode = "Windowed"
+opacity = 0.8
 
-[window.dimensions]
-columns = 120
-lines = 25
+[window.padding]
+x = 15
+y = 15
 
-[window.position]
-x = 0
-y = 0
+[selection]
+save_to_clipboard = true
