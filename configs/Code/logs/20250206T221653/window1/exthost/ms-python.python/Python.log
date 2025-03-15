@@ -1,0 +1,120 @@
+2025-02-06 22:17:07.293 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-06 22:17:07.293 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-06 22:17:07.293 [info] Experiment 'pythonTestAdapter' is active
+2025-02-06 22:17:07.293 [warning] Dir "/home/sab/Projects/PH3205/10.0.1.68/.pixi/envs" is not watchable (directory does not exist)
+2025-02-06 22:17:07.293 [info] Starting Environment refresh
+2025-02-06 22:17:07.293 [info] > hatch env show --json
+2025-02-06 22:17:07.293 [info] cwd: .
+2025-02-06 22:17:07.293 [info] VS Code was launched from an activated environment: 'jupyter', selecting it as the interpreter for workspace.
+2025-02-06 22:17:07.293 [info] Python interpreter path: ~/miniconda3/envs/jupyter/bin/python
+2025-02-06 22:17:07.293 [info] > pyenv which python
+2025-02-06 22:17:07.293 [info] cwd: .
+2025-02-06 22:17:07.324 [info] Environments refresh finished (event): 790 milliseconds
+2025-02-06 22:17:07.324 [info] Environments refresh paths discovered: 790 milliseconds
+2025-02-06 22:17:07.330 [info] Environment refresh took 796 milliseconds
+2025-02-06 22:17:07.360 [info] > conda info --json
+2025-02-06 22:17:07.391 [info] > python -c "import sys;print(sys.executable)"
+2025-02-06 22:17:07.436 [info] > conda info --json
+2025-02-06 22:17:07.436 [info] shell: bash
+2025-02-06 22:17:08.443 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-06 22:17:08.443 [info] shell: bash
+2025-02-06 22:17:08.560 [info] Starting Pylance language server.
+2025-02-06 22:17:09.830 [info] Starting Environment refresh
+2025-02-06 22:17:09.830 [info] Searching for interpreters in posix paths locator
+2025-02-06 22:17:09.833 [info] Searching for pyenv environments
+2025-02-06 22:17:09.833 [info] Searching for conda environments
+2025-02-06 22:17:09.834 [info] Searching for global virtual environments
+2025-02-06 22:17:09.834 [info] Searching for custom virtual environments
+2025-02-06 22:17:09.847 [info] pyenv is not installed
+2025-02-06 22:17:09.847 [info] Finished searching for pyenv environments: 16 milliseconds
+2025-02-06 22:17:09.848 [info] Finished searching for custom virtual envs: 16 milliseconds
+2025-02-06 22:17:09.876 [info] Finished searching for global virtual envs: 44 milliseconds
+2025-02-06 22:17:11.988 [info] > python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-06 22:17:11.988 [info] shell: bash
+2025-02-06 22:17:12.001 [info] Found: /bin/python --> /bin/python3.13
+2025-02-06 22:17:12.077 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-06 22:17:12.081 [info] Setting environment variable _CE_M in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable GSETTINGS_SCHEMA_DIR in collection to /home/sab/miniconda3/envs/jupyter/share/glib-2.0/schemas {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable CONDA_ROOT in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable GSETTINGS_SCHEMA_DIR_CONDA_BACKUP in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable _CE_CONDA in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable CONDA_SHLVL in collection to 4 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable CONDA_PREFIX_2 in collection to /home/sab/miniconda3/envs/jupyter {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Setting environment variable CONDA_PREFIX_3 in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-06 22:17:12.082 [info] Prepending environment variable PS1 in collection with (jupyter)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-06 22:17:12.083 [info] Send text to terminal: python /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt
+2025-02-06 22:17:12.086 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-06 22:17:12.114 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-06 22:17:12.114 [info] Finished searching for conda environments: 2282 milliseconds
+2025-02-06 22:17:12.180 [info] > ~/miniconda3/envs/jupyter/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-06 22:17:12.229 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-06 22:17:12.251 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-06 22:17:12.252 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-06 22:17:12.291 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-06 22:17:12.292 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-06 22:17:12.292 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3.1 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-06 22:17:12.292 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3.12 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-06 22:17:12.294 [info] Found: /home/sab/miniconda3/bin/python --> /home/sab/miniconda3/bin/python3.12
+2025-02-06 22:17:12.294 [info] Found: /home/sab/miniconda3/bin/python3 --> /home/sab/miniconda3/bin/python3.12
+2025-02-06 22:17:12.295 [info] Found: /home/sab/miniconda3/bin/python3.1 --> /home/sab/miniconda3/bin/python3.12
+2025-02-06 22:17:12.295 [info] Found: /home/sab/miniconda3/bin/python3.12 --> /home/sab/miniconda3/bin/python3.12
+2025-02-06 22:17:12.348 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-06 22:17:12.402 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-06 22:17:12.404 [info] Finished searching for interpreters in posix paths locator: 2575 milliseconds
+2025-02-06 22:17:12.404 [info] Environments refresh paths discovered (event): 2575 milliseconds
+2025-02-06 22:17:12.404 [info] Environments refresh paths discovered: 2575 milliseconds
+2025-02-06 22:17:12.492 [info] Environments refresh finished (event): 2663 milliseconds
+2025-02-06 22:17:12.502 [info] Environment refresh took 2673 milliseconds
+2025-02-06 22:17:50.494 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-06 22:17:50.494 [info] shell: bash
+2025-02-06 22:17:50.615 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-06 22:17:50.615 [info] shell: bash
+2025-02-06 22:18:39.479 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:18:42.476 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:18:45.646 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:18:48.746 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:19:05.416 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:19:40.509 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:19:42.895 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:27:43.126 [info] > ~/miniconda3/envs/jupyter/bin/python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/normalizeSelection.py
+2025-02-06 22:27:43.774 [info] Send text to terminal: import numpy as np
+
+2025-02-06 22:27:43.976 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:27:47.946 [info] > ~/miniconda3/envs/jupyter/bin/python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/normalizeSelection.py
+2025-02-06 22:27:47.985 [info] Send text to terminal: def euler(y,x,h,f):
+    yn = y +f(x,y)*h
+    return yn
+
+
+2025-02-06 22:27:51.957 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:28:04.998 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:30:52.480 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:30:55.899 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:30:56.759 [info] > ~/miniconda3/envs/jupyter/bin/python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/normalizeSelection.py
+2025-02-06 22:30:56.805 [info] Send text to terminal: euler()
+
+2025-02-06 22:30:57.426 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:31:02.855 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:31:05.130 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:31:51.510 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:31:59.214 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:02.563 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:06.256 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:10.082 [info] > ~/miniconda3/envs/jupyter/bin/python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/normalizeSelection.py
+2025-02-06 22:32:10.135 [info] Send text to terminal: from numpy import arange, zeros, array
+
+2025-02-06 22:32:10.869 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:18.802 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:32.601 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-06 22:32:32.601 [info] shell: bash
+2025-02-06 22:32:40.560 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:46.352 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-06 22:32:47.289 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:19.860 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:23.067 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:35.528 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:42.405 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:46.465 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:32:47.623 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-07 01:35:47.448 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-07 01:35:47.448 [info] shell: bash

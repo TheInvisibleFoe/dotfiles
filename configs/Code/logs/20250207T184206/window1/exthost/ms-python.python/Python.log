@@ -1,0 +1,58 @@
+2025-02-07 18:42:23.664 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-07 18:42:23.664 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-07 18:42:23.664 [info] Experiment 'pythonTestAdapter' is active
+2025-02-07 18:42:23.664 [warning] Dir "/home/sab/Projects/PH3205/10.0.1.68/.pixi/envs" is not watchable (directory does not exist)
+2025-02-07 18:42:23.664 [info] Starting Environment refresh
+2025-02-07 18:42:23.664 [info] Searching for interpreters in posix paths locator
+2025-02-07 18:42:23.664 [info] Searching for pyenv environments
+2025-02-07 18:42:23.664 [info] Searching for conda environments
+2025-02-07 18:42:23.664 [info] Searching for global virtual environments
+2025-02-07 18:42:23.664 [info] Searching for custom virtual environments
+2025-02-07 18:42:23.664 [info] pyenv is not installed
+2025-02-07 18:42:23.664 [info] Finished searching for pyenv environments: 175 milliseconds
+2025-02-07 18:42:23.664 [info] Finished searching for custom virtual envs: 169 milliseconds
+2025-02-07 18:42:23.664 [info] > conda info --json
+2025-02-07 18:42:23.664 [info] > hatch env show --json
+2025-02-07 18:42:23.664 [info] cwd: .
+2025-02-07 18:42:23.664 [info] > pyenv which python
+2025-02-07 18:42:23.664 [info] cwd: .
+2025-02-07 18:42:23.664 [info] Finished searching for global virtual envs: 738 milliseconds
+2025-02-07 18:42:23.803 [info] Found: /bin/python --> /bin/python3.13
+2025-02-07 18:42:23.852 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-07 18:42:23.896 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-07 18:42:23.896 [info] shell: bash
+2025-02-07 18:42:23.896 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-07 18:42:23.896 [info] shell: bash
+2025-02-07 18:42:23.898 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-07 18:42:23.946 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-07 18:42:23.946 [info] Finished searching for conda environments: 5089 milliseconds
+2025-02-07 18:42:23.969 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-07 18:42:23.979 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-07 18:42:23.980 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-07 18:42:23.999 [info] > ~/miniconda3/envs/jupyter/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-07 18:42:24.069 [info] Found: /home/sab/miniconda3/bin/python --> /home/sab/miniconda3/bin/python3.12
+2025-02-07 18:42:24.070 [info] Found: /home/sab/miniconda3/bin/python3 --> /home/sab/miniconda3/bin/python3.12
+2025-02-07 18:42:24.070 [info] Found: /home/sab/miniconda3/bin/python3.1 --> /home/sab/miniconda3/bin/python3.12
+2025-02-07 18:42:24.071 [info] Found: /home/sab/miniconda3/bin/python3.12 --> /home/sab/miniconda3/bin/python3.12
+2025-02-07 18:42:24.107 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-07 18:42:24.141 [info] Finished searching for interpreters in posix paths locator: 5280 milliseconds
+2025-02-07 18:42:24.141 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-07 18:42:24.142 [info] Environments refresh paths discovered (event): 5303 milliseconds
+2025-02-07 18:42:24.142 [info] Environments refresh paths discovered: 5303 milliseconds
+2025-02-07 18:42:24.200 [info] Environments refresh finished (event): 5361 milliseconds
+2025-02-07 18:42:24.211 [info] Environment refresh took 5376 milliseconds
+2025-02-07 18:42:24.240 [info] > python -c "import sys;print(sys.executable)"
+2025-02-07 18:42:24.290 [info] Python interpreter path: ~/miniconda3/bin/python
+2025-02-07 18:42:24.374 [info] > conda info --json
+2025-02-07 18:42:24.374 [info] shell: bash
+2025-02-07 18:42:24.396 [info] > pyenv which python
+2025-02-07 18:42:24.396 [info] cwd: .
+2025-02-07 18:42:25.547 [info] > conda run -n base --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-07 18:42:25.548 [info] shell: bash
+2025-02-07 18:42:26.065 [info] Starting Pylance language server.
+2025-02-07 18:42:28.619 [info] > python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-07 18:42:28.619 [info] shell: bash
+2025-02-07 18:42:28.669 [info] Setting environment variable _CE_M in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-07 18:42:28.669 [info] Setting environment variable CONDA_ROOT in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-07 18:42:28.669 [info] Setting environment variable _CE_CONDA in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-07 18:42:28.703 [info] Send text to terminal: python /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt

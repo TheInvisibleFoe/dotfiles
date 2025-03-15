@@ -1,0 +1,23 @@
+Visual Studio Code (1.96.3, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2024.22.2.
+Pylance Extension Version: 2024.12.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/github/TheInvisibleFoe/JupyterNotebooks, Home = /home/sab
+22:12:22.612 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/github/TheInvisibleFoe/JupyterNotebooks/UNO/uno_sim.ipynb' (di~leUI=true)
+22:12:27.259 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+22:12:27.310 [info] Dispose Kernel '~/github/TheInvisibleFoe/JupyterNotebooks/UNO/uno_sim.ipynb' associated with '~/github/TheInvisibleFoe/JupyterNotebooks/UNO/uno_sim.ipynb'
+22:12:27.334 [info] Dispose Kernel '~/github/TheInvisibleFoe/JupyterNotebooks/UNO/uno_sim.ipynb' associated with '~/github/TheInvisibleFoe/JupyterNotebooks/UNO/uno_sim.ipynb'
+22:12:27.337 [warn] Failed to shutdown kernel, .jvsc74a57bd0f23885871134fa73ce5590f749bd0a0cccc60f1675e356d65ef61f9d9bd9e3aa./home/~/miniconda3/envs/jupyter/python./home/~/miniconda3/envs/jupyter/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at $_.shutdown (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:13745)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at q_.shutdown (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:22578)
+22:12:27.406 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v34631ddcf2c34ee82d8bed6f672cfe3938f213ac5.json for pid undefined Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at Bc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:239:15448)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}
+22:12:27.434 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"

@@ -1,0 +1,78 @@
+2025-02-16 16:45:50.778 [info] Extension host with pid 66373 started
+2025-02-16 16:45:50.778 [info] Skipping acquiring lock for /home/sab/.config/Code/User/workspaceStorage/93b673455648feea09cad88d8bea26cb.
+2025-02-16 16:45:50.876 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-16 16:45:51.008 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-16 16:45:51.137 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-16 16:45:51.231 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-16 16:45:51.387 [info] Eager extensions activated
+2025-02-16 16:45:51.447 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:51.450 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:51.473 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:51.585 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:52.140 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:52.783 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 16:45:53.679 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 16:45:53.690 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 16:45:53.756 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 16:45:53.816 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-16 16:45:53.849 [info] ExtensionService#_doActivateExtension istarwyh.writinghelper, startup: false, activationEvent: 'onLanguage:latex'
+2025-02-16 16:45:53.875 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2025-02-16 16:45:54.043 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-02-16 16:45:54.203 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-02-16 16:45:54.223 [info] ExtensionService#_doActivateExtension valentjn.vscode-ltex, startup: false, activationEvent: 'onLanguage:latex'
+2025-02-16 16:46:15.272 [warning] TextEditor is closed/disposed
+2025-02-16 16:46:15.272 [warning] TextEditor is closed/disposed
+2025-02-16 16:46:15.304 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-02-16 16:46:15.304 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model3)
+2025-02-16 17:14:11.756 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-02-16 17:14:11.853 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-16 17:14:11.854 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-16 17:14:11.857 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-16 17:14:12.261 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-16 17:14:12.568 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-16 17:14:12.571 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:python', root cause: benjamin-simmonds.pythoncpp-debug
+2025-02-16 17:14:12.717 [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:12.724 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:12.731 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:12.882 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:13.351 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:13.449 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:14:14.895 [info] ExtensionService#_doActivateExtension benjamin-simmonds.pythoncpp-debug, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 17:15:11.804 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-02-16 17:15:11.805 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:8,$model21)
+2025-02-16 17:18:40.118 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-02-16 17:27:40.910 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-02-16 17:27:40.910 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:9,$model62)
+2025-02-23 19:47:42.740 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-23 19:47:42.932 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/sab/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+    at Object.t.deactivate (/home/sab/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+    at zz.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-23 19:47:42.983 [error] Error: Channel has been closed
+    at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.append (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2528)
+    at LoggingOutputChannel.append (/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/dist/extension.js:14335:29)
+    at Socket.<anonymous> (/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/dist/extension.js:24824:76)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-02-23 19:47:42.990 [error] Error: Channel has been closed
+    at s (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2570)
+    at D.logOutputMessage (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+    at D.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+    at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-02-23 19:47:42.992 [info] Extension host with pid 66373 exiting with code 0

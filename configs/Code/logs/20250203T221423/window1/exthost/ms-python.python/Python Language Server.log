@@ -1,0 +1,87 @@
+2025-02-03 22:18:06.736 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-03 22:18:07.626 [info] [Info  - 22:18:07] (17740) Server root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:18:07.627 [info] [Info  - 22:18:07] (17740) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-03 22:18:07.640 [info] [Info  - 22:18:07] (17740) Starting service instance "PH3204"
+2025-02-03 22:18:07.921 [info] [Info  - 22:18:07] (17740) Setting environmentName for service "PH3204": "3.12.8 (base conda)"
+2025-02-03 22:18:07.923 [info] [Info  - 22:18:07] (17740) Setting pythonPath for service "PH3204": "/home/sab/miniconda3/bin/python"
+2025-02-03 22:18:07.929 [info] [Info  - 22:18:07] (17740) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204
+2025-02-03 22:18:07.930 [info] [Info  - 22:18:07] (17740) Auto-excluding **/node_modules
+2025-02-03 22:18:07.930 [info] [Info  - 22:18:07] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:18:07.931 [info] [Info  - 22:18:07] (17740) Auto-excluding **/.*
+2025-02-03 22:18:07.996 [info] [Info  - 22:18:07] (17740) Assuming Python version 3.12.8.final.0
+2025-02-03 22:18:08.110 [info] [Info  - 22:18:08] (17740) No source files found.
+2025-02-03 22:18:08.987 [info] [Info  - 22:18:08] (17740) Background analysis(1) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:18:08.993 [info] [Info  - 22:18:08] (17740) Background analysis(1) started
+2025-02-03 22:18:19.153 [info] [Info  - 22:18:19] (17740) Starting service instance "<default>"
+2025-02-03 22:18:19.274 [info] [Info  - 22:18:19] (17740) Setting environmentName for service "<default>": "3.12.8 (base conda)"
+2025-02-03 22:18:19.278 [info] [Info  - 22:18:19] (17740) Setting pythonPath for service "<default>": "/home/sab/miniconda3/bin/python"
+2025-02-03 22:18:19.279 [info] [Info  - 22:18:19] (17740) No include entries specified; assuming /<default workspace root>
+2025-02-03 22:18:19.280 [info] [Info  - 22:18:19] (17740) Auto-excluding **/node_modules
+2025-02-03 22:18:19.280 [info] [Info  - 22:18:19] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:18:19.280 [info] [Info  - 22:18:19] (17740) Auto-excluding **/.*
+2025-02-03 22:18:19.318 [info] [Info  - 22:18:19] (17740) Assuming Python version 3.12.8.final.0
+2025-02-03 22:18:19.395 [info] [Error - 22:18:19] (17740) File or directory "/<default workspace root>" does not exist.
+2025-02-03 22:18:19.396 [info] [Info  - 22:18:19] (17740) No source files found.
+2025-02-03 22:18:19.412 [info] [Info  - 22:18:19] (17740) Starting service instance "PH3204"
+2025-02-03 22:18:19.444 [info] [Info  - 22:18:19] (17740) Setting environmentName for service "PH3204": "3.12.8 (base conda)"
+2025-02-03 22:18:19.444 [info] [Info  - 22:18:19] (17740) Setting pythonPath for service "PH3204": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-03 22:18:19.444 [info] [Info  - 22:18:19] (17740) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204
+2025-02-03 22:18:19.445 [info] [Info  - 22:18:19] (17740) Auto-excluding **/node_modules
+2025-02-03 22:18:19.445 [info] [Info  - 22:18:19] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:18:19.445 [info] [Info  - 22:18:19] (17740) Auto-excluding **/.*
+2025-02-03 22:18:19.478 [info] [Info  - 22:18:19] (17740) Assuming Python version 3.12.8.final.0
+2025-02-03 22:18:19.559 [info] [Info  - 22:18:19] (17740) No source files found.
+2025-02-03 22:18:20.950 [info] [Info  - 22:18:20] (17740) Background analysis(2) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:18:20.955 [info] [Info  - 22:18:20] (17740) Background analysis(2) started
+2025-02-03 22:18:20.959 [info] [Info  - 22:18:20] (17740) Background analysis(3) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:18:20.959 [info] [Info  - 22:18:20] (17740) Background analysis(3) started
+2025-02-03 22:18:20.959 [info] [Info  - 22:18:20] (17740) Indexer background runner(4) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-03 22:18:20.959 [info] [Info  - 22:18:20] (17740) Indexing(4) started
+2025-02-03 22:18:21.989 [info] [Info  - 22:18:21] (17740) scanned(4) 240 files over 1 exec env
+2025-02-03 22:18:24.275 [info] [Info  - 22:18:24] (17740) indexed(4) 240 files over 1 exec env
+2025-02-03 22:18:24.346 [info] [Info  - 22:18:24] (17740) Indexing finished(4).
+2025-02-03 22:18:42.103 [info] [Info  - 22:18:42] (17740) Starting service instance "PH3204"
+2025-02-03 22:18:42.137 [info] [Info  - 22:18:42] (17740) Setting environmentName for service "PH3204": "3.12.8 (base conda)"
+2025-02-03 22:18:42.137 [info] [Info  - 22:18:42] (17740) Setting pythonPath for service "PH3204": "/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204"
+2025-02-03 22:18:42.137 [info] [Info  - 22:18:42] (17740) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204
+2025-02-03 22:18:42.137 [info] [Info  - 22:18:42] (17740) Auto-excluding **/node_modules
+2025-02-03 22:18:42.138 [info] [Info  - 22:18:42] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:18:42.138 [info] [Info  - 22:18:42] (17740) Auto-excluding **/.*
+2025-02-03 22:18:42.173 [info] [Info  - 22:18:42] (17740) No source files found.
+2025-02-03 22:18:43.042 [info] [Info  - 22:18:43] (17740) Background analysis(5) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:18:43.043 [info] [Info  - 22:18:43] (17740) Background analysis(5) started
+2025-02-03 22:18:43.305 [info] [Info  - 22:18:43] (17740) Indexer background runner(6) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-03 22:18:43.305 [info] [Info  - 22:18:43] (17740) Indexing(6) started
+2025-02-03 22:18:43.659 [info] [Info  - 22:18:43] (17740) scanned(6) 1 files over 1 exec env
+2025-02-03 22:18:44.014 [info] [Info  - 22:18:44] (17740) indexed(6) 1 files over 1 exec env
+2025-02-03 22:18:44.052 [info] [Info  - 22:18:44] (17740) Indexing finished(6).
+2025-02-03 22:19:01.141 [info] [Info  - 22:19:01] (17740) Starting service instance "PH3204"
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) Setting environmentName for service "PH3204": "3.12.8 (base conda)"
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) Setting pythonPath for service "PH3204": "/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204"
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) Auto-excluding **/node_modules
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:19:01.215 [info] [Info  - 22:19:01] (17740) Auto-excluding **/.*
+2025-02-03 22:19:01.248 [info] [Info  - 22:19:01] (17740) No source files found.
+2025-02-03 22:19:01.918 [info] [Info  - 22:19:01] (17740) Background analysis(7) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:19:01.921 [info] [Info  - 22:19:01] (17740) Background analysis(7) started
+2025-02-03 22:19:01.952 [info] [Info  - 22:19:01] (17740) Indexer background runner(8) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-03 22:19:01.952 [info] [Info  - 22:19:01] (17740) Indexing(8) started
+2025-02-03 22:19:02.284 [info] [Info  - 22:19:02] (17740) scanned(8) 1 files over 1 exec env
+2025-02-03 22:19:02.529 [info] [Info  - 22:19:02] (17740) indexed(8) 1 files over 1 exec env
+2025-02-03 22:19:02.546 [info] [Info  - 22:19:02] (17740) Indexing finished(8).
+2025-02-03 22:25:48.015 [info] [Info  - 22:25:48] (17740) Starting service instance "PH3204"
+2025-02-03 22:25:48.098 [info] [Info  - 22:25:48] (17740) Setting environmentName for service "PH3204": "3.12.8 (base conda)"
+2025-02-03 22:25:48.098 [info] [Info  - 22:25:48] (17740) Setting pythonPath for service "PH3204": "/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204"
+2025-02-03 22:25:48.098 [info] [Info  - 22:25:48] (17740) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204
+2025-02-03 22:25:48.098 [info] [Info  - 22:25:48] (17740) Auto-excluding **/node_modules
+2025-02-03 22:25:48.099 [info] [Info  - 22:25:48] (17740) Auto-excluding **/__pycache__
+2025-02-03 22:25:48.099 [info] [Info  - 22:25:48] (17740) Auto-excluding **/.*
+2025-02-03 22:25:48.121 [info] [Info  - 22:25:48] (17740) No source files found.
+2025-02-03 22:25:49.354 [info] [Info  - 22:25:49] (17740) Background analysis(9) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:25:49.354 [info] [Info  - 22:25:49] (17740) Background analysis(9) started
+2025-02-03 22:25:49.356 [info] [Info  - 22:25:49] (17740) Indexer background runner(10) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-03 22:25:49.356 [info] [Info  - 22:25:49] (17740) Indexing(10) started
+2025-02-03 22:25:49.404 [info] [Info  - 22:25:49] (17740) scanned(10) 1 files over 1 exec env
+2025-02-03 22:25:49.682 [info] [Info  - 22:25:49] (17740) indexed(10) 1 files over 1 exec env
+2025-02-03 22:25:49.696 [info] [Info  - 22:25:49] (17740) Indexing finished(10).

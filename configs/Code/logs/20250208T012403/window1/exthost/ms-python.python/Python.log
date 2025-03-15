@@ -1,0 +1,359 @@
+2025-02-08 01:24:16.727 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-08 01:24:16.727 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-08 01:24:16.727 [info] Experiment 'pythonTestAdapter' is active
+2025-02-08 01:24:16.727 [warning] Dir "/home/sab/Projects/PH3205/10.0.1.68/.pixi/envs" is not watchable (directory does not exist)
+2025-02-08 01:24:16.727 [info] > pyenv which python
+2025-02-08 01:24:16.727 [info] cwd: .
+2025-02-08 01:24:16.727 [info] > pyenv which python
+2025-02-08 01:24:16.727 [info] cwd: .
+2025-02-08 01:24:16.904 [info] > conda info --json
+2025-02-08 01:24:16.937 [info] > python -c "import sys;print(sys.executable)"
+2025-02-08 01:24:16.956 [info] Python interpreter path: ~/miniconda3/bin/python
+2025-02-08 01:24:17.013 [info] > conda info --json
+2025-02-08 01:24:17.013 [info] shell: bash
+2025-02-08 01:24:17.800 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:24:17.800 [info] shell: bash
+2025-02-08 01:24:17.800 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:24:17.800 [info] shell: bash
+2025-02-08 01:24:17.822 [info] > conda run -n base --no-capture-output python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:24:17.823 [info] shell: bash
+2025-02-08 01:24:18.714 [info] Starting Pylance language server.
+2025-02-08 01:24:20.274 [info] > python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:24:20.274 [info] shell: bash
+2025-02-08 01:24:20.465 [info] Setting environment variable _CE_M in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-08 01:24:20.465 [info] Setting environment variable CONDA_ROOT in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-08 01:24:20.465 [info] Setting environment variable _CE_CONDA in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-08 01:24:20.469 [info] Send text to terminal: python /home/sab/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/sab/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2025-02-08 01:24:38.326 [info] Starting Environment refresh
+2025-02-08 01:24:38.326 [info] Searching for interpreters in posix paths locator
+2025-02-08 01:24:38.328 [info] Searching for pyenv environments
+2025-02-08 01:24:38.328 [info] Searching for conda environments
+2025-02-08 01:24:38.329 [info] Searching for global virtual environments
+2025-02-08 01:24:38.329 [info] Searching for custom virtual environments
+2025-02-08 01:24:38.344 [info] > hatch env show --json
+2025-02-08 01:24:38.344 [info] cwd: .
+2025-02-08 01:24:38.346 [info] pyenv is not installed
+2025-02-08 01:24:38.346 [info] Finished searching for pyenv environments: 19 milliseconds
+2025-02-08 01:24:38.346 [info] Finished searching for custom virtual envs: 18 milliseconds
+2025-02-08 01:24:38.348 [info] Finished searching for global virtual envs: 20 milliseconds
+2025-02-08 01:24:38.359 [info] Found: /bin/python --> /bin/python3.13
+2025-02-08 01:24:38.360 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-08 01:24:38.360 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-08 01:24:38.382 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-08 01:24:38.383 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-08 01:24:38.383 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-08 01:24:38.407 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-08 01:24:38.407 [info] Finished searching for conda environments: 80 milliseconds
+2025-02-08 01:24:38.451 [info] > ~/miniconda3/envs/jupyter/bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-08 01:24:38.460 [info] Found: /home/sab/miniconda3/bin/python --> /home/sab/miniconda3/bin/python3.12
+2025-02-08 01:24:38.491 [info] Found: /home/sab/miniconda3/bin/python3 --> /home/sab/miniconda3/bin/python3.12
+2025-02-08 01:24:38.493 [info] Found: /home/sab/miniconda3/bin/python3.1 --> /home/sab/miniconda3/bin/python3.12
+2025-02-08 01:24:38.494 [info] Found: /home/sab/miniconda3/bin/python3.12 --> /home/sab/miniconda3/bin/python3.12
+2025-02-08 01:24:38.554 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-08 01:24:38.611 [info] Finished searching for interpreters in posix paths locator: 265 milliseconds
+2025-02-08 01:24:38.611 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-08 01:24:38.613 [info] Environments refresh paths discovered (event): 288 milliseconds
+2025-02-08 01:24:38.613 [info] Environments refresh paths discovered: 288 milliseconds
+2025-02-08 01:24:38.666 [info] Environments refresh finished (event): 341 milliseconds
+2025-02-08 01:24:38.674 [info] Environment refresh took 350 milliseconds
+2025-02-08 01:25:13.853 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:20.572 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:25.572 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:30.561 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:36.982 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:41.313 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:43.821 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:46.225 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:47.586 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:25:48.971 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:26:48.823 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:26:55.249 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:27:01.674 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:27:04.985 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:28:13.142 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:28:19.198 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:28:45.875 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:28:52.986 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:28:56.528 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy.py
+2025-02-08 01:32:43.448 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/comphy.py
+2025-02-08 01:32:47.859 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/root_find.py
+2025-02-08 01:33:10.033 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:33:19.930 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/comphy.py
+2025-02-08 01:33:25.402 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:35:13.014 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:35:13.014 [info] shell: bash
+2025-02-08 01:35:13.333 [info] Discover tests for workspace name: undefined - uri: /home/sab/.config/Code/User/settings.json
+2025-02-08 01:46:43.752 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/root_find.py
+2025-02-08 01:46:47.436 [info] > ~/miniconda3/bin/python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/normalizeSelection.py
+2025-02-08 01:46:47.685 [warning] Failed to check if python is an executable [Error: ENOENT: no such file or directory, lstat 'python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: 'python'
+}
+2025-02-08 01:46:47.712 [info] > python -I ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-08 01:46:48.228 [info] Send text to terminal: class root_find:
+    def __init__(self):
+        return None
+    def bisection(a,b,f,tol,maxiter):
+        '''
+            Parameters
+            ----------
+            a : float
+                left guess
+            b : float
+                right guess
+            f : function
+                function whose roots need to be calculated
+            tol : float
+                error tolerance
+            maxiter : int
+                    maximum number of iterations
+            Returns
+            ---------
+            returns a root between 'a' and 'b' using the bisection method
+        '''
+        c = (a+b)/2
+        err = abs(f(c))
+        print("%1s %10s %10s %10s %10s"%("n", "a","b","c","f(c)"))
+        count = 0
+        if abs(f(a))<=tol:
+            return a
+        elif abs(f(b))<=tol:
+            return b
+        if f(a)*f(b)>0:
+            print("Error")
+            return None
+        while err > tol:
+            c = (a+b)/2 # taking a midpoint
+            fa = f(a)
+            fb = f(b)
+            fc = f(c)
+            print("%2d %10.6f %10.6f %10.6f %10.6f"%(count,a,b,c,fc))
+            if fa*fc<0:# conditions
+                b=c
+            elif fc*fb<0:
+                a=c
+            elif abs(fc)<=tol:
+                return c
+            count+=1
+            err = abs(fc)# error in numerical estimation
+            if count ==maxiter:
+                print("Did not converge")
+                return None
+        print("The root is ",c)
+        return c
+    def secant(x0,x1,f,tol,maxiter):
+        '''
+        Parameters
+            ----------
+            x0 : float
+                left guess
+            x1 : float
+                right guess
+            f : function
+                function whose root needs to be calculated.
+            tol : float
+                error tolerance
+            maxiter : int
+                    maximum number of iterations
+            Returns
+            ---------
+            returns a root between 'x0' and 'x1' using the secant method
+        '''
+        fx0 = f(x0)
+        fx1 = f(x1)
+        count =1
+        print("%1s %10s %10s %10s %10s"%("n", "x_n-2","x_n-1","x_n","f(x_n)"))
+        if abs(fx0)<tol:
+            print("The root is ",a)
+            return a
+        elif abs(fx1)<tol:
+            print("The root is ",b)
+            return b
+        elif abs(fx1 - fx0) < tol:
+            print("The secant slope appraches 0")# flatness check
+            return None
+        else:
+            count = 1
+            x2 = x1 - fx1*((x1 - x0)/(fx1 - fx0))
+            fx2 = f(x2)
+            fx1 = f(x1)
+            fx0 = f(x0)
+            err = abs(fx2)
+            while err>tol:
+                fx1 = f(x1)
+                fx0 = f(x0)
+                fx2 = f(x2)
+                print("%2d %10.6f %10.6f %10.6f %10.6f"%(count,x0,x1,x2,f(x2)))
+                x2 = x1 - fx1*((x1 - x0)/(fx1 - fx0))# secant formula
+                count +=1
+                x0 = x1
+                x1 = x2
+                if abs(fx0 - fx1)<tol:
+                    print("Secant slope approaches 0")# flatness check
+                    return None
+                err = abs(f(x2))
+                if count == maxiter:
+                    print("Did not Converge")
+                    return None
+            print("%2d %10.6f %10.6f %10.6f %10.6f"%(count,x0,x1,x2,f(x2)))
+        print("The root is ",x2)
+        return x2
+    def newtraph(x0,f, tol,maxiter, fd):
+        '''
+            Parameters
+            ----------
+            x0 : float
+                Initial guess
+            f: function
+                function whose roots need to be calculated
+            tol : float
+                error tolerance
+            maxiter : int
+                    maximum number of iterations required.
+            fd : function
+                derivative type, can be analytical or numerical
+            Returns
+            ---------
+            returns a root around 'x0' using the Newton-Raphson Method
+        '''
+        if abs(f(x0))<=tol:
+            print("The root is ",x0)
+        elif abs(fd(x0))<=tol:# flatness check
+            print("The reciprocal of the derivative will blow up. Pls choose a different point")
+        else:
+            print("%1s %10s %10s %10s"%("n", "x_n-1","x_n","f(x_n)"))
+            fx0 = f(x0)
+            fdx0 = fd(x0)
+            x1 = x0 - fx0/fdx0# new point calculation
+            err = abs(f(x1))
+            count = 0
+            while err > tol:
+                fx0 = f(x0)
+                fdx0 = fd(x0)
+                x1 = x0 - fx0/fdx0# new point calculation
+                fx1 = f(x1)
+                print("%2d %10.6f %10.6f %10.6f"%(count,x0,x1,fx1))
+                x0 = x1
+                fx1 = f(x1)
+                err = abs(fx1)
+                count +=1
+                if count == maxiter:
+                    print("Did not converge")
+                    return None
+        print("%2d %10.6f %10.6f %10.6f"%(count,x0,x1,fx1))
+        print("The root is ", x1)
+        return x1
+
+
+2025-02-08 01:46:48.438 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/root_find.py
+2025-02-08 01:46:53.361 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/root_find.py
+2025-02-08 01:46:57.440 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-08 01:46:57.440 [info] shell: bash
+2025-02-08 01:49:29.981 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:33.655 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:36.395 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:38.186 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:39.976 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:41.622 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:46.349 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:50.744 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:54.593 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:49:58.131 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:04.205 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:08.488 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:13.623 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:15.507 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:18.482 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:20.080 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:21.680 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:24.978 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:35.352 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:36.975 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:38.583 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:39.914 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:43.034 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:44.487 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:50.092 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:51.232 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:53.700 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:50:57.017 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:02.092 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:04.993 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:06.650 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:09.374 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:10.713 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:15.004 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:16.400 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:22.524 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:24.833 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:27.184 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:29.643 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:32.248 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:34.540 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:37.425 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:39.141 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:41.264 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:48.481 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:51:59.531 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:02.739 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:07.854 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:12.448 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:14.538 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:18.887 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:22.095 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:23.868 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:30.682 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:32.095 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:35.714 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:37.349 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:38.807 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:40.729 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:42.563 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:45.247 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:47.732 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:50.295 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:51.865 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:52:53.350 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:00.620 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:02.390 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:05.042 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:06.732 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:08.381 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:10.544 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:12.583 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:16.246 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:19.951 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:23.509 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:25.328 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:27.537 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:29.833 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:31.520 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:33.872 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:36.968 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:39.924 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:41.618 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:43.910 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:50.391 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:53.273 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:54.428 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:53:58.889 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:01.317 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:02.343 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:03.850 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:06.603 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:08.678 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:12.001 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:14.384 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:17.215 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:18.683 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:21.095 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:23.672 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:27.190 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:28.530 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:30.290 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:32.283 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:38.726 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:43.064 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py
+2025-02-08 01:54:46.064 [info] Discover tests for workspace name: 10.0.1.68 - uri: /home/sab/Projects/PH3205/10.0.1.68/comphy/diff_eq.py

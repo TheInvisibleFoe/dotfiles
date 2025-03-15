@@ -1,0 +1,23 @@
+2025-02-10T16:21:48.650Z Info: Setting LTeX UI language to 'en-us'.
+2025-02-10T16:21:48.650Z Info: Loading i18n messages...
+2025-02-10T16:21:48.651Z Info: Loading default i18n messages...
+2025-02-10T16:21:48.654Z Info: 
+2025-02-10T16:21:48.654Z Info: ltex.ltex-ls.path not set.
+2025-02-10T16:21:48.654Z Info: Searching for ltex-ls in '/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/lib'...
+2025-02-10T16:21:48.655Z Info: ltex-ls found in '/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/lib/ltex-ls-15.2.0'.
+2025-02-10T16:21:48.655Z Info: 
+2025-02-10T16:21:48.655Z Info: Using ltex-ls from '/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/lib/ltex-ls-15.2.0'.
+2025-02-10T16:21:48.655Z Info: Using Java bundled with ltex-ls as ltex.java.path is not set.
+2025-02-10T16:21:48.658Z Info: Testing ltex-ls...
+2025-02-10T16:21:48.658Z Info:   Command: "/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/lib/ltex-ls-15.2.0/bin/ltex-ls"
+2025-02-10T16:21:48.658Z Info:   Arguments: ["--version"]
+2025-02-10T16:21:48.658Z Info:   env['JAVA_HOME']: undefined
+2025-02-10T16:21:48.658Z Info:   env['JAVA_OPTS']: "-Xms64m -Xmx512m"
+2025-02-10T16:21:49.368Z Info: Test successful!
+2025-02-10T16:21:49.368Z Info: 
+2025-02-10T16:21:49.377Z Info: Starting ltex-ls...
+2025-02-10T16:21:49.377Z Info:   Command: "/home/sab/.vscode/extensions/valentjn.vscode-ltex-13.1.0/lib/ltex-ls-15.2.0/bin/ltex-ls"
+2025-02-10T16:21:49.377Z Info:   Arguments: []
+2025-02-10T16:21:49.377Z Info:   env['JAVA_HOME']: undefined
+2025-02-10T16:21:49.377Z Info:   env['JAVA_OPTS']: "-Xms64m -Xmx512m"
+2025-02-10T16:21:49.377Z Info: 

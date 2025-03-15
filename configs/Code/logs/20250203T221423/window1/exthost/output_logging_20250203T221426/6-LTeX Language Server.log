@@ -1,0 +1,65 @@
+[Info  - 22:18:05] Starting ltex-ls...
+Feb 03, 2025 10:18:09 PM org.bsplines.ltexls.server.LtexLanguageServer initialize
+INFO: ltex-ls 15.2.0 - initializing...
+Feb 03, 2025 10:18:09 PM org.bsplines.ltexls.tools.I18n setLocale
+INFO: Setting locale to 'en'
+Feb 03, 2025 10:18:42 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Line Regulation"
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation in the breakdown region"
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation approaching breakdown"
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC Line Regulation"
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC load regulation"
+Feb 03, 2025 10:18:45 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Line Regulation"
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation in the breakdown region"
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation approaching breakdown"
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC Line Regulation"
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC load regulation"
+Feb 03, 2025 10:19:01 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 03, 2025 10:25:47 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Line Regulation"
+Feb 03, 2025 10:25:47 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation in the breakdown region"
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Zener Load regulation approaching breakdown"
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC Line Regulation"
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "IC load regulation"
+Feb 03, 2025 10:25:48 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches

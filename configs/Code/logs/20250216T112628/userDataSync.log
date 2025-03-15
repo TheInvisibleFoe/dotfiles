@@ -1,0 +1,14 @@
+2025-02-16 11:26:32.174 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-02-16 11:26:32.174 [info] Auto Sync is enabled.
+2025-02-16 11:26:32.174 [info] Auto Sync: Suspended until auth token is available.
+2025-02-16 11:26:34.947 [info] Auto Sync: Triggered by Interval
+2025-02-16 11:26:34.950 [info] Sync started.
+2025-02-16 11:26:35.942 [info] Settings: No changes found during synchronizing settings.
+2025-02-16 11:26:35.948 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-16 11:26:35.951 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-16 11:26:35.954 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-16 11:26:37.294 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2025-02-16 11:26:37.336 [info] GlobalState: Updated last synchronized ui state
+2025-02-16 11:26:37.392 [info] Extensions: No changes found during synchronizing extensions.
+2025-02-16 11:26:37.394 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-16 11:26:37.395 [info] Sync done. Took 2456ms

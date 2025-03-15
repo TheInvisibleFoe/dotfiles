@@ -1,0 +1,133 @@
+Visual Studio Code (1.96.3, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2024.22.2.
+Pylance Extension Version: 2024.12.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204, Home = /home/sab
+22:18:18.496 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb' (di~leUI=true)
+22:18:20.871 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:18:20.897 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v38ff848195133ff0be87f97f058a72f9514e7b55c.json
+    > cwd: //home/~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code
+22:18:20.931 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+22:18:22.077 [info] Kernel successfully started
+22:18:22.099 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+22:31:12.766 [warn] Cell completed with errors iu [Error]: [Errno 2] No such file or directory: 'data2.xlsx'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'FileNotFoundError',
+  evalue: "[Errno 2] No such file or directory: 'data2.xlsx'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[23], line 2\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m df \x1B[38;5;241m=\x1B[39m pd\x1B[38;5;241m.\x1B[39mread_excel(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdata.xlsx\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[0;32m----> 2\x1B[0m df2 \x1B[38;5;241m=\x1B[39m pd\x1B[38;5;241m.\x1B[39mread_excel(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdata2.xlsx\x1B[39m\x1B[38;5;124m'\x1B[39m, sheet_name\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m1\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/io/excel/_base.py:495\x1B[0m, in \x1B[0;36mread_excel\x1B[0;34m(io, sheet_name, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skiprows, nrows, na_values, keep_default_na, na_filter, verbose, parse_dates, date_parser, date_format, thousands, decimal, comment, skipfooter, storage_options, dtype_backend, engine_kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    493\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(io, ExcelFile):\n' +
+      '\x1B[1;32m    494\x1B[0m     should_close \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[0;32m--> 495\x1B[0m     io \x1B[38;5;241m=\x1B[39m ExcelFile(\n' +
+      '\x1B[1;32m    496\x1B[0m         io,\n' +
+      '\x1B[1;32m    497\x1B[0m         storage_options\x1B[38;5;241m=\x1B[39mstorage_options,\n' +
+      '\x1B[1;32m    498\x1B[0m         engine\x1B[38;5;241m=\x1B[39mengine,\n' +
+      '\x1B[1;32m    499\x1B[0m         engine_kwargs\x1B[38;5;241m=\x1B[39mengine_kwargs,\n' +
+      '\x1B[1;32m    500\x1B[0m     )\n' +
+      '\x1B[1;32m    501\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m engine \x1B[38;5;129;01mand\x1B[39;00m engine \x1B[38;5;241m!=\x1B[39m io\x1B[38;5;241m.\x1B[39mengine:\n' +
+      '\x1B[1;32m    502\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    503\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEngine should not be specified when passing \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    504\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124man ExcelFile - ExcelFile already has the engine set\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    505\x1B[0m     )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/io/excel/_base.py:1550\x1B[0m, in \x1B[0;36mExcelFile.__init__\x1B[0;34m(self, path_or_buffer, engine, storage_options, engine_kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1548\x1B[0m     ext \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mxls\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m   1549\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1550\x1B[0m     ext \x1B[38;5;241m=\x1B[39m inspect_excel_format(\n' +
+      '\x1B[1;32m   1551\x1B[0m         content_or_path\x1B[38;5;241m=\x1B[39mpath_or_buffer, storage_options\x1B[38;5;241m=\x1B[39mstorage_options\n' +
+      '\x1B[1;32m   1552\x1B[0m     )\n' +
+      '\x1B[1;32m   1553\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m ext \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m   1554\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m   1555\x1B[0m             \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExcel file format cannot be determined, you must specify \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m   1556\x1B[0m             \x1B[38;5;124m"\x1B[39m\x1B[38;5;124man engine manually.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m   1557\x1B[0m         )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/io/excel/_base.py:1402\x1B[0m, in \x1B[0;36minspect_excel_format\x1B[0;34m(content_or_path, storage_options)\x1B[0m\n' +
+      '\x1B[1;32m   1399\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(content_or_path, \x1B[38;5;28mbytes\x1B[39m):\n' +
+      '\x1B[1;32m   1400\x1B[0m     content_or_path \x1B[38;5;241m=\x1B[39m BytesIO(content_or_path)\n' +
+      '\x1B[0;32m-> 1402\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m get_handle(\n' +
+      '\x1B[1;32m   1403\x1B[0m     content_or_path, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrb\x1B[39m\x1B[38;5;124m"\x1B[39m, storage_options\x1B[38;5;241m=\x1B[39mstorage_options, is_text\x1B[38;5;241m=\x1B[39m\x1B[38;5;28;01mFalse\x1B[39;00m\n' +
+      '\x1B[1;32m   1404\x1B[0m ) \x1B[38;5;28;01mas\x1B[39;00m handle:\n' +
+      '\x1B[1;32m   1405\x1B[0m     stream \x1B[38;5;241m=\x1B[39m handle\x1B[38;5;241m.\x1B[39mhandle\n' +
+      '\x1B[1;32m   1406\x1B[0m     stream\x1B[38;5;241m.\x1B[39mseek(\x1B[38;5;241m0\x1B[39m)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/io/common.py:882\x1B[0m, in \x1B[0;36mget_handle\x1B[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)\x1B[0m\n' +
+      '\x1B[1;32m    873\x1B[0m         handle \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mopen\x1B[39m(\n' +
+      '\x1B[1;32m    874\x1B[0m             handle,\n' +
+      '\x1B[1;32m    875\x1B[0m             ioargs\x1B[38;5;241m.\x1B[39mmode,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    878\x1B[0m             newline\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m    879\x1B[0m         )\n' +
+      '\x1B[1;32m    880\x1B[0m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    881\x1B[0m         \x1B[38;5;66;03m# Binary mode\x1B[39;00m\n' +
+      '\x1B[0;32m--> 882\x1B[0m         handle \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mopen\x1B[39m(handle, ioargs\x1B[38;5;241m.\x1B[39mmode)\n' +
+      '\x1B[1;32m    883\x1B[0m     handles\x1B[38;5;241m.\x1B[39mappend(handle)\n' +
+      '\x1B[1;32m    885\x1B[0m \x1B[38;5;66;03m# Convert BytesIO or file objects passed with an encoding\x1B[39;00m\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: 'data2.xlsx'"
+  ]
+}
+22:33:43.519 [warn] Cell completed with errors iu [Error]: 'I_c(micro A)'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'I_c(micro A)'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3805\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3804\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 3805\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_engine\x1B[38;5;241m.\x1B[39mget_loc(casted_key)\n' +
+      '\x1B[1;32m   3806\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32mindex.pyx:167\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mindex.pyx:196\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(micro A)'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[30], line 2\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m VC10A \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df2[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_CE\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m21\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[0;32m----> 2\x1B[0m IC10A \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df2[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_c(micro A)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m21\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/frame.py:4102\x1B[0m, in \x1B[0;36mDataFrame.__getitem__\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   4100\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mnlevels \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m1\x1B[39m:\n' +
+      '\x1B[1;32m   4101\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getitem_multilevel(key)\n' +
+      '\x1B[0;32m-> 4102\x1B[0m indexer \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mget_loc(key)\n' +
+      '\x1B[1;32m   4103\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[1;32m   4104\x1B[0m     indexer \x1B[38;5;241m=\x1B[39m [indexer]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3807\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[1;32m   3808\x1B[0m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc\x1B[38;5;241m.\x1B[39mIterable)\n' +
+      '\x1B[1;32m   3809\x1B[0m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[1;32m   3810\x1B[0m     ):\n' +
+      '\x1B[1;32m   3811\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[0;32m-> 3812\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m   3813\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[1;32m   3814\x1B[0m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3815\x1B[0m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3816\x1B[0m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[1;32m   3817\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_indexing_error(key)\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(micro A)'"
+  ]
+}
+22:34:32.760 [warn] Cell completed with errors iu [Error]: name 'VC20A' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'VC20A' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[32], line 1\x1B[0m\n\x1B[0;32m----> 1\x1B[0m VC20A\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'VC20A' is not defined"
+  ]
+}
+22:37:17.786 [info] Dispose Kernel '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb' associated with '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb'
+22:37:17.839 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v38ff848195133ff0be87f97f058a72f9514e7b55c.json for pid 17961 Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at Bc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:239:15448)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}

@@ -1,0 +1,14 @@
+2025-02-03 22:12:24.635 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-03 22:12:25.626 [info] [Info  - 22:12:25] (15191) Server root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:12:25.627 [info] [Info  - 22:12:25] (15191) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-03 22:12:25.627 [info] [Info  - 22:12:25] (15191) Starting service instance "JupyterNotebooks"
+2025-02-03 22:12:25.737 [info] [Info  - 22:12:25] (15191) Setting environmentName for service "JupyterNotebooks": "3.12.8 (jupyter conda)"
+2025-02-03 22:12:25.738 [info] [Info  - 22:12:25] (15191) Setting pythonPath for service "JupyterNotebooks": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-03 22:12:25.738 [info] [Info  - 22:12:25] (15191) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/JupyterNotebooks
+2025-02-03 22:12:25.740 [info] [Info  - 22:12:25] (15191) Auto-excluding **/node_modules
+2025-02-03 22:12:25.740 [info] [Info  - 22:12:25] (15191) Auto-excluding **/__pycache__
+2025-02-03 22:12:25.741 [info] [Info  - 22:12:25] (15191) Auto-excluding **/.*
+2025-02-03 22:12:25.938 [info] [Info  - 22:12:25] (15191) Assuming Python version 3.12.8.final.0
+2025-02-03 22:12:26.011 [info] [Info  - 22:12:26] (15191) Found 16 source files
+2025-02-03 22:12:27.195 [info] [Info  - 22:12:27] (15191) Background analysis(1) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-03 22:12:27.198 [info] [Info  - 22:12:27] (15191) Background analysis(1) started

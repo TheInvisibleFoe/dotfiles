@@ -1,0 +1,113 @@
+2025-02-16 11:26:32.578 [info] Extension host with pid 33923 started
+2025-02-16 11:26:32.578 [info] Skipping acquiring lock for /home/sab/.config/Code/User/workspaceStorage/916442bd60b60914accdb2bf06b36207.
+2025-02-16 11:26:33.031 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-16 11:26:33.114 [info] ExtensionService#_doActivateExtension istarwyh.writinghelper, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-02-16 11:26:33.186 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-16 11:26:33.221 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: benjamin-simmonds.pythoncpp-debug
+2025-02-16 11:26:33.581 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:python', root cause: benjamin-simmonds.pythoncpp-debug
+2025-02-16 11:26:33.868 [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:33.884 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:33.894 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:33.909 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:34.075 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:34.875 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-16 11:26:34.945 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-16 11:26:35.203 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-16 11:26:35.338 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-16 11:26:35.426 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:35.508 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-16 11:26:36.162 [info] Eager extensions activated
+2025-02-16 11:26:36.170 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 11:26:36.182 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 11:26:36.246 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-16 11:26:36.355 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:36.357 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:36.381 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:36.478 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:36.963 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:37.570 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-02-16 11:26:37.888 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-16 11:26:37.939 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-02-16 11:26:37.939 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-02-16 11:26:37.939 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-02-16 11:26:37.939 [error] Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-16 11:26:37.940 [error] Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-16 11:26:39.330 [error] Canceled: Canceled
+    at new IT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at jre.getCopilotToken (/home/sab/.vscode/extensions/github.copilot-1.266.0/extension/src/auth.ts:50:27) setContext undefined
+2025-02-16 11:26:39.331 [error] Canceled: Canceled
+    at new IT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at cge.updateStatusBarIndicator (/home/sab/.vscode/extensions/github.copilot-1.266.0/extension/src/statusBar.ts:81:23)
+    at cge.didChange (/home/sab/.vscode/extensions/github.copilot-1.266.0/extension/src/statusBar.ts:71:18)
+    at cge.#didChange (/home/sab/.vscode/extensions/github.copilot-1.266.0/lib/src/progress.ts:66:14)
+    at /home/sab/.vscode/extensions/github.copilot-1.266.0/lib/src/progress.ts:27:48
+    at <anonymous> setContext undefined
+2025-02-16 11:26:39.336 [info] Extension host with pid 33923 exiting with code 0

@@ -1,0 +1,573 @@
+Visual Studio Code (1.96.3, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/Projects/PH3205/10.0.1.68, Home = /home/sab
+21:51:48.550 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/Projects/PH3205/10.0.1.68/test2.ipynb' (di~leUI=true)
+21:51:50.867 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+21:51:50.927 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:51:50.952 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v33d0c3a6f3f65ae018910960f96304ccebf9b01df.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+21:51:51.705 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+21:51:51.950 [info] Kernel successfully started
+21:51:51.995 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:51:52.013 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+21:51:52.062 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v303b5860d31d5b6f992720ef19b07bb8eb3c85fcf.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+21:51:52.778 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+21:51:57.000 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+21:52:15.011 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/Projects/PH3205/10.0.1.68/test.ipynb' (di~leUI=true)
+21:52:15.036 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:52:15.067 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3654c15211351432dbb610b7ed048a2982f9fd529.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+21:52:15.920 [info] Kernel successfully started
+21:52:17.743 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+21:52:17.797 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:52:17.819 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v36168481f0cafd9c0df942041b5039881d16f31d4.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+21:52:18.319 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:08:02.143 [warn] Python environment /. excluded as Uri is undefined
+22:08:02.143 [warn] Python environment /. excluded as Uri is undefined
+22:09:45.592 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:09:46.809 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:09:46.823 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3c6faed744b3a6ab41d146700ba3f1af56df18545.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:09:47.285 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:10:00.685 [warn] Cell completed with errors iu [Error]: name 'diff' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'diff' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m de \x1B[38;5;241m=\x1B[39m diff\n' +
+      '\x1B[1;32m      2\x1B[0m h \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0.01\x1B[39m\n' +
+      '\x1B[1;32m      3\x1B[0m t0 \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0.0\x1B[39m\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'diff' is not defined"
+  ]
+}
+22:10:05.940 [warn] Cell completed with errors iu [Error]: name 'comphy' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'comphy' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 13\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m y_ini \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray([\x1B[38;5;241m1.0\x1B[39m, \x1B[38;5;241m0.0\x1B[39m])  \x1B[38;5;66;03m# Initial condition\x1B[39;00m\n' +
+      '\x1B[1;32m     12\x1B[0m \x1B[38;5;66;03m# Call the methods\x1B[39;00m\n' +
+      '\x1B[0;32m---> 13\x1B[0m ysE \x1B[38;5;241m=\x1B[39m   comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39meuler, t0,t1,N, y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     14\x1B[0m ysm \x1B[38;5;241m=\x1B[39m   comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mmidpoint, t0,t1,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     15\x1B[0m ysrk4 \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mrk4, t0,t1,N,y_ini,f\x1B[38;5;241m=\x1B[39mf2)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'comphy' is not defined"
+  ]
+}
+22:10:24.569 [warn] Cell completed with errors iu [Error]: name 'f2' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'f2' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 13\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m y_ini \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray([\x1B[38;5;241m1.0\x1B[39m, \x1B[38;5;241m0.0\x1B[39m])  \x1B[38;5;66;03m# Initial condition\x1B[39;00m\n' +
+      '\x1B[1;32m     12\x1B[0m \x1B[38;5;66;03m# Call the methods\x1B[39;00m\n' +
+      '\x1B[0;32m---> 13\x1B[0m ysE \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39meuler, t0,t1,N, y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     14\x1B[0m ysm \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39mmidpoint, t0,t1,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     15\x1B[0m ysrk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39mrk4, t0,t1,N,y_ini,f\x1B[38;5;241m=\x1B[39mf2)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'f2' is not defined"
+  ]
+}
+22:11:16.017 [warn] Cell completed with errors iu [Error]: name 'Ee' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'Ee' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 5\x1B[0m\n' +
+      '\x1B[1;32m      2\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysE[:,\x1B[38;5;241m0\x1B[39m], color \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblue\x1B[39m\x1B[38;5;124m"\x1B[39m,label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEuler Method for y \x1B[39m\x1B[38;5;124m"\x1B[39m, s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;66;03m# axes3[0].scatter(xs, ysE[:,1], color ="red",label = "Euler Method for p ", s=1)\x1B[39;00m\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;66;03m# axes3[0].plot(xs,y_ex, color = "cyan", label = "Exact Solution for y ")\x1B[39;00m\n' +
+      '\x1B[0;32m----> 5\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xs,Ee, color \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mseagreen\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExact Solution for p \x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      6\x1B[0m \x1B[38;5;66;03m# axes3[0].plot(xs,p_ex, color = "seagreen", label = "Exact Solution for p ")\x1B[39;00m\n' +
+      '\x1B[1;32m      8\x1B[0m axes3[\x1B[38;5;241m1\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysm[:,\x1B[38;5;241m0\x1B[39m], color\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblue\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMidpoint Method for y \x1B[39m\x1B[38;5;124m"\x1B[39m, marker\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m+\x1B[39m\x1B[38;5;124m"\x1B[39m,s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m5\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'Ee' is not defined"
+  ]
+}
+22:11:38.255 [warn] Cell completed with errors iu [Error]: name 'y_ex' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'y_ex' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[9], line 4\x1B[0m\n' +
+      '\x1B[1;32m      2\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysE[:,\x1B[38;5;241m0\x1B[39m], color \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblue\x1B[39m\x1B[38;5;124m"\x1B[39m,label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEuler Method for y \x1B[39m\x1B[38;5;124m"\x1B[39m, s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[1;32m      3\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysE[:,\x1B[38;5;241m1\x1B[39m], color \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mred\x1B[39m\x1B[38;5;124m"\x1B[39m,label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEuler Method for p \x1B[39m\x1B[38;5;124m"\x1B[39m, s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m1\x1B[39m)\n' +
+      '\x1B[0;32m----> 4\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xs,y_ex, color \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcyan\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExact Solution for y \x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      5\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xs,p_ex, color \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mseagreen\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExact Solution for p \x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      7\x1B[0m axes3[\x1B[38;5;241m1\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysm[:,\x1B[38;5;241m0\x1B[39m], color\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblue\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMidpoint Method for y \x1B[39m\x1B[38;5;124m"\x1B[39m, marker\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m+\x1B[39m\x1B[38;5;124m"\x1B[39m,s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m5\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'y_ex' is not defined"
+  ]
+}
+22:13:28.185 [warn] Cell completed with errors iu [Error]: tuple index out of range
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'IndexError',
+  evalue: 'tuple index out of range',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mIndexError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[18], line 14\x1B[0m\n' +
+      '\x1B[1;32m     11\x1B[0m y_ini \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray([\x1B[38;5;241m1.0\x1B[39m, \x1B[38;5;241m0.0\x1B[39m])  \x1B[38;5;66;03m# Initial condition\x1B[39;00m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m# Call the methods\x1B[39;00m\n' +
+      '\x1B[0;32m---> 14\x1B[0m ysE \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39meuler, t0,t1,N, y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     15\x1B[0m ysm \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mmidpoint, t0,t1,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m     16\x1B[0m ysrk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mrk4, t0,t1,N,y_ini,f\x1B[38;5;241m=\x1B[39mf2)\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:143\x1B[0m, in \x1B[0;36mcaller\x1B[0;34m(meth, a, b, N, y0, f, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    116\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mcaller\x1B[39m(meth, a,b,N,y0,f,\x1B[38;5;241m*\x1B[39margs,\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs): \x1B[38;5;66;03m# call function Discretizes and generates method\x1B[39;00m\n' +
+      "\x1B[1;32m    117\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m    118\x1B[0m \x1B[38;5;124;03m    Parameters\x1B[39;00m\n' +
+      '\x1B[1;32m    119\x1B[0m \x1B[38;5;124;03m    ----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    141\x1B[0m \x1B[38;5;124;03m        \x1B[39;00m\n' +
+      "\x1B[1;32m    142\x1B[0m \x1B[38;5;124;03m    '''\x1B[39;00m\n" +
+      '\x1B[0;32m--> 143\x1B[0m     v0 \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    144\x1B[0m     \x1B[38;5;28mprint\x1B[39m(v0)\n' +
+      "\x1B[1;32m    145\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124meuler\x1B[39m\x1B[38;5;124m'\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mmidpoint\x1B[39m\x1B[38;5;124m'\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mrk4\x1B[39m\x1B[38;5;124m'\x1B[39m:\n",
+    '\x1B[0;31mIndexError\x1B[0m: tuple index out of range'
+  ]
+}
+22:17:14.622 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:17:14.684 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:17:14.708 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v32b2e90b574d5c394f4d2af6b93f2fd57473a3815.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:17:15.131 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:17:50.564 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:17:50.597 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:17:50.620 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3046f6355bab46daa45b65b8e33036705987580f3.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:17:51.031 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:18:27.155 [warn] Cell completed with errors iu [Error]: 'str' object is not callable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'str' object is not callable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 14\x1B[0m\n' +
+      '\x1B[1;32m     11\x1B[0m y_ini \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray([\x1B[38;5;241m1.0\x1B[39m, \x1B[38;5;241m0.0\x1B[39m])  \x1B[38;5;66;03m# Initial condition\x1B[39;00m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m# Call the methods\x1B[39;00m\n' +
+      "\x1B[0;32m---> 14\x1B[0m ysE \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcaller(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124meuler\x1B[39m\x1B[38;5;124m'\x1B[39m, t0,t1,N, y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n" +
+      "\x1B[1;32m     15\x1B[0m ysm \x1B[38;5;241m=\x1B[39m   de\x1B[38;5;241m.\x1B[39mcaller(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mmidpoint\x1B[39m\x1B[38;5;124m'\x1B[39m, t0,t1,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n" +
+      "\x1B[1;32m     16\x1B[0m ysrk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mrk4\x1B[39m\x1B[38;5;124m'\x1B[39m, t0,t1,N,y_ini,f\x1B[38;5;241m=\x1B[39mf2)\n",
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:144\x1B[0m, in \x1B[0;36mcaller\x1B[0;34m(meth, a, b, N, y0, f, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    117\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m    118\x1B[0m \x1B[38;5;124;03mParameters\x1B[39;00m\n' +
+      '\x1B[1;32m    119\x1B[0m \x1B[38;5;124;03m----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    141\x1B[0m \x1B[38;5;124;03m    \x1B[39;00m\n' +
+      "\x1B[1;32m    142\x1B[0m \x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      "\x1B[1;32m    143\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124meuler\x1B[39m\x1B[38;5;124m'\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mmidpoint\x1B[39m\x1B[38;5;124m'\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mrk4\x1B[39m\x1B[38;5;124m'\x1B[39m:\n" +
+      '\x1B[0;32m--> 144\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m call(meth,a,b,N,y0,f)\n' +
+      "\x1B[1;32m    145\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m meth\x1B[38;5;241m==\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mvlt\x1B[39m\x1B[38;5;124m'\x1B[39m:\n" +
+      '\x1B[1;32m    146\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m args \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:194\x1B[0m, in \x1B[0;36mcall\x1B[0;34m(meth, a, b, N, y0, f)\x1B[0m\n' +
+      '\x1B[1;32m    192\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(N):\n' +
+      '\x1B[1;32m    193\x1B[0m     ys[i,:] \x1B[38;5;241m=\x1B[39m y \x1B[38;5;66;03m# to allow for vector solutions\x1B[39;00m\n' +
+      '\x1B[0;32m--> 194\x1B[0m     y \x1B[38;5;241m=\x1B[39m meth(y,xs[i],h,f)\n' +
+      '\x1B[1;32m    195\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m ys\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'str' object is not callable"
+  ]
+}
+22:19:02.183 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:19:02.213 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:19:02.237 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v335eb8fe6fff05eea0c9b2a790960fb623b07b922.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:19:02.678 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:20:29.479 [warn] Cell completed with errors iu [Error]: 'science' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'OSError',
+  evalue: "'science' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/style/core.py:129\x1B[0m, in \x1B[0;36muse\x1B[0;34m(style)\x1B[0m\n' +
+      '\x1B[1;32m    128\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 129\x1B[0m     style \x1B[38;5;241m=\x1B[39m _rc_params_in_file(style)\n' +
+      '\x1B[1;32m    130\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mOSError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/__init__.py:903\x1B[0m, in \x1B[0;36m_rc_params_in_file\x1B[0;34m(fname, transform, fail_on_error)\x1B[0m\n' +
+      '\x1B[1;32m    902\x1B[0m rc_temp \x1B[38;5;241m=\x1B[39m {}\n' +
+      '\x1B[0;32m--> 903\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m _open_file_or_url(fname) \x1B[38;5;28;01mas\x1B[39;00m fd:\n' +
+      '\x1B[1;32m    904\x1B[0m     \x1B[38;5;28;01mtry\x1B[39;00m:\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/contextlib.py:137\x1B[0m, in \x1B[0;36m_GeneratorContextManager.__enter__\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    136\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 137\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mnext\x1B[39m(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mgen)\n' +
+      '\x1B[1;32m    138\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mStopIteration\x1B[39;00m:\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/__init__.py:880\x1B[0m, in \x1B[0;36m_open_file_or_url\x1B[0;34m(fname)\x1B[0m\n' +
+      '\x1B[1;32m    879\x1B[0m fname \x1B[38;5;241m=\x1B[39m os\x1B[38;5;241m.\x1B[39mpath\x1B[38;5;241m.\x1B[39mexpanduser(fname)\n' +
+      "\x1B[0;32m--> 880\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m(fname, encoding\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mutf-8\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m f:\n" +
+      '\x1B[1;32m    881\x1B[0m     \x1B[38;5;28;01myield\x1B[39;00m f\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: 'science'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mOSError\x1B[0m                                   Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mcomphy\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m root_find\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mcomphy\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m diff_eq\n' +
+      "\x1B[0;32m----> 5\x1B[0m plt\x1B[38;5;241m.\x1B[39mstyle\x1B[38;5;241m.\x1B[39muse(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mscience\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/style/core.py:131\x1B[0m, in \x1B[0;36muse\x1B[0;34m(style)\x1B[0m\n' +
+      '\x1B[1;32m    129\x1B[0m         style \x1B[38;5;241m=\x1B[39m _rc_params_in_file(style)\n' +
+      '\x1B[1;32m    130\x1B[0m     \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mOSError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[0;32m--> 131\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mOSError\x1B[39;00m(\n' +
+      '\x1B[1;32m    132\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mstyle\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[38;5;124m is not a valid package style, path of style \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    133\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mfile, URL of style file, or library style name (library \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    134\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstyles are listed in `style.available`)\x1B[39m\x1B[38;5;124m"\x1B[39m) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m    135\x1B[0m filtered \x1B[38;5;241m=\x1B[39m {}\n' +
+      "\x1B[1;32m    136\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m k \x1B[38;5;129;01min\x1B[39;00m style:  \x1B[38;5;66;03m# don't trigger RcParams.__getitem__('backend')\x1B[39;00m\n",
+    "\x1B[0;31mOSError\x1B[0m: 'science' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)"
+  ]
+}
+22:37:15.614 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:37:16.882 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:37:16.896 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v396731bf4d1bc7045812adfbc5d8fce11232072bb.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:37:17.410 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:40:38.190 [warn] Cell completed with errors iu [Error]: positional argument follows keyword argument (3226151802.py, line 1)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: 'positional argument follows keyword argument (3226151802.py, line 1)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[8], line 1\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    y_vlt = de.call_verlet(a,b,N,y0, f=f3,v0)\x1B[0m\n' +
+      '\x1B[0m                                            ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m positional argument follows keyword argument\n'
+  ]
+}
+22:40:44.495 [warn] Cell completed with errors iu [Error]: name 'a' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'a' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[9], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_vlt \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall_verlet(a,b,N,y0, f3,v0)\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m      3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'a' is not defined"
+  ]
+}
+22:41:11.186 [warn] Error in background execution:
+ Traceback (most recent call last):
+  File "/tmp/ipykernel_13183/2459678373.py", line 17, in bg_main
+    output.update({"application/vnd.vscode.bg.execution.50.result": do_implementation()}, raw=True)
+                                                                    ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_13183/2459678373.py", line 13, in do_implementation
+    return get_ipython().kernel.do_complete("\nh = 0.01\na = 0.0\n = 15\ny_ini = np.asarray([1.0, 0.0])  # Initial condition\nv0 = np.array([0.0])\n\ndef f3(x,y):\n    return -4*(np.pi**2)*y", 11)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/~/miniconda3/envs/jupyter/lib/python3.12/site-packages/ipykernel/ipkernel.py", line 509, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/~/miniconda3/envs/jupyter/lib/python3.12/site-packages/ipykernel/ipkernel.py", line 545, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/~/miniconda3/envs/jupyter/lib/python3.12/site-packages/IPython/core/completer.py", line 886, in rectify_completions
+    completions = list(completions)
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/~/miniconda3/envs/jupyter/lib/python3.12/site-packages/IPython/core/completer.py", line 2871, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/~/miniconda3/envs/jupyter/lib/python3.12/site-packages/IPython/core/completer.py", line 3003, in _completions
+    assert before.endswith(matched_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+22:41:16.189 [warn] Cell completed with errors iu [Error]: name 'y0' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'y0' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_vlt \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall_verlet(a,b,N,y0, f3,v0)\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m      3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'y0' is not defined"
+  ]
+}
+22:42:05.728 [warn] Cell completed with errors iu [Error]: unsupported operand type(s) for *: 'function' and 'float'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "unsupported operand type(s) for *: 'function' and 'float'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[19], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_vlt \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall_verlet(a,b,N,y0, f3,v0)\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcall(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m      3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:228\x1B[0m, in \x1B[0;36mcall_verlet\x1B[0;34m(a, b, N, y0, v0, f)\x1B[0m\n' +
+      '\x1B[1;32m    224\x1B[0m x0 \x1B[38;5;241m=\x1B[39m xs[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    226\x1B[0m ys[\x1B[38;5;241m1\x1B[39m] \x1B[38;5;241m=\x1B[39m y0 \x1B[38;5;241m+\x1B[39m v0\x1B[38;5;241m*\x1B[39mh \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m0.5\x1B[39m\x1B[38;5;241m*\x1B[39mf(x0, y0)\x1B[38;5;241m*\x1B[39m(h\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[0;32m--> 228\x1B[0m y \x1B[38;5;241m=\x1B[39m ys[\x1B[38;5;241m1\x1B[39m]\n' +
+      '\x1B[1;32m    229\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[38;5;241m1\x1B[39m,N):\n' +
+      '\x1B[1;32m    230\x1B[0m     ys[i,:] \x1B[38;5;241m=\x1B[39m y \x1B[38;5;66;03m# to allow for vector solutions\x1B[39;00m\n',
+    "\x1B[0;31mTypeError\x1B[0m: unsupported operand type(s) for *: 'function' and 'float'"
+  ]
+}
+22:42:21.768 [warn] Cell completed with errors iu [Error]: cannot unpack non-iterable NoneType object
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: 'cannot unpack non-iterable NoneType object',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[20], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m y_vlt \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(a,b,N,y0, f3,v0)\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[0;32m----> 3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n' +
+      '\x1B[1;32m      4\x1B[0m y_ex \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mcos(\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mnp\x1B[38;5;241m.\x1B[39mpi\x1B[38;5;241m*\x1B[39mxval)\n',
+    '\x1B[0;31mTypeError\x1B[0m: cannot unpack non-iterable NoneType object'
+  ]
+}
+22:57:01.858 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:57:03.131 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:57:03.146 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v32720e923925e5275e093ae882a4748311f0df7ff.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:57:03.605 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:57:05.581 [warn] Cell completed with errors iu [Error]: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (diff_eq.py, line 152)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: "invalid syntax. Maybe you meant '==' or ':=' instead of '='? (diff_eq.py, line 152)",
+  traceback: [
+    'Traceback \x1B[0;36m(most recent call last)\x1B[0m:\n',
+    '\x1B[0m  File \x1B[1;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/IPython/core/interactiveshell.py:3577\x1B[0m in \x1B[1;35mrun_code\x1B[0m\n' +
+      '    exec(code_obj, self.user_global_ns, self.user_ns)\x1B[0m\n',
+    '\x1B[0;36m  Cell \x1B[0;32mIn[1], line 4\x1B[0;36m\n' +
+      '\x1B[0;31m    from comphy import diff_eq\x1B[0;36m\n',
+    '\x1B[0;36m  File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:152\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    elif meth=vlt:\x1B[0m\n' +
+      '\x1B[0m         ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax. Maybe you meant '==' or ':=' instead of '='?\n"
+  ]
+}
+22:57:22.303 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:57:22.364 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:57:22.389 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3c35259acb4717e2abd0aba665fd6acd25033581d.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:57:22.817 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:57:34.065 [warn] Cell completed with errors iu [Error]: name 'xval' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'xval' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 4\x1B[0m\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m      3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n' +
+      '\x1B[0;32m----> 4\x1B[0m y_ex \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39mcos(\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mnp\x1B[38;5;241m.\x1B[39mpi\x1B[38;5;241m*\x1B[39mxval)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'xval' is not defined"
+  ]
+}
+22:57:56.392 [warn] Cell completed with errors iu [Error]: call_verlet() takes 6 positional arguments but 7 were given
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: 'call_verlet() takes 6 positional arguments but 7 were given',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_vlt \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvlt,a,b,N,y0, f3,v0)\n' +
+      '\x1B[1;32m      2\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y_ini, f\x1B[38;5;241m=\x1B[39mf2)\n' +
+      '\x1B[1;32m      3\x1B[0m [y_vvlt, p_vvlt] \x1B[38;5;241m=\x1B[39m de\x1B[38;5;241m.\x1B[39mcaller(de\x1B[38;5;241m.\x1B[39mvel_vlt,a,b,N,y0,f3, v0)\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/diff_eq.py:157\x1B[0m, in \x1B[0;36mcaller\x1B[0;34m(meth, a, b, N, y0, f, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    155\x1B[0m     v0 \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    156\x1B[0m     \x1B[38;5;28mprint\x1B[39m(v0)\n' +
+      '\x1B[0;32m--> 157\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m call_verlet(meth, a,b,N,y0,v0,f)\n' +
+      '\x1B[1;32m    158\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m meth\x1B[38;5;241m==\x1B[39mvel_vlt \x1B[38;5;129;01mor\x1B[39;00m meth\x1B[38;5;241m==\x1B[39mleapfrg:\n' +
+      '\x1B[1;32m    159\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m args \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[0;31mTypeError\x1B[0m: call_verlet() takes 6 positional arguments but 7 were given'
+  ]
+}
+22:59:10.199 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:59:10.233 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:59:10.263 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v355669a06e33630533cd93dcd62df68740f3d2d9e.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+22:59:10.699 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+22:59:55.300 [info] Disposing request as the cell (-1) was deleted ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:59:58.036 [info] Disposing request as the cell (-1) was deleted ~/Projects/PH3205/10.0.1.68/test2.ipynb
+22:59:58.036 [info] Disposing request as the cell (-1) was deleted ~/Projects/PH3205/10.0.1.68/test2.ipynb
+23:38:34.159 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+23:38:35.433 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:38:35.448 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v353873ce40db7add742bbe567dbed9c9692d3d42a.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+23:38:35.939 [info] Restarted af93fa3a-e76e-4750-a111-0b4961b5958d
+23:42:04.326 [warn] Cell completed with errors iu [Error]: unsupported operand type(s) for +: 'range' and 'float'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "unsupported operand type(s) for +: 'range' and 'float'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[13], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n' +
+      '\x1B[0;32m----> 3\x1B[0m p_vlt \x1B[38;5;241m=\x1B[39mdv\x1B[38;5;241m.\x1B[39mfivept(\x1B[38;5;28mrange\x1B[39m(\x1B[38;5;28mlen\x1B[39m(y_vlt)),h,ff)\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/dv.py:66\x1B[0m, in \x1B[0;36mfivept\x1B[0;34m(x, h, f)\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mfivept\x1B[39m(x,h,f):\n' +
+      "\x1B[1;32m     53\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m     54\x1B[0m \x1B[38;5;124;03m    Parameters\x1B[39;00m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;124;03m    ----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;124;03m    returns the derivative of the function at point x using the five point difference method\x1B[39;00m\n' +
+      "\x1B[1;32m     65\x1B[0m \x1B[38;5;124;03m    '''\x1B[39;00m\n" +
+      '\x1B[0;32m---> 66\x1B[0m     y \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m-\x1B[39m f(x \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh) \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m+\x1B[39mh) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m-\x1B[39mh) \x1B[38;5;241m+\x1B[39m f(x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     67\x1B[0m     y \x1B[38;5;241m=\x1B[39m y\x1B[38;5;241m/\x1B[39m(\x1B[38;5;241m12\x1B[39m \x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y\n',
+    "\x1B[0;31mTypeError\x1B[0m: unsupported operand type(s) for +: 'range' and 'float'"
+  ]
+}
+23:42:25.236 [warn] Cell completed with errors iu [Error]: arrays used as indices must be of integer (or boolean) type
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'IndexError',
+  evalue: 'arrays used as indices must be of integer (or boolean) type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mIndexError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[14], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n' +
+      '\x1B[0;32m----> 3\x1B[0m p_vlt \x1B[38;5;241m=\x1B[39mdv\x1B[38;5;241m.\x1B[39mfivept(np\x1B[38;5;241m.\x1B[39masarray(\x1B[38;5;28mrange\x1B[39m(\x1B[38;5;28mlen\x1B[39m(y_vlt))),h,ff)\n',
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/dv.py:66\x1B[0m, in \x1B[0;36mfivept\x1B[0;34m(x, h, f)\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mfivept\x1B[39m(x,h,f):\n' +
+      "\x1B[1;32m     53\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m     54\x1B[0m \x1B[38;5;124;03m    Parameters\x1B[39;00m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;124;03m    ----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;124;03m    returns the derivative of the function at point x using the five point difference method\x1B[39;00m\n' +
+      "\x1B[1;32m     65\x1B[0m \x1B[38;5;124;03m    '''\x1B[39;00m\n" +
+      '\x1B[0;32m---> 66\x1B[0m     y \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m-\x1B[39m f(x \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh) \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m+\x1B[39mh) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m-\x1B[39mh) \x1B[38;5;241m+\x1B[39m f(x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     67\x1B[0m     y \x1B[38;5;241m=\x1B[39m y\x1B[38;5;241m/\x1B[39m(\x1B[38;5;241m12\x1B[39m \x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y\n',
+    'Cell \x1B[0;32mIn[14], line 2\x1B[0m, in \x1B[0;36mff\x1B[0;34m(i)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n',
+    '\x1B[0;31mIndexError\x1B[0m: arrays used as indices must be of integer (or boolean) type'
+  ]
+}
+23:42:45.658 [warn] Cell completed with errors iu [Error]: arrays used as indices must be of integer (or boolean) type
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'IndexError',
+  evalue: 'arrays used as indices must be of integer (or boolean) type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mIndexError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[15], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n' +
+      "\x1B[0;32m----> 3\x1B[0m p_vlt \x1B[38;5;241m=\x1B[39mdv\x1B[38;5;241m.\x1B[39mfivept(np\x1B[38;5;241m.\x1B[39masarray(\x1B[38;5;28mrange\x1B[39m(\x1B[38;5;28mlen\x1B[39m(y_vlt)), dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mint\x1B[39m\x1B[38;5;124m'\x1B[39m),h,ff)\n",
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/dv.py:66\x1B[0m, in \x1B[0;36mfivept\x1B[0;34m(x, h, f)\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mfivept\x1B[39m(x,h,f):\n' +
+      "\x1B[1;32m     53\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m     54\x1B[0m \x1B[38;5;124;03m    Parameters\x1B[39;00m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;124;03m    ----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;124;03m    returns the derivative of the function at point x using the five point difference method\x1B[39;00m\n' +
+      "\x1B[1;32m     65\x1B[0m \x1B[38;5;124;03m    '''\x1B[39;00m\n" +
+      '\x1B[0;32m---> 66\x1B[0m     y \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m-\x1B[39m f(x \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh) \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m+\x1B[39mh) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m-\x1B[39mh) \x1B[38;5;241m+\x1B[39m f(x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     67\x1B[0m     y \x1B[38;5;241m=\x1B[39m y\x1B[38;5;241m/\x1B[39m(\x1B[38;5;241m12\x1B[39m \x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y\n',
+    'Cell \x1B[0;32mIn[15], line 2\x1B[0m, in \x1B[0;36mff\x1B[0;34m(i)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n',
+    '\x1B[0;31mIndexError\x1B[0m: arrays used as indices must be of integer (or boolean) type'
+  ]
+}
+23:43:01.448 [warn] Cell completed with errors iu [Error]: index 1501 is out of bounds for axis 0 with size 1501
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'IndexError',
+  evalue: 'index 1501 is out of bounds for axis 0 with size 1501',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mIndexError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[16], line 4\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[1;32m      2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n' +
+      "\x1B[0;32m----> 4\x1B[0m p_vlt \x1B[38;5;241m=\x1B[39mdv\x1B[38;5;241m.\x1B[39mfivept(np\x1B[38;5;241m.\x1B[39masarray(\x1B[38;5;28mrange\x1B[39m(\x1B[38;5;28mlen\x1B[39m(y_vlt)), dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mint\x1B[39m\x1B[38;5;124m'\x1B[39m),\x1B[38;5;241m1\x1B[39m,ff)\n",
+    'File \x1B[0;32m~/Projects/PH3205/10.0.1.68/comphy/dv.py:66\x1B[0m, in \x1B[0;36mfivept\x1B[0;34m(x, h, f)\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mfivept\x1B[39m(x,h,f):\n' +
+      "\x1B[1;32m     53\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m'''\x1B[39;00m\n" +
+      '\x1B[1;32m     54\x1B[0m \x1B[38;5;124;03m    Parameters\x1B[39;00m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;124;03m    ----------\x1B[39;00m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;124;03m    returns the derivative of the function at point x using the five point difference method\x1B[39;00m\n' +
+      "\x1B[1;32m     65\x1B[0m \x1B[38;5;124;03m    '''\x1B[39;00m\n" +
+      '\x1B[0;32m---> 66\x1B[0m     y \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m-\x1B[39m f(x \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh) \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m+\x1B[39mh) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m8\x1B[39m\x1B[38;5;241m*\x1B[39mf(x\x1B[38;5;241m-\x1B[39mh) \x1B[38;5;241m+\x1B[39m f(x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m2\x1B[39m\x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     67\x1B[0m     y \x1B[38;5;241m=\x1B[39m y\x1B[38;5;241m/\x1B[39m(\x1B[38;5;241m12\x1B[39m \x1B[38;5;241m*\x1B[39mh)\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y\n',
+    'Cell \x1B[0;32mIn[16], line 2\x1B[0m, in \x1B[0;36mff\x1B[0;34m(i)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mff\x1B[39m(i):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m y_vlt[i]\n',
+    '\x1B[0;31mIndexError\x1B[0m: index 1501 is out of bounds for axis 0 with size 1501'
+  ]
+}
+23:43:59.112 [warn] Cell completed with errors iu [Error]: x and y must have same first dimension, but have shapes (1500,) and (1501, 1)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: 'x and y must have same first dimension, but have shapes (1500,) and (1501, 1)',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[18], line 4\x1B[0m\n' +
+      '\x1B[1;32m      2\x1B[0m axes[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xval, y_rk4[:,\x1B[38;5;241m0\x1B[39m], label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mPosition RK4\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      3\x1B[0m axes[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xval, y_rk4[:,\x1B[38;5;241m1\x1B[39m], label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMomentum RK4\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m----> 4\x1B[0m axes[\x1B[38;5;241m1\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xval[:\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m], y_vlt, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mPosition Verlet\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      6\x1B[0m axes[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xval, y_ex, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m Exact Solution posn\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m      7\x1B[0m axes[\x1B[38;5;241m1\x1B[39m]\x1B[38;5;241m.\x1B[39mplot(xval, y_ex, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExact Solution posn\x1B[39m\x1B[38;5;124m"\x1B[39m)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777\x1B[0m, in \x1B[0;36mAxes.plot\x1B[0;34m(self, scalex, scaley, data, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1534\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1535\x1B[0m \x1B[38;5;124;03mPlot y versus x as lines and/or markers.\x1B[39;00m\n' +
+      '\x1B[1;32m   1536\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      "\x1B[1;32m   1774\x1B[0m \x1B[38;5;124;03m(``'green'``) or hex strings (``'#008000'``).\x1B[39;00m\n" +
+      '\x1B[1;32m   1775\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1776\x1B[0m kwargs \x1B[38;5;241m=\x1B[39m cbook\x1B[38;5;241m.\x1B[39mnormalize_kwargs(kwargs, mlines\x1B[38;5;241m.\x1B[39mLine2D)\n' +
+      '\x1B[0;32m-> 1777\x1B[0m lines \x1B[38;5;241m=\x1B[39m [\x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_lines(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;241m*\x1B[39margs, data\x1B[38;5;241m=\x1B[39mdata, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)]\n' +
+      '\x1B[1;32m   1778\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m lines:\n' +
+      '\x1B[1;32m   1779\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39madd_line(line)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:297\x1B[0m, in \x1B[0;36m_process_plot_var_args.__call__\x1B[0;34m(self, axes, data, return_kwargs, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    295\x1B[0m     this \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m],\n' +
+      '\x1B[1;32m    296\x1B[0m     args \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m1\x1B[39m:]\n' +
+      '\x1B[0;32m--> 297\x1B[0m \x1B[38;5;28;01myield from\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_plot_args(\n' +
+      '\x1B[1;32m    298\x1B[0m     axes, this, kwargs, ambiguous_fmt_datakey\x1B[38;5;241m=\x1B[39mambiguous_fmt_datakey,\n' +
+      '\x1B[1;32m    299\x1B[0m     return_kwargs\x1B[38;5;241m=\x1B[39mreturn_kwargs\n' +
+      '\x1B[1;32m    300\x1B[0m )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:494\x1B[0m, in \x1B[0;36m_process_plot_var_args._plot_args\x1B[0;34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\x1B[0m\n' +
+      '\x1B[1;32m    491\x1B[0m     axes\x1B[38;5;241m.\x1B[39myaxis\x1B[38;5;241m.\x1B[39mupdate_units(y)\n' +
+      '\x1B[1;32m    493\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m x\x1B[38;5;241m.\x1B[39mshape[\x1B[38;5;241m0\x1B[39m] \x1B[38;5;241m!=\x1B[39m y\x1B[38;5;241m.\x1B[39mshape[\x1B[38;5;241m0\x1B[39m]:\n' +
+      '\x1B[0;32m--> 494\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mx and y must have same first dimension, but \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    495\x1B[0m                      \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mhave shapes \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mx\x1B[38;5;241m.\x1B[39mshape\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m and \x1B[39m\x1B[38;5;132;01m{\x1B[39;00my\x1B[38;5;241m.\x1B[39mshape\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[1;32m    496\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m x\x1B[38;5;241m.\x1B[39mndim \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m2\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m y\x1B[38;5;241m.\x1B[39mndim \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m2\x1B[39m:\n' +
+      '\x1B[1;32m    497\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mx and y can be no greater than 2D, but have \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    498\x1B[0m                      \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mshapes \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mx\x1B[38;5;241m.\x1B[39mshape\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m and \x1B[39m\x1B[38;5;132;01m{\x1B[39;00my\x1B[38;5;241m.\x1B[39mshape\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n',
+    '\x1B[0;31mValueError\x1B[0m: x and y must have same first dimension, but have shapes (1500,) and (1501, 1)'
+  ]
+}

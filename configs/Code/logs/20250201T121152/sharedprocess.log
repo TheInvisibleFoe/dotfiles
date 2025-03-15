@@ -1,0 +1,14 @@
+2025-02-01 12:12:00.346 [info] Getting Manifest... github.copilot
+2025-02-01 12:12:01.316 [info] Installing extension: github.copilot {"productVersion":{"version":"1.96.3","date":"2025-01-09T18:14:09.060Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sab/.vscode/extensions/extensions.json","path":"/home/sab/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-01 12:12:03.216 [info] Extension signature verification result for github.copilot: UnknownError. Executed: true. Duration: 24ms.
+2025-02-01 12:12:03.701 [info] Extracted extension to file:///home/sab/.vscode/extensions/github.copilot-1.261.0: github.copilot
+2025-02-01 12:12:03.709 [info] Renamed to /home/sab/.vscode/extensions/github.copilot-1.261.0
+2025-02-01 12:12:03.724 [info] Marked extension as uninstalled github.copilot-1.260.0
+2025-02-01 12:12:03.753 [info] Extension installed successfully: github.copilot vscode-userdata:/home/sab/.vscode/extensions/extensions.json
+2025-02-01 12:12:03.799 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sab/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

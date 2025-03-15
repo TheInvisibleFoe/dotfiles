@@ -1,0 +1,412 @@
+\documentclass{scrartcl}
+
+\usepackage[linear]{handout}
+\usepackage{bbm}
+% \usepackage{mlmodern}
+% \usepackage{gfsartemisia}
+\ihead{\sffamily\bfseries\footnotesize{Lecture Notes}}
+\ohead{\sffamily\footnotesize\textbf{BSSP 2021}}
+
+\title{
+        \Large\textsc{BSSP 2021} \\
+        \vspace{10pt}
+        % \Large\textsc{Experiment 02} \\
+        % \vspace{0.1cm}
+        \Huge \textbf{Introduction to Open Quantum Systems} \\
+}
+
+% \subtitle{}
+
+\author{Sabarno Saha \\ \texttt{22MS037}}
+
+\date{\normalsize
+        \textit{Indian Institute of Science Education and Research, Kolkata, \\
+        Mohanpur, West Bengal, 741246, India.}
+        % \vspace{10pt}
+        % \today
+}
+\newcommand{\1}{\mathbbm{1}}
+\newcommand{\ichi}{\tilde{\chi}}
+\newcommand{\irho}{\tilde{\rho}}
+\newcommand{\ihsr}{\tilde{H}_{SR}}
+\newcommand{\G}{\Gamma}
+\newcommand{\iG}{\tilde{\Gamma}}
+\newcommand{\is}{\tilde{s}}
+\newcommand{\h}{\mathbb{H}}
+\newcommand{\nbar}{\bar{n}}
+
+\graphicspath{{./images/}}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\pagebreak{}
+\section*{Course Outline}
+This is a collection of my notes on a series of five lectures delivered by Dr Manas Kulkarni for the Bangalore School on Statistical Physics-XII 2021. lossy
+\begin{itemize}
+	\item Lecture 1
+	      \begin{enumerate}
+		      \item Motivation and General Construction of Open Quantum Systems
+		      \item System Reservoir Approach
+	      \end{enumerate}
+	\item Lecture 2
+	      \begin{enumerate}
+		      \item Quantum Master Equation(QME) : A general Setup
+		      \item Application to damped harmonic oscillator
+	      \end{enumerate}
+	\item Lecture 3
+	      \begin{enumerate}
+		      \item Quantum Langevin Equation(QLE)
+		      \item Comparisons between QME and QLE
+		      \item Transport through a system coupled to multiple reservoirs
+	      \end{enumerate}
+	\item Lecture 4
+	      \begin{enumerate}
+		      \item Open two-level/Multi-level systems: Perturbative Approach and exact results
+		      \item Jaynes-Cummings Model: Exact Solutions
+	      \end{enumerate}
+	\item Lecture 5
+	      \begin{enumerate}
+		      \item Dicke Model and Quantum Phase transitions
+		      \item Spectral Signatures in closed and open Dicke Model
+		      \item Connections to Hermitian and Non-Hermitian Random Matrix Theory.
+	      \end{enumerate}
+\end{itemize}
+There are also 3 tutorials accompanying the 5 lectures
+\begin{itemize}
+	\item Tutorial 1
+	      \begin{enumerate}
+		      \item Density matrix Approach to quantum Mechanics
+		      \item Quantum Mechanics of Composite Systems
+		      \item Partial Traces and Reduced Density Matrices of Subsystems
+	      \end{enumerate}
+	\item Tutorial 2
+	      \begin{enumerate}
+		      \item Numerical algorithm for the solution of the Driven Dissipative Jaynes-Cummings model.
+		      \item Numerical implementation using MATLAB.
+	      \end{enumerate}
+	\item Tutorial 3 (July 9, Friday, 2021)
+	      \begin{enumerate}
+		      \item Numerical algorithm for finding the spectrum of the Liouvillian of the dissipative Dicke model.
+		      \item Numerical implementation using MATLAB.
+	      \end{enumerate}
+
+\end{itemize}
+\pagebreak{}
+\section{Introduction}
+We want to deal with problems where we have a quantum system interacting with some "Reservoir/ Bath/
+Environment". Most of the systems that we have dealt with so far were closed systems which were isolated to
+the outer environment. We now relax the isolation condition and open up the system to the environment.
+This gives rise to Open Quantum Systems.
+
+The subject aims to introduce the concept of dissipation and drive into quantum mechanics. If these
+elements are naively phenomenologically modeled and massaged into quantum mechanics, it might introduce
+inconsistencies in Heisenberg's Uncertainty Principle or the Commutation relations.
+
+A helpful reference is found at
+\subsection{Examples of Such Systems}
+\subsubsection{Damped Quantum Harmonic Oscillator}
+Most formal treatments of Quantum Mechanics use the quantum harmonic oscillator as the first toy model solved analytically. The damped harmonic oscillator is a toy example used here. This will be solved properly in Lecture 2.
+
+This can be viewed as a single mode of an electromagnetic field in a lossy cavity (leaky cavity, cavity with imperfect mirrors). A nice solution can also be found at
+\subsubsection{Damped two level systems}
+These are two-level systems such as qubits that are subject to decay or dephasing due to its coupling to the environment
+\section{The system Reservoir approach}
+The aim here is to model the interaction between the system "S" and the environment "R" using a general Hamiltonian of the form
+\begin{align}
+	H & = H_S \otimes \I_R + \I_S \otimes H_R + H_{SR}(t) \\ \nonumber
+	  & = H_S + H_R + H_{SR}
+\end{align}
+
+where $H_S$ and $H_R$ is the Hamiltonian governing the evolution of the system and the reservoir respectively and $H_{SR}$ is the Hamiltonian governing the coupling between the system and the reservoir. In most cases, the evolution of the reservoir doesn't concern us and it can be specified using its properties like its temperature, energy, or the density of states.
+Let us assume that the reservoir is large compared to the system in question. This means that the number of
+degrees of freedom assosciated with the reservoir is much larger than the number of degrees of freedom associated with the system.
+The evolution of the system is out main concern now, rather than the whole system+reservoir $S \otimes R$. Let $\chi (t)$ be the density operator for the whole system $S\otimes R$. Thus the reduced density matrix for the system is given by taking a partial trace over the states in the Hilbert space of the reservoir. The Density Matrix approach to Quantum Mechanics is discussed later under the Section "Tutorial 2". The reduced density matrix is given by
+\begin{equation}
+	\rho (t) = Tr_R[\chi (t)]
+\end{equation}
+where $\rho$ is the reduced density matrix over the system of interest, $Tr_R[]$ is the partial trace over the reservoir states and $\chi$ is the density operator for the system $S\otimes R$.
+\subsection{Liouville von-Neuman Equation}
+Let $\hat{O}$ be an operator acting on the Hilbert Space associated with the System S. Then the average of
+the operator can be computed its average in the Schroedinger Picture using the already known density matrix
+$\rho(t)$. Note that since $\hat{O}$ acts only on the Hilbert Space of S, $\hat{O} = \hat{O}_S \otimes
+	\mathbb{I}_R$
+
+\begin{align}
+	\expval{\hat{O}} & = Tr_{S \otimes R}[\hat{O} \chi (t)] = Tr_S[\hat{O}_S Tr_R[\chi (t)]] \\ \nonumber
+	                 & = Tr_S[\hat{O} \rho (t)]
+\end{align}
+The goal is to obtain the evolution of the density matrix $\rho(t)$ with time. This is given by the Liouville von-Neumann equation
+\begin{equation}
+	\frac{d\chi (t)}{dt} = \dot{\chi}(t)= \frac{1}{i \hbar}[H, \chi (t)]
+\end{equation}
+where $H$ is the full Hamiltonian $H = H_S + H_R + H_{SR}$.
+
+The problem is taken to the interaction picture where the operators evolve with time
+using the time evolution operator $U_0$ corresponding to uncoupled Hamiltonian $H_0 = H_S + H_R$. This seperates the
+rapid motion due to $H_S+ H_R$ from the slow motion due to $H_{SR}$. Note that we have an assumption that the uncoupled
+Hamiltonian is independent of time. Then the form of the evolution of the full density matrix is then given as
+\begin{equation}
+	\tilde{\chi}(t) = e^{i\slash \hbar (H_S + H_R)t} \chi (t) e^{-i\slash \hbar (H_S + H_R)t}\label{eq:interaction_picture}
+\end{equation}
+Using \cref{eq:interaction_picture} and the Liouville von-Neumann equation, we get
+\begin{align}
+	\dot{\tilde{\chi}}(t) & = \frac{i}{\hbar}\qty(H_S + H_R )\tilde{\chi}(t) - \frac{i}{\hbar} \tilde{\chi}(t) \qty(H_S + H_R) + e^{i\slash \hbar (H_S + H_R)t} \dot{\chi} (t) e^{-i\slash \hbar (H_S + H_R)t} \\ \nonumber
+	                      & = \frac{1}{i\hbar} [\tilde{H_{SR}}(t), \tilde{\chi}(t)] \label{eq:chi_evolution}
+\end{align}
+Also note that the operator $H_{SR}(t) = e^{i\slash \hbar (H_S + H_R)t} H_{SR} e^{-i\slash \hbar (H_S + H_R)t}$.
+Using \cref{eq:chi_evolution}, we can write the evolution of the reduced density matrix as
+\begin{align*}
+	\tilde{\chi}(t) = \chi (0) + \frac{1}{i \hbar} \int_0^t dt' [\tilde{H_{SR}}(t'), \tilde{\chi}(t')]
+\end{align*}
+Using this we get,
+\begin{align}
+	\dot{\tilde{\chi}}(t) = \frac{1}{i \hbar} \qty[\tilde{H}_{SR}(t), \chi (0)] - \frac{1}{\hbar^2} \int_0^t dt' [\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\chi}(t')]]
+\end{align}
+\subsection{Born and Markov Approximation}
+To simplify the previous equation to actually understand stuff from it, we use some approximations. So let us set the stage
+for the application of these approximations.
+
+Let the interaction be turned on at $t=0$. The systems are assumed to be initially uncorrelated. This means that the initial density matrix\
+$\chi(0) = \tilde{\chi}(0)$ factorizes as
+\begin{equation}
+	\chi(0) = \rho(0) R_0
+\end{equation}
+where $R_0$ is the initial thermal density operator for the reservoir. More on this later. Note that
+\begin{equation*}
+	Tr_R[\tilde{\chi}(t)] = e^{i\slash \hbar (H_S + H_R)t} Tr_R[\chi (t)] e^{-i\slash \hbar (H_S + H_R)t} = \tilde{\rho}(t)
+\end{equation*}
+Tracing over the Hilbert space of the reservoir,
+\begin{equation*}
+	\dot{\tilde{\rho}}(t) = -\frac{1}{\hbar^2} \int_0^t dt' Tr_R[\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\chi}(t')]]
+\end{equation*}
+with the assumption of
+\begin{equation}
+	Tr_R\qty(\qty[\tilde{H}_{SR}(0),\chi (0)]) = 0
+\end{equation}
+A Note on this assumption is provided later. In the damped harmonic oscillator, we will explicitly show
+that this relation holds.
+\begin{definition}[Quantum Master Equation]
+	The Quantum Master Equation is given by
+	\begin{equation}
+		\dot{\tilde{\rho}}(t) = -\frac{1}{\hbar^2} \int_0^t dt' Tr_R[\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\chi}(t')]]
+	\end{equation}
+	with the assumption of $\frac{1}{i\hbar} Tr_R\qty(\qty[\tilde{H}_{SR}(0),\chi (0)]) = 0$.
+\end{definition}
+Let us come to the Born approximation. Let us assume that the coupling between the System and the Reservoir is weak.
+This means that the interaction Hamiltonian is small compared to the uncoupled Hamiltonian. Note that the total
+density matrix at time $t=0$ is factorizes as $\chi(0) = \rho(0) R_0$, which means there is no correlation
+between the system and the reservoir at $t=0$. The weak coupling assumption says that $\tilde{\chi}(t)$
+shows deviations from the uncorrelated state only upto an order $O(H_{SR})$. Also note that we have assumed that the
+reservoir is quite large. This means that the weak coupling does not appreciably affect the reservoir.
+A note on this relating to reservoir correlation times, is given later.
+This weak coupling assumption gives us
+\begin{equation*}
+	\tilde{\chi}(t) = \tilde{\rho}(t) R_0  + O(H_{SR})  \label{eq:born_assumption}
+\end{equation*}
+This is called the Born Approximation. We can arrive at this completely from the Schroedinger Picture. We can take
+this decoupling assumption in the Schroedinger Picture. Here, our assumption is
+\[ \chi (t)  = \rho(t) R(t) + O(H_{SR})\]
+Now we go to the interaction picture by acting on \(e^{i\/\hbar (H_S+H_R)t}\) on the left and \(e^{-i\/\hbar (H_S+H_R)t}\) on the right.
+Also note that the reservoir density matrix also evolves along on its own. This gives us
+\begin{align}
+	\tilde{\chi}(t) & = e^{i\slash \hbar (H_S + H_R)t} \chi (t) e^{-i\slash \hbar (H_S + H_R)t}                                                                 \\ \nonumber
+	                & = e^{i\slash \hbar (H_S + H_R)t} \qty(\rho(t) R(t)) e^{-i\slash \hbar (H_S + H_R)t} + O(\ihsr)                                            \\ \nonumber
+	                & = e^{i\slash \hbar (H_S )t} \rho(t) e^{-i\slash \hbar (H_S)t} e^{i\slash \hbar (H_R )t} R(t) e^{-i\slash \hbar (H_R)t} + O(\ihsr)         \\ \nonumber
+	                & = \tilde{\rho}(t) e^{i\slash \hbar (H_R )t} e^{-i\slash \hbar (H_R)t} R(0) e^{i\slash \hbar (H_R )t} e^{-i\slash \hbar (H_R)t} + O(\ihsr) \\ \nonumber
+	                & = \tilde{\rho}(t) R_0 + O(\ihsr)
+\end{align}
+where $R_0 = R(0)$ is the initial thermal bath density operator. Here we assume that the Reservoir evolves on its own as if there
+is no coupling to the system. This is quite a good approximation since the weak coupling doesn't affect the reservoir much.
+
+\begin{definition}[Born Approximation]
+	The Born Approximation is the weak coupling assumption which says that the interaction Hamiltonian
+	causes the density matrix to deviate from the uncorrelated state only upto an order $O(H_{SR})$.
+	Mathematically it is given by
+	\begin{equation}
+		\tilde{\chi}(t) = \tilde{\rho}(t) R_0  + O(H_{SR})
+	\end{equation}
+\end{definition}
+Ignoring terms of order $O(H_{SR}^3)$ in the Quantum Master Equation, we get the Quantum Master Equation in the Born Approximation.
+\begin{equation}
+	\dot{\tilde{\rho}}(t) = -\frac{1}{\hbar^2} \int_0^t dt' Tr_R[\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\rho}(t')R_0]]
+\end{equation}
+Note that the equation is still non Markovian. The integrand in the above equation, depends on $\tilde{\rho}(t)$ at all times upto $t$.
+This non markovian nature is manifested in the fact that the system at a previous time might affect the reservoir, which
+can then affect the system at a later time. This causes the system to have a memory of its past, which relates to its current non Markovian nature.
+A note on this will be given after this, which relates to the reservoir correlation times.
+\begin{definition}[Markov Approximation]
+	The Markov Approximation is the assumption that the system does not have a memory of its past. This means that the system
+	does not remember its past states. This is mathematically given by
+	\begin{equation}
+		\tilde{\rho}(t') = \tilde{\rho}(t) \quad \forall ~ t' < t
+	\end{equation}
+
+\end{definition}
+\begin{definition}[Born-Markov Master Equation]
+	The Born-Markov Master Equation is given by
+	\begin{equation}
+		\dot{\tilde{\rho}}(t) = -\frac{1}{\hbar^2} \int_0^t dt' Tr_R[\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\rho}(t)R_0]]
+	\end{equation}
+	with the assumption of $\frac{1}{i\hbar} Tr_R\qty(\qty[\tilde{H}_{SR}(0),\chi (0)]) = 0$. This takes into the account the
+	Born and Markov Approximations.
+\end{definition}
+The above equation can be expanded to give the Redfield Equation. A derivation is given at \cref{eq:tbd}
+\begin{remark}
+	Why does $\ihsr (t')$ not cause an issue?
+\end{remark}
+\subsection{Note on Markov Approximation and Reservoir correlations}
+There are physical grounds on which we can justify the Markovian Approximation. The non-Markovian variant manifests in the
+fact that the system can affect the reservoir at some time and the reservoir might affect the system at a later time. This
+results in the system being able to remember its past states. Now, here is our assumption of the reservoir being large and having low
+correlation times. The reservoir evolves rapidly and cannot remember how it is affected by the system at a past time. Thus,
+the reservoir doesn't allow the retention of memeory of past states. This can happen say when the reservoir
+is held at thermal equilibrium. The markov approximation relies on the fact that there are two seperate time scales for the evolution of the composite
+system+reservoir. There is a slow time scale over which the system evolves and a fast time scale over which the reservoir correlation functions decay.
+The determination of these time scales are quite involved. A small remark will be included in \cref{eq:tbc} for the determination of the system
+time scale in the case of the Damped Harmonic Oscillator.
+
+Let us now construct a more specific form of $H_{SR}$, that allows us to see when the markov approximation is a valid one.
+\[ H_{SR} = \hbar \sum_i s_i \G_i \]
+where $s_i$ are the system operators acting in the hilbert space $\h_s$ and $\G_i$ are the reservoir operators
+acting in the hilbert space $\h_R$. The operators $s_i, \G_i$ might be quite convoluted,
+which allows for much more general interactions. We can see that, in the interaction picture
+\[\ihsr = \hbar \sum_i \is_i \iG_i\]
+Let us now take just the master equation we obtain after the born approximation.
+\begin{align*}
+	\dot{\tilde{\rho}}(t) & = -\frac{1}{\hbar^2} \int_0^t dt' Tr_R[\tilde{H}_{SR}(t), [\tilde{H}_{SR}(t'), \tilde{\rho}(t')R_0]]                                                     \\
+	                      & = - \sum_{i,j} \int_0^t dt' Tr_R[\is_i(t) \iG_i(t), [\is_j(t'), \iG_j(t') \tilde{\rho}(t')R_0]]                                                          \\
+	                      & = - \sum_{i,j} \int_0^t dt' \left[ \is_i(t)\is_j(t')\irho(t') tr_R[\iG_i(t)\iG_j(t')R_0] - \is_j(t')\irho(t')\is_i(t) tr_R[\iG_i(t)R_0\iG_j(t')] \right. \\
+	                      & \hspace{7em}\left.- \is_j(t')\irho(t') \is_i(t)tr_R[\iG_j(t')R_0\iG_i(t)] + \irho(t')\is_j(t')\is_i(t) tr_R[R_0\iG_j(t')\iG_i(t)] \right]                \\
+	                      & = -\sum_{i,j} \int_0^t dt' \left[ \left( \is_i(t)\is_j(t')\irho(t') -\is_j(t')\irho(t')\is_i(t) \right) \expval{\iG_i(t)\iG_j(t')}_R \right.             \\
+		\tag{using the cyclic property of the trace}
+	                      & \hspace{7em}\left. + \left( \irho(t')\is_j(t')\is_i(t) - \is_i(t')\irho(t')\is_j(t) \right) \expval{\iG_j(t')\iG_i(t)}_R \right]
+\end{align*}
+Here we have defined the reservoir correlations using the density operator $R_0$ (using the cyclic trace properties)
+\begin{align}
+	\expval{\iG_i(t)\iG_j(t')}_R & = tr_R[R_0 \iG_i(t)\iG_j(t')] \\
+	\expval{\iG_j(t')\iG_i(t)}_R & = tr_R[R_0 \iG_j(t')\iG_i(t)]
+\end{align}
+We can justify the markov approximation by assuming that the reservoir correlation functions decay rapidly. An ideal markovian
+system have the correlation functions proportional to the delta functions
+\begin{align*}
+	\expval{\iG_i(t)\iG_j(t')}_R \propto \delta(t-t')
+\end{align*}
+This suggests that markov approximation implies the existence of two different time scales of evolution. The
+reservoir correlation functions decay on a shorter decay time scale compared to the system evolution time scale.
+
+
+
+\section{The Damped Harmonic Oscillator}
+The Damped Harmonic Oscillator is a simple model for a system interacting with a reservoir, which is also a collection of
+harmonic oscillators. The system is a harmonic oscillator with frequency $\omega_0$ and the reservoir is a collection of harmonic oscillators with frequencies $\omega_k$.
+The Hamiltonian for the composite system $\h_S \otimes \h_R$ is given by
+\begin{align}
+	H_S    & = \hbar \omega_0 a^\dagger a                                                                           \\
+	H_R    & = \sum_k \hbar \omega_k r_k^\dagger r_k                                                                \\
+	H_{SR} & = \hbar \sum_k \qty(g_k a^\dagger r_k + g_k^* a r_k^\dagger) = \hbar \qty(a \G^\dagger + a^\dagger \G)
+\end{align}
+The coupling Hamiltonian is when the oscillator couples with the $k^{th}$ reservoir oscillator with the
+coupling strength $g_k$, in the rotating wave approximation\cref{sec:rwa}. The reservoir density operator
+is kept at thermal equilibriium and is given by
+\begin{align}
+	R_0  = \prod_j \exp(\frac{- \hbar \omega_j r_j^\dagger r_j}{k_B T}) \qty(1 - e^{\frac{- \hbar \omega_j}{k_B T}})
+\end{align}
+where $k_B$ is the Boltzmann constant and $T$ is the temperature of the reservoir.
+
+In our general notation, \(H_{SR} = \sum_i s_i \G_i\), we can identify the system and reservoir operators as
+\begin{align}
+	s_1 & = a & s_2 & = a^\dagger \\ \G_2 &= \G =  \sum_k g_k r_k & \G_1 &= \G^\dagger= \sum_k g_k^* r_k^\dagger
+\end{align}
+The operators will now be taken into the interaction picture. A lot of simplifications in algebra
+can be done using the lemma given below.
+\begin{lemma}[Baker-Campbell-Hausdorff Lemma]
+	Let \(A\) and \(B\) be two operators. Then the following identity holds
+	\[ e^A B e^{-A} = B + [A,B] + \frac{1}{2!} [A,[A,B]] + \frac{1}{3!} [A,[A,[A,B]]] + \cdots \]
+\end{lemma}
+Using the BCH lemma, we can simplify the system operators in the interaction picture.
+\begin{align*}
+	\is_1(t) & = e^{i\slash \hbar (H_s)t} a e^{-i\slash \hbar (H_s)t} = a e^{-i\slash \hbar \omega_0 t}                \\
+	\is_2(t) & = e^{i\slash \hbar (H_s)t} a^\dagger e^{-i\slash \hbar (H_s)t} = a^\dagger e^{i\slash \hbar \omega_0 t} \\
+\end{align*}
+The reservoir operators in the interaction picture are given by
+\begin{align*}
+	\iG_1(t) & = e^{i\slash \hbar (H_R)t} \sum_k g_k^* r_k^\dagger e^{-i\slash \hbar (H_R)t} = \sum_k g_k^* r_k^\dagger e^{i\slash \hbar \omega_k t} \\
+	\iG_2(t) & = e^{i\slash \hbar (H_R)t} \sum_k g_k r_k e^{-i\slash \hbar (H_R)t} = \sum_k g_k r_k e^{-i\slash \hbar \omega_k t}                    \\
+\end{align*}
+Before we go back to the master equation, it would be nice to verify an assumption that we made previously
+in \cref{eq:born_assumption}. We can easily see that, by tracing over the Fock states of the harmonic oscillators in the bath.
+The reservoir operators will lower or raise one  of the harmonic oscillator states, while the tensor product states are eigenstates of the
+thermal density operator. Thus, the assumption is justified.
+\begin{align*}
+	\expval{\iG_1(t)}_R & = tr_R\qty[R_0 \iG_1(t)] = 0 \\
+	\expval{\iG_2(t)}_R & = tr_R\qty[R_0 \iG_2(t)] = 0
+\end{align*}
+Summing over all the terms in the expansion of the Quantum Master equation, we get the equation,
+\begin{align}
+	\dot{\tilde{\rho}}(t) & = \int_0^t dt' \left\{ \qty[aa\irho(t')-a\irho(t')a]\exp(-\frac{i}{\hbar} \omega_0 (t+t'))\expval{\iG^\dagger(t)\iG^\dagger(t')}_R + h.c. \right.               \\
+	                      & \hspace{3.5em}+ \qty[a^\dagger a^\dagger \irho(t') - a^\dagger \irho(t') a^\dagger]\exp(\frac{i}{\hbar} \omega_0 (t+t'))\expval{\iG (t)\iG (t')}_R + h.c.       \\
+	                      & \hspace{3.5em}+ \qty[a a^\dagger \irho(t') - a^\dagger \irho(t') a]\exp(-\frac{i}{\hbar} \omega_0 (t-t'))\expval{\iG^\dagger(t)\iG (t')}_R + h.c.               \\
+	                      & \hspace{3.5em}+ \left.\qty[a^\dagger a \irho(t') - a \irho(t') a^\dagger]\exp(\frac{i}{\hbar} \omega_0 (t-t'))\expval{\iG (t)\iG^\dagger(t')}_R + h.c. \right\}
+\end{align}
+The reservoir correlations can be explicitly calculated as
+\begin{align}
+	\expval{\iG^\dagger(t)\iG^\dagger(t')}_R & = 0                                                                                 \\
+	\expval{\iG(t)\iG(t')}_R                 & = 0                                                                                 \\
+	\expval{\iG^\dagger(t)\iG(t')}_R         & = \sum_j \abs{g_j}^2 \exp(\frac{i}{\hbar} \omega_j (t-t')) \nbar(\omega_j,T)        \\
+	\expval{\iG(t)\iG^\dagger(t')}_R         & = \sum_j \abs{g_j}^2 \exp(-\frac{i}{\hbar} \omega_j (t-t')) (\nbar(\omega_j,T)+1)
+	\intertext{where the bosonic occupation number at $\omega_j$ is given by}
+	\nbar(\omega_j,T)                        & = \frac{\exp(-\frac{\hbar \omega_j}{k_B T})}{1- \exp(\frac{\hbar \omega_j}{k_B T})}
+\end{align}
+These are calculated just by tracing over the reservoir states, i.e. the multimode fock states of the
+quantum harmonic oscillators, where the first two raise or lower states, which causes them to be orthogonal to teach other.
+The last two equations are easily derived using the fact that
+\(\sum_n^\infty ne^{-n} = e^{-1}\slash (1-e^{-1})^2\). A complete derivation of these will be provided in the appendix.
+\begin{definition}[Bosonic Occupation Number]
+	The mean photon number or bosonic occupation number of an oscillator with frequency $\omega_j$ at
+	temperature $T$ is given by
+	\begin{equation}
+		\nbar(\omega_j,T) = \frac{\exp(-\frac{\hbar \omega_j}{k_B T})}{1- \exp(\frac{\hbar \omega_j}{k_B T})}
+	\end{equation}
+\end{definition}
+The reservoir correlation functions involve summing over the harmonic oscillators in the bath. We change the summation
+to an intergration to include the density of states of the reservoir. This is our way of encoding the
+information of the reservoir in the problem. The density of states and the thermal density operator encode
+all the information of the reservoir we need for the problem. Let the density of states(DoS)\(j(\omega)\) such that
+\(j(\omega) d\omega\) gives the number of oscillators with frequencies in the range \(\omega\) and \(\omega + d\omega\). We can also
+change use a change of variables to introduce the time lag in correlations \(\tau = t-t'\)
+Thus our non zero reservoir correlation functions can be written as
+\begin{align}
+	\expval{\iG^\dagger(t)\iG(t')}_R & = \int_0^\infty d\omega j(\omega) \abs{g(\omega)}^2 \exp(\frac{i}{\hbar} \omega \tau) \nbar(\omega,T) \label{eq: rescorr1}\\
+	\expval{\iG(t)\iG^\dagger(t')}_R & = \int_0^\infty d\omega j(\omega) \abs{g(\omega)}^2 \exp(-\frac{i}{\hbar} \omega \tau) (\nbar(\omega,T)+1)
+\end{align}
+Now the values of the integral depend on the coupling constants and the density of states of the reservoir. Let us define a new quantity called the spectral bath density
+defined as 
+\begin{equation}
+	J(\omega) = j(\omega) \abs{g(\omega)}^2	
+\end{equation}
+
+\begin{remark}
+	Need to write some comments on the spectral bath density.
+\end{remark}
+To make our calculations easier, we use an Ohmic Bath which corresponds to the bath spectral density being 
+\(J(\omega) = C \omega\). We now show explicit calculations using the Ohmic Bath for the reservoir correlation functions.
+Let us take a look at \cref{eq: rescorr1}. We can write the integral as
+\begin{align}
+	\expval{\iG^\dagger(t)\iG(t')}_R & = \int_0^\infty d\omega C \omega \exp(\frac{i}{\hbar} \omega \tau) \nbar(\omega,T) \\
+	& = C t_R^{-2} \psi'(1-i \tau / t_R)
+\end{align}
+where \(\psi'(z) = \frac{d^2 \ln \G (z)}{dz^2}\) is called the trigamma function.
+
+\subsection{The Lindblad Master Equation}
+\subsection{Detailed balance Condition}
+\subsection{Expectation values for Operators}
+\section{Two-level/Multi-level Systems}
+\section{The Jaynes Cummings Model}
+\section{The Dicke Model}
+\section{Tutorial 1}
+
+
+
+
+\end{document}

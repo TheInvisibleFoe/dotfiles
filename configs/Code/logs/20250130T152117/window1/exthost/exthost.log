@@ -1,0 +1,50 @@
+2025-01-30 15:21:20.743 [info] Extension host with pid 33883 started
+2025-01-30 15:21:20.743 [info] Skipping acquiring lock for /home/sab/.config/Code/User/workspaceStorage/ef53d393d10ba493593e36b024e2132c.
+2025-01-30 15:21:20.776 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-30 15:21:20.932 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-01-30 15:21:20.942 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-30 15:21:21.003 [info] Eager extensions activated
+2025-01-30 15:21:21.197 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:21.206 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:21.246 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:21.359 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:21.797 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-30 15:21:21.815 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-30 15:21:21.907 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-30 15:21:21.973 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-30 15:21:23.144 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-01-30 15:21:23.274 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:23.749 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-30 15:21:24.914 [info] ExtensionService#_doActivateExtension istarwyh.writinghelper, startup: false, activationEvent: 'onLanguage:latex'
+2025-01-30 15:21:24.938 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2025-01-30 15:21:25.090 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-01-30 15:21:25.283 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2025-01-30 15:21:25.304 [info] ExtensionService#_doActivateExtension valentjn.vscode-ltex, startup: false, activationEvent: 'onLanguage:latex'
+2025-01-30 15:56:35.423 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Zener Plot.ipynb'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:42:35.024 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Untitled.txt'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:42:35.265 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Untitled.txt'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:42:36.174 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Untitled.txt'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:42:45.769 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Zener Plot.ipynb'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:44:46.376 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Zener Plot.ipynb'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-30 16:45:33.377 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp01zener/code/.~Zener Plot.ipynb'
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)

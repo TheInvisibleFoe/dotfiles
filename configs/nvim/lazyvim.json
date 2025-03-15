@@ -1,0 +1,13 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.editor.refactoring",
+    "lazyvim.plugins.extras.lang.tex",
+    "lazyvim.plugins.extras.lang.thrift",
+    "lazyvim.plugins.extras.lang.toml",
+    "lazyvim.plugins.extras.lsp.neoconf"
+  ],
+  "news": {
+    "NEWS.md": "10960"
+  },
+  "version": 7
+}

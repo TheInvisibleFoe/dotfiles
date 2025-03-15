@@ -1,0 +1,45 @@
+2025-02-06 22:17:08.186 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-06 22:17:08.508 [info] [Info  - 22:17:08] (5727) Server root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-06 22:17:08.510 [info] [Info  - 22:17:08] (5727) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-06 22:17:08.535 [info] [Info  - 22:17:08] (5727) Starting service instance "10.0.1.68"
+2025-02-06 22:17:08.754 [info] [Info  - 22:17:08] (5727) Setting environmentName for service "10.0.1.68": "3.12.8 (jupyter conda)"
+2025-02-06 22:17:08.761 [info] [Info  - 22:17:08] (5727) Setting pythonPath for service "10.0.1.68": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-06 22:17:08.762 [info] [Info  - 22:17:08] (5727) No include entries specified; assuming /home/sab/Projects/PH3205/10.0.1.68
+2025-02-06 22:17:08.762 [info] [Info  - 22:17:08] (5727) Auto-excluding **/node_modules
+2025-02-06 22:17:08.763 [info] [Info  - 22:17:08] (5727) Auto-excluding **/__pycache__
+2025-02-06 22:17:08.763 [info] [Info  - 22:17:08] (5727) Auto-excluding **/.*
+2025-02-06 22:17:08.764 [info] [Info  - 22:17:08] (5727) Assuming Python version 3.12.8.final.0
+2025-02-06 22:17:08.875 [info] [Info  - 22:17:08] (5727) Found 1 source file
+2025-02-06 22:17:12.077 [info] [Info  - 22:17:12] (5727) Background analysis(1) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-06 22:17:12.087 [info] [Info  - 22:17:12] (5727) Background analysis(1) started
+2025-02-06 22:17:12.124 [info] [Info  - 22:17:12] (5727) Indexer background runner(2) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-06 22:17:12.135 [info] [Info  - 22:17:12] (5727) Indexing(2) started
+2025-02-06 22:17:12.136 [info] [Info  - 22:17:12] (5727) scanned(2) 240 files over 1 exec env
+2025-02-06 22:17:12.200 [info] [Info  - 22:17:12] (5727) Starting service instance "10.0.1.68"
+2025-02-06 22:17:12.265 [info] [Info  - 22:17:12] (5727) Setting environmentName for service "10.0.1.68": "3.12.8 (jupyter conda)"
+2025-02-06 22:17:12.279 [info] [Info  - 22:17:12] (5727) Setting pythonPath for service "10.0.1.68": "/home/sab/Projects/PH3205/10.0.1.68"
+2025-02-06 22:17:12.280 [info] [Info  - 22:17:12] (5727) No include entries specified; assuming /home/sab/Projects/PH3205/10.0.1.68
+2025-02-06 22:17:12.281 [info] [Info  - 22:17:12] (5727) Auto-excluding **/node_modules
+2025-02-06 22:17:12.281 [info] [Info  - 22:17:12] (5727) Auto-excluding **/__pycache__
+2025-02-06 22:17:12.282 [info] [Info  - 22:17:12] (5727) Auto-excluding **/.*
+2025-02-06 22:17:12.320 [info] [Info  - 22:17:12] (5727) Found 1 source file
+2025-02-06 22:17:12.617 [info] [Info  - 22:17:12] (5727) Starting service instance "<default>"
+2025-02-06 22:17:12.729 [info] [Info  - 22:17:12] (5727) Setting environmentName for service "<default>": "3.12.8 (jupyter conda)"
+2025-02-06 22:17:12.730 [info] [Info  - 22:17:12] (5727) Setting pythonPath for service "<default>": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-06 22:17:12.730 [info] [Info  - 22:17:12] (5727) No include entries specified; assuming /<default workspace root>
+2025-02-06 22:17:12.730 [info] [Info  - 22:17:12] (5727) Auto-excluding **/node_modules
+2025-02-06 22:17:12.730 [info] [Info  - 22:17:12] (5727) Auto-excluding **/__pycache__
+2025-02-06 22:17:12.731 [info] [Info  - 22:17:12] (5727) Auto-excluding **/.*
+2025-02-06 22:17:12.781 [info] [Info  - 22:17:12] (5727) Assuming Python version 3.12.8.final.0
+2025-02-06 22:17:12.901 [info] [Error - 22:17:12] (5727) File or directory "/<default workspace root>" does not exist.
+2025-02-06 22:17:12.904 [info] [Info  - 22:17:12] (5727) No source files found.
+2025-02-06 22:17:13.888 [info] [Info  - 22:17:13] (5727) Background analysis(3) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-06 22:17:13.897 [info] [Info  - 22:17:13] (5727) Background analysis(3) started
+2025-02-06 22:17:14.337 [info] [Info  - 22:17:14] (5727) Background analysis(4) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-06 22:17:14.354 [info] [Info  - 22:17:14] (5727) Background analysis(4) started
+2025-02-06 22:17:17.080 [info] [Info  - 22:17:17] (5727) [IDX(2)] Long operation: index execution environment file:///home/sab/Projects/PH3205/10.0.1.68 (4987ms)
+2025-02-06 22:17:17.080 [info] [Info  - 22:17:17] (5727) [IDX(2)] Long operation: index packages file:///home/sab/Projects/PH3205/10.0.1.68 (5090ms)
+2025-02-06 22:17:17.081 [info] [Info  - 22:17:17] (5727) indexed(2) 240 files over 1 exec env
+2025-02-06 22:17:17.994 [info] [Info  - 22:17:17] (5727) scanned(2) 1 files over 1 exec env
+2025-02-06 22:17:18.388 [info] [Info  - 22:17:18] (5727) indexed(2) 1 files over 1 exec env
+2025-02-06 22:17:18.408 [info] [Info  - 22:17:18] (5727) Indexing finished(2).

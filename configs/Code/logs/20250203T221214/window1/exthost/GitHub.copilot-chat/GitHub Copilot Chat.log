@@ -1,0 +1,43 @@
+2025-02-03 22:12:22.638 [info] Using the Electron fetcher.
+2025-02-03 22:12:22.638 [info] Initializing Git extension service.
+2025-02-03 22:12:22.638 [info] Successfully activated the vscode.git extension.
+2025-02-03 22:12:22.638 [info] Enablement state of the vscode.git extension: true.
+2025-02-03 22:12:22.638 [info] Successfully registered Git commit message provider.
+2025-02-03 22:12:24.767 [info] Logged in as TheInvisibleFoe
+2025-02-03 22:12:25.940 [info] Got Copilot token for TheInvisibleFoe
+2025-02-03 22:12:26.078 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-03 22:12:26.078 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-03 22:12:26.121 [info] Registering default platform agent...
+2025-02-03 22:12:27.157 [info] Fetched model metadata in 1204ms b8b41457-bb53-4d48-b597-0d30ee22d02f
+2025-02-03 22:12:27.399 [error] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"
+2025-02-03 22:12:27.399 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-03 22:12:27.399 [error] Canceled: Canceled
+    at Fc (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112153
+    at Array.forEach (<anonymous>)
+    at Dy.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112093)
+    at zz.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+    at QC.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-02-03 22:12:27.454 [info] activationBlocker from 'languageModelAccess' took for 4767ms
+2025-02-03 22:12:27.802 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-03 22:12:27.802 [error] Canceled: Canceled
+    at new IT (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at pw.getAccounts (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:2790)
+    at Object.getAccounts (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:36404)
+    at Lve (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:1254)
+    at dX (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:1639)
+    at A (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:1536:9450)
+    at VB.getOrCreate (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:893)
+    at dF.getAnyGitHubSession (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:1536:9555)
+    at dF.getCopilotToken (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26228)
+    at Y0._getAuthSession (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2859)
+    at Object.A [as task] (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:651)
+    at xC._processQueue (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1109)
+    at xC._processQueue (/home/sab/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1206)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -1,0 +1,7 @@
+2025-03-08 19:33:25.064 [info] Using the Electron fetcher.
+2025-03-08 19:33:25.064 [info] Initializing Git extension service.
+2025-03-08 19:33:25.064 [info] Successfully activated the vscode.git extension.
+2025-03-08 19:33:25.064 [info] Enablement state of the vscode.git extension: true.
+2025-03-08 19:33:25.064 [info] Successfully registered Git commit message provider.
+2025-03-08 19:33:25.155 [error] Error getting a session: Canceled: Canceled
+2025-03-08 19:33:25.157 [info] copilot token chat_enabled: undefined, sku: 

@@ -1,0 +1,75 @@
+2025-02-01 12:12:08.381 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-01 12:12:08.381 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-01 12:12:08.381 [info] Experiment 'pythonTestAdapter' is active
+2025-02-01 12:12:08.421 [warning] Dir "/home/sab/github/TheInvisibleFoe/JupyterNotebooks/.pixi/envs" is not watchable (directory does not exist)
+2025-02-01 12:12:08.522 [info] Starting Environment refresh
+2025-02-01 12:12:08.522 [info] Searching for interpreters in posix paths locator
+2025-02-01 12:12:08.532 [info] Searching for pyenv environments
+2025-02-01 12:12:08.532 [info] Searching for conda environments
+2025-02-01 12:12:08.532 [info] Searching for global virtual environments
+2025-02-01 12:12:08.532 [info] Searching for custom virtual environments
+2025-02-01 12:12:08.583 [info] pyenv is not installed
+2025-02-01 12:12:08.583 [info] Finished searching for pyenv environments: 60 milliseconds
+2025-02-01 12:12:08.584 [info] Finished searching for custom virtual envs: 59 milliseconds
+2025-02-01 12:12:08.611 [info] > conda info --json
+2025-02-01 12:12:08.635 [info] > hatch env show --json
+2025-02-01 12:12:08.635 [info] cwd: .
+2025-02-01 12:12:08.695 [info] > pyenv which python
+2025-02-01 12:12:08.695 [info] cwd: .
+2025-02-01 12:12:08.695 [info] Finished searching for global virtual envs: 170 milliseconds
+2025-02-01 12:12:09.684 [info] Found: /bin/python --> /bin/python3.13
+2025-02-01 12:12:09.728 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-01 12:12:09.740 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-01 12:12:09.876 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-01 12:12:09.878 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-01 12:12:09.878 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-01 12:12:09.901 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-01 12:12:09.902 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-01 12:12:09.902 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3.1 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-01 12:12:09.904 [info] Found: /home/sab/miniconda3/envs/jupyter/bin/python3.12 --> /home/sab/miniconda3/envs/jupyter/bin/python3.12
+2025-02-01 12:12:09.906 [info] Found: /home/sab/miniconda3/bin/python --> /home/sab/miniconda3/bin/python3.12
+2025-02-01 12:12:09.907 [info] Found: /home/sab/miniconda3/bin/python3 --> /home/sab/miniconda3/bin/python3.12
+2025-02-01 12:12:09.908 [info] Found: /home/sab/miniconda3/bin/python3.1 --> /home/sab/miniconda3/bin/python3.12
+2025-02-01 12:12:09.908 [info] Found: /home/sab/miniconda3/bin/python3.12 --> /home/sab/miniconda3/bin/python3.12
+2025-02-01 12:12:09.952 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-01 12:12:10.007 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-01 12:12:10.017 [info] Finished searching for conda environments: 1493 milliseconds
+2025-02-01 12:12:10.043 [info] > ~/miniconda3/envs/jupyter/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-01 12:12:10.058 [info] Finished searching for interpreters in posix paths locator: 1537 milliseconds
+2025-02-01 12:12:10.058 [info] Environments refresh paths discovered (event): 1539 milliseconds
+2025-02-01 12:12:10.058 [info] Environments refresh paths discovered: 1539 milliseconds
+2025-02-01 12:12:10.093 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-02-01 12:12:10.112 [info] VS Code was launched from an activated environment: 'jupyter', selecting it as the interpreter for workspace.
+2025-02-01 12:12:10.113 [info] Python interpreter path: ~/miniconda3/envs/jupyter/bin/python
+2025-02-01 12:12:10.143 [info] > python -c "import sys;print(sys.executable)"
+2025-02-01 12:12:10.158 [info] Environments refresh finished (event): 1639 milliseconds
+2025-02-01 12:12:10.172 [info] Environment refresh took 1652 milliseconds
+2025-02-01 12:12:10.250 [info] > conda info --json
+2025-02-01 12:12:10.250 [info] shell: bash
+2025-02-01 12:12:11.443 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-01 12:12:11.443 [info] shell: bash
+2025-02-01 12:12:12.689 [info] Starting Pylance language server.
+2025-02-01 12:12:13.176 [info] > python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-01 12:12:13.176 [info] shell: bash
+2025-02-01 12:12:13.221 [info] Setting environment variable _CE_M in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable GSETTINGS_SCHEMA_DIR in collection to /home/sab/miniconda3/envs/jupyter/share/glib-2.0/schemas {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable CONDA_ROOT in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable GSETTINGS_SCHEMA_DIR_CONDA_BACKUP in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable _CE_CONDA in collection to  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable CONDA_SHLVL in collection to 4 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable CONDA_PREFIX_2 in collection to /home/sab/miniconda3/envs/jupyter {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Setting environment variable CONDA_PREFIX_3 in collection to /home/sab/miniconda3 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-01 12:12:13.221 [info] Prepending environment variable PS1 in collection with (jupyter)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-01 12:12:13.222 [info] Send text to terminal: python /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/sab/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt
+2025-02-01 12:12:19.985 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-01 12:12:19.985 [info] shell: bash
+2025-02-01 12:12:20.093 [info] > conda run -n jupyter --no-capture-output python ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariables.py
+2025-02-01 12:12:20.093 [info] shell: bash
+2025-02-01 12:12:59.614 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:01.237 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:06.609 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:11.273 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:21.743 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:24.536 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:33.571 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py
+2025-02-01 12:13:36.368 [info] Discover tests for workspace name: JupyterNotebooks - uri: /home/sab/github/TheInvisibleFoe/JupyterNotebooks/UNO/UNOfunc.py

@@ -1,0 +1,58 @@
+2025-02-06 22:16:55.917 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-06 22:16:55.918 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-06 22:16:55.918 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-06 22:16:56.279 [info] Started local extension host with pid 5525.
+2025-02-06 22:16:57.487 [info] Settings Sync: Token updated for the account TheInvisibleFoe
+2025-02-06 22:16:57.491 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-06 22:16:59.047 [info] [perf] Render performance baseline is 28ms
+2025-02-06 22:17:00.914 [warning] [REditorSupport.r]: Cannot register 'r.rpath.windows'. This property is already registered.
+2025-02-06 22:17:00.914 [warning] [REditorSupport.r]: Cannot register 'r.rpath.mac'. This property is already registered.
+2025-02-06 22:17:00.914 [warning] [REditorSupport.r]: Cannot register 'r.rpath.linux'. This property is already registered.
+2025-02-06 22:17:08.658 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-02-06 22:17:08.658 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-02-06 22:17:08.773 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-02-06 22:17:08.774 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-02-07 01:34:35.661 [error] [15d] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at xTe.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at Object.u [as onWillAddFirstListener] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:108934)
+    at Sse.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1298)
+    at NO.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:8299)
+    at NO.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:5740)
+    at G_e.w (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:11611)
+    at G_e.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:11172)
+    at new J_e (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:18358)
+    at odt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1586)
+2025-02-07 01:44:00.691 [error] Cannot read properties of undefined (reading 'isVisible'): TypeError: Cannot read properties of undefined (reading 'isVisible')
+    at DRi.convertModelPositionToViewPosition (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:257:43135)
+    at TRi.convertModelPositionToViewPosition (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:257:46531)
+    at Uui.g (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:256:22010)
+    at Uui.setState (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:256:20664)
+    at F0t.setStates (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:256:23553)
+    at U0t.setStates (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:256:34307)
+    at U0t.setSelections (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:256:37013)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:258:2499
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:258:3997
+    at Object.batchChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:260:14695)
+2025-02-07 03:07:37.992 [error] [15d] potential listener LEAK detected, having 178 listeners already. MOST frequent listener (5):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at xTe.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at Object.u [as onWillAddFirstListener] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:108934)
+    at Sse.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1298)
+    at NO.G (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:8299)
+    at NO.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:5740)
+    at G_e.w (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:11611)
+    at G_e.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:11172)
+    at new J_e (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1715:18358)
+    at odt.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:1586)
+2025-02-07 13:14:12.657 [error] [1a6] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at lpi.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at PI (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:75941)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95439
+    at xn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:70119)
+    at nBi.h (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:93133)
+    at nBi.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:91031)
+    at rBi.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95753)
+    at oee.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:92519)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)

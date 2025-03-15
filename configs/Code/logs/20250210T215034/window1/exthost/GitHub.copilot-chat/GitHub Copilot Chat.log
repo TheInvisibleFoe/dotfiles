@@ -1,0 +1,54 @@
+2025-02-10 21:50:42.894 [info] Using the Electron fetcher.
+2025-02-10 21:50:42.894 [info] Initializing Git extension service.
+2025-02-10 21:50:42.894 [info] Successfully activated the vscode.git extension.
+2025-02-10 21:50:42.894 [info] Enablement state of the vscode.git extension: true.
+2025-02-10 21:50:42.894 [info] Successfully registered Git commit message provider.
+2025-02-10 21:50:44.680 [info] Logged in as TheInvisibleFoe
+2025-02-10 21:50:45.510 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 21:50:45.598 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 21:50:45.598 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-10 21:50:45.637 [info] Registering default platform agent...
+2025-02-10 21:50:46.549 [info] Fetched model metadata in 1031ms 022a194c-dc40-4198-90de-60e0b9d1f948
+2025-02-10 21:50:46.833 [info] activationBlocker from 'languageModelAccess' took for 3770ms
+2025-02-10 22:05:48.351 [info] Fetched model metadata in 1019ms 1934b937-eb05-490a-9210-d36fc87cec24
+2025-02-10 22:15:45.542 [info] Logged in as TheInvisibleFoe
+2025-02-10 22:15:46.339 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 22:15:46.349 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 22:30:47.457 [info] Fetched model metadata in 1038ms e26cdf79-4833-405c-ba34-c9d5060cf886
+2025-02-10 22:40:46.344 [info] Logged in as TheInvisibleFoe
+2025-02-10 22:40:47.116 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 22:40:47.170 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 22:55:48.448 [info] Fetched model metadata in 1255ms 1c5b9a93-0bf1-4601-88a0-733b0c3f37f6
+2025-02-10 23:05:47.155 [info] Logged in as TheInvisibleFoe
+2025-02-10 23:05:48.078 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 23:05:48.087 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 23:20:49.332 [info] Fetched model metadata in 1236ms ac80bc22-aa5c-4367-a6fa-fddaff617bb2
+2025-02-10 23:30:48.097 [info] Logged in as TheInvisibleFoe
+2025-02-10 23:30:48.912 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 23:30:48.929 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 23:45:49.999 [info] Fetched model metadata in 1037ms ed368ee7-8341-4523-9473-bb76af7b9fd9
+2025-02-10 23:55:48.983 [info] Logged in as TheInvisibleFoe
+2025-02-10 23:55:49.971 [info] Got Copilot token for TheInvisibleFoe
+2025-02-10 23:55:50.022 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-10 23:55:51.043 [info] Fetched model metadata in 1012ms 63fd6189-90c0-4ee8-a090-48d0dedfbb99
+2025-02-11 00:10:52.560 [info] Fetched model metadata in 1212ms 32fc462f-9efe-4121-8bfc-8d462aefa007
+2025-02-11 00:20:49.989 [info] Logged in as TheInvisibleFoe
+2025-02-11 00:20:50.943 [info] Got Copilot token for TheInvisibleFoe
+2025-02-11 00:20:50.981 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-11 00:35:52.117 [info] Fetched model metadata in 1110ms 911aa6cb-bc8a-4f5c-82c1-a421f1d1609a
+2025-02-11 00:45:50.959 [info] Logged in as TheInvisibleFoe
+2025-02-11 00:45:51.890 [info] Got Copilot token for TheInvisibleFoe
+2025-02-11 00:45:51.898 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-11 01:00:53.045 [info] Fetched model metadata in 1126ms d3e4911d-6cef-4bbe-905b-9256b76a554a
+2025-02-11 01:10:51.906 [info] Logged in as TheInvisibleFoe
+2025-02-11 01:10:52.769 [info] Got Copilot token for TheInvisibleFoe
+2025-02-11 01:10:52.794 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-11 17:43:52.889 [info] Logged in as TheInvisibleFoe
+2025-02-11 17:43:53.206 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-11 17:43:53.206 [error] Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-02-11 17:43:53.242 [info] Logged in as TheInvisibleFoe
+2025-02-11 17:43:53.974 [info] Got Copilot token for TheInvisibleFoe
+2025-02-11 17:43:53.980 [info] copilot token chat_enabled: true, sku: free_educational
+2025-02-11 17:43:54.005 [info] copilot token chat_enabled: true, sku: free_educational

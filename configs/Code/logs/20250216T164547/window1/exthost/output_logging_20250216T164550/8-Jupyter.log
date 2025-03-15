@@ -1,0 +1,509 @@
+Visual Studio Code (1.96.3, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT, Home = /home/sab
+17:15:06.063 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb' (di~leUI=true)
+17:15:07.426 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+17:15:07.522 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:15:07.539 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v375753db860126017a6c18afb20687d3064efcca3.json
+    > cwd: //home/~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code
+17:15:08.297 [info] Kernel successfully started
+17:15:08.321 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+17:26:43.659 [warn] Cell completed with errors iu [Error]: Unrecognized linestyle: 10
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: 'Unrecognized linestyle: 10',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[15], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m fig,axes \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m1\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m16\x1B[39m,\x1B[38;5;241m9\x1B[39m), dpi \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m300\x1B[39m)\n' +
+      `\x1B[0;32m----> 2\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB3V, IB3V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,ls \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 3V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n` +
+      "\x1B[1;32m      3\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB2V, IB2V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,ls \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 2V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB4V, IB4V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,ls \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 4V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777\x1B[0m, in \x1B[0;36mAxes.plot\x1B[0;34m(self, scalex, scaley, data, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1534\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1535\x1B[0m \x1B[38;5;124;03mPlot y versus x as lines and/or markers.\x1B[39;00m\n' +
+      '\x1B[1;32m   1536\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      "\x1B[1;32m   1774\x1B[0m \x1B[38;5;124;03m(``'green'``) or hex strings (``'#008000'``).\x1B[39;00m\n" +
+      '\x1B[1;32m   1775\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1776\x1B[0m kwargs \x1B[38;5;241m=\x1B[39m cbook\x1B[38;5;241m.\x1B[39mnormalize_kwargs(kwargs, mlines\x1B[38;5;241m.\x1B[39mLine2D)\n' +
+      '\x1B[0;32m-> 1777\x1B[0m lines \x1B[38;5;241m=\x1B[39m [\x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_lines(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;241m*\x1B[39margs, data\x1B[38;5;241m=\x1B[39mdata, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)]\n' +
+      '\x1B[1;32m   1778\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m lines:\n' +
+      '\x1B[1;32m   1779\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39madd_line(line)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:297\x1B[0m, in \x1B[0;36m_process_plot_var_args.__call__\x1B[0;34m(self, axes, data, return_kwargs, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    295\x1B[0m     this \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m],\n' +
+      '\x1B[1;32m    296\x1B[0m     args \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m1\x1B[39m:]\n' +
+      '\x1B[0;32m--> 297\x1B[0m \x1B[38;5;28;01myield from\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_plot_args(\n' +
+      '\x1B[1;32m    298\x1B[0m     axes, this, kwargs, ambiguous_fmt_datakey\x1B[38;5;241m=\x1B[39mambiguous_fmt_datakey,\n' +
+      '\x1B[1;32m    299\x1B[0m     return_kwargs\x1B[38;5;241m=\x1B[39mreturn_kwargs\n' +
+      '\x1B[1;32m    300\x1B[0m )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:546\x1B[0m, in \x1B[0;36m_process_plot_var_args._plot_args\x1B[0;34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\x1B[0m\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n' +
+      '\x1B[1;32m    545\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 546\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [l[\x1B[38;5;241m0\x1B[39m] \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m result]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:539\x1B[0m, in \x1B[0;36m<genexpr>\x1B[0;34m(.0)\x1B[0m\n' +
+      '\x1B[1;32m    534\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    535\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    536\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabel must be scalar or have the same length as the input \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    537\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdata, but found \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(label)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mn_datasets\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m datasets.\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m--> 539\x1B[0m result \x1B[38;5;241m=\x1B[39m (make_artist(axes, x[:, j \x1B[38;5;241m%\x1B[39m ncx], y[:, j \x1B[38;5;241m%\x1B[39m ncy], kw,\n' +
+      "\x1B[1;32m    540\x1B[0m                       {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabel\x1B[39m\x1B[38;5;124m'\x1B[39m: label})\n" +
+      '\x1B[1;32m    541\x1B[0m           \x1B[38;5;28;01mfor\x1B[39;00m j, label \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(labels))\n' +
+      '\x1B[1;32m    543\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m return_kwargs:\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:338\x1B[0m, in \x1B[0;36m_process_plot_var_args._make_line\x1B[0;34m(self, axes, x, y, kw, kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    336\x1B[0m kw \x1B[38;5;241m=\x1B[39m {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs}  \x1B[38;5;66;03m# Don't modify the original kw.\x1B[39;00m\n" +
+      '\x1B[1;32m    337\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_setdefaults(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getdefaults(kw), kw)\n' +
+      '\x1B[0;32m--> 338\x1B[0m seg \x1B[38;5;241m=\x1B[39m mlines\x1B[38;5;241m.\x1B[39mLine2D(x, y, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw)\n' +
+      '\x1B[1;32m    339\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m seg, kw\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:372\x1B[0m, in \x1B[0;36mLine2D.__init__\x1B[0;34m(self, xdata, ydata, linewidth, linestyle, color, gapcolor, marker, markersize, markeredgewidth, markeredgecolor, markerfacecolor, markerfacecoloralt, fillstyle, antialiased, dash_capstyle, solid_capstyle, dash_joinstyle, solid_joinstyle, pickradius, drawstyle, markevery, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    369\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dash_pattern \x1B[38;5;241m=\x1B[39m (\x1B[38;5;241m0\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m)  \x1B[38;5;66;03m# offset, dash (scaled by linewidth)\x1B[39;00m\n' +
+      '\x1B[1;32m    371\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mset_linewidth(linewidth)\n' +
+      '\x1B[0;32m--> 372\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mset_linestyle(linestyle)\n' +
+      '\x1B[1;32m    373\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mset_drawstyle(drawstyle)\n' +
+      '\x1B[1;32m    375\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_color \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:1184\x1B[0m, in \x1B[0;36mLine2D.set_linestyle\x1B[0;34m(self, ls)\x1B[0m\n' +
+      '\x1B[1;32m   1182\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[1;32m   1183\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_linestyle \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m--\x1B[39m\x1B[38;5;124m'\x1B[39m\n" +
+      '\x1B[0;32m-> 1184\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_unscaled_dash_pattern \x1B[38;5;241m=\x1B[39m _get_dash_pattern(ls)\n' +
+      '\x1B[1;32m   1185\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dash_pattern \x1B[38;5;241m=\x1B[39m _scale_dashes(\n' +
+      '\x1B[1;32m   1186\x1B[0m     \x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_unscaled_dash_pattern, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_linewidth)\n' +
+      '\x1B[1;32m   1187\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mstale \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mTrue\x1B[39;00m\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:52\x1B[0m, in \x1B[0;36m_get_dash_pattern\x1B[0;34m(style)\x1B[0m\n' +
+      "\x1B[1;32m     50\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mUnrecognized linestyle: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mstyle\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m     51\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      "\x1B[0;32m---> 52\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mUnrecognized linestyle: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mstyle\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m     54\x1B[0m \x1B[38;5;66;03m# normalize offset to be positive and shorter than the dash cycle\x1B[39;00m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m dashes \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n',
+    '\x1B[0;31mValueError\x1B[0m: Unrecognized linestyle: 10'
+  ]
+}
+17:28:55.980 [warn] Cell completed with errors iu [Error]: Line2D.set() got an unexpected keyword argument 'edgecolor'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "Line2D.set() got an unexpected keyword argument 'edgecolor'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[20], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m fig,axes \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m1\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m16\x1B[39m,\x1B[38;5;241m9\x1B[39m), dpi \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m300\x1B[39m)\n' +
+      `\x1B[0;32m----> 2\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB3V, IB3V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m,edgecolor \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mk\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 3V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n` +
+      `\x1B[1;32m      3\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB2V, IB2V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m,edgecolor \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mk\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 2V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n` +
+      `\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VB4V, IB4V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m,edgecolor \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mk\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 4V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n`,
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777\x1B[0m, in \x1B[0;36mAxes.plot\x1B[0;34m(self, scalex, scaley, data, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1534\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1535\x1B[0m \x1B[38;5;124;03mPlot y versus x as lines and/or markers.\x1B[39;00m\n' +
+      '\x1B[1;32m   1536\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      "\x1B[1;32m   1774\x1B[0m \x1B[38;5;124;03m(``'green'``) or hex strings (``'#008000'``).\x1B[39;00m\n" +
+      '\x1B[1;32m   1775\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1776\x1B[0m kwargs \x1B[38;5;241m=\x1B[39m cbook\x1B[38;5;241m.\x1B[39mnormalize_kwargs(kwargs, mlines\x1B[38;5;241m.\x1B[39mLine2D)\n' +
+      '\x1B[0;32m-> 1777\x1B[0m lines \x1B[38;5;241m=\x1B[39m [\x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_lines(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;241m*\x1B[39margs, data\x1B[38;5;241m=\x1B[39mdata, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)]\n' +
+      '\x1B[1;32m   1778\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m lines:\n' +
+      '\x1B[1;32m   1779\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39madd_line(line)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:297\x1B[0m, in \x1B[0;36m_process_plot_var_args.__call__\x1B[0;34m(self, axes, data, return_kwargs, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    295\x1B[0m     this \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m],\n' +
+      '\x1B[1;32m    296\x1B[0m     args \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m1\x1B[39m:]\n' +
+      '\x1B[0;32m--> 297\x1B[0m \x1B[38;5;28;01myield from\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_plot_args(\n' +
+      '\x1B[1;32m    298\x1B[0m     axes, this, kwargs, ambiguous_fmt_datakey\x1B[38;5;241m=\x1B[39mambiguous_fmt_datakey,\n' +
+      '\x1B[1;32m    299\x1B[0m     return_kwargs\x1B[38;5;241m=\x1B[39mreturn_kwargs\n' +
+      '\x1B[1;32m    300\x1B[0m )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:546\x1B[0m, in \x1B[0;36m_process_plot_var_args._plot_args\x1B[0;34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\x1B[0m\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n' +
+      '\x1B[1;32m    545\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 546\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [l[\x1B[38;5;241m0\x1B[39m] \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m result]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:539\x1B[0m, in \x1B[0;36m<genexpr>\x1B[0;34m(.0)\x1B[0m\n' +
+      '\x1B[1;32m    534\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    535\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    536\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabel must be scalar or have the same length as the input \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    537\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdata, but found \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(label)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mn_datasets\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m datasets.\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m--> 539\x1B[0m result \x1B[38;5;241m=\x1B[39m (make_artist(axes, x[:, j \x1B[38;5;241m%\x1B[39m ncx], y[:, j \x1B[38;5;241m%\x1B[39m ncy], kw,\n' +
+      "\x1B[1;32m    540\x1B[0m                       {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabel\x1B[39m\x1B[38;5;124m'\x1B[39m: label})\n" +
+      '\x1B[1;32m    541\x1B[0m           \x1B[38;5;28;01mfor\x1B[39;00m j, label \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(labels))\n' +
+      '\x1B[1;32m    543\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m return_kwargs:\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:338\x1B[0m, in \x1B[0;36m_process_plot_var_args._make_line\x1B[0;34m(self, axes, x, y, kw, kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    336\x1B[0m kw \x1B[38;5;241m=\x1B[39m {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs}  \x1B[38;5;66;03m# Don't modify the original kw.\x1B[39;00m\n" +
+      '\x1B[1;32m    337\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_setdefaults(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getdefaults(kw), kw)\n' +
+      '\x1B[0;32m--> 338\x1B[0m seg \x1B[38;5;241m=\x1B[39m mlines\x1B[38;5;241m.\x1B[39mLine2D(x, y, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw)\n' +
+      '\x1B[1;32m    339\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m seg, kw\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:407\x1B[0m, in \x1B[0;36mLine2D.__init__\x1B[0;34m(self, xdata, ydata, linewidth, linestyle, color, gapcolor, marker, markersize, markeredgewidth, markeredgecolor, markerfacecolor, markerfacecoloralt, fillstyle, antialiased, dash_capstyle, solid_capstyle, dash_joinstyle, solid_joinstyle, pickradius, drawstyle, markevery, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    403\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mset_markeredgewidth(markeredgewidth)\n' +
+      '\x1B[1;32m    405\x1B[0m \x1B[38;5;66;03m# update kwargs before updating data to give the caller a\x1B[39;00m\n' +
+      '\x1B[1;32m    406\x1B[0m \x1B[38;5;66;03m# chance to init axes (and hence unit support)\x1B[39;00m\n' +
+      '\x1B[0;32m--> 407\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_internal_update(kwargs)\n' +
+      '\x1B[1;32m    408\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mpickradius \x1B[38;5;241m=\x1B[39m pickradius\n' +
+      '\x1B[1;32m    409\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mind_offset \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/artist.py:1233\x1B[0m, in \x1B[0;36mArtist._internal_update\x1B[0;34m(self, kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1226\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_internal_update\x1B[39m(\x1B[38;5;28mself\x1B[39m, kwargs):\n' +
+      '\x1B[1;32m   1227\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1228\x1B[0m \x1B[38;5;124;03m    Update artist properties without prenormalizing them, but generating\x1B[39;00m\n' +
+      '\x1B[1;32m   1229\x1B[0m \x1B[38;5;124;03m    errors as if calling `set`.\x1B[39;00m\n' +
+      '\x1B[1;32m   1230\x1B[0m \n' +
+      '\x1B[1;32m   1231\x1B[0m \x1B[38;5;124;03m    The lack of prenormalization is to maintain backcompatibility.\x1B[39;00m\n' +
+      '\x1B[1;32m   1232\x1B[0m \x1B[38;5;124;03m    """\x1B[39;00m\n' +
+      '\x1B[0;32m-> 1233\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_update_props(\n' +
+      '\x1B[1;32m   1234\x1B[0m         kwargs, \x1B[38;5;124m"\x1B[39m\x1B[38;5;132;01m{cls.__name__}\x1B[39;00m\x1B[38;5;124m.set() got an unexpected keyword argument \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m   1235\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;132;01m{prop_name!r}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/artist.py:1206\x1B[0m, in \x1B[0;36mArtist._update_props\x1B[0;34m(self, props, errfmt)\x1B[0m\n' +
+      '\x1B[1;32m   1204\x1B[0m             func \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mgetattr\x1B[39m(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mset_\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mk\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m)\n' +
+      '\x1B[1;32m   1205\x1B[0m             \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28mcallable\x1B[39m(func):\n' +
+      '\x1B[0;32m-> 1206\x1B[0m                 \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mAttributeError\x1B[39;00m(\n' +
+      '\x1B[1;32m   1207\x1B[0m                     errfmt\x1B[38;5;241m.\x1B[39mformat(\x1B[38;5;28mcls\x1B[39m\x1B[38;5;241m=\x1B[39m\x1B[38;5;28mtype\x1B[39m(\x1B[38;5;28mself\x1B[39m), prop_name\x1B[38;5;241m=\x1B[39mk),\n' +
+      '\x1B[1;32m   1208\x1B[0m                     name\x1B[38;5;241m=\x1B[39mk)\n' +
+      '\x1B[1;32m   1209\x1B[0m             ret\x1B[38;5;241m.\x1B[39mappend(func(v))\n' +
+      '\x1B[1;32m   1210\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m ret:\n',
+    "\x1B[0;31mAttributeError\x1B[0m: Line2D.set() got an unexpected keyword argument 'edgecolor'"
+  ]
+}
+17:29:59.354 [warn] Cell completed with errors iu [Error]: invalid syntax. Perhaps you forgot a comma? (1442917657.py, line 2)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax. Perhaps you forgot a comma? (1442917657.py, line 2)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[22], line 2\x1B[0;36m\x1B[0m\n' +
+      "\x1B[0;31m    axes.plot(VC10A, IC10A, '-',lw=2,marker='c' label=r'$I_C$ = 10$\\mu$A')\x1B[0m\n" +
+      '\x1B[0m                                            ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax. Perhaps you forgot a comma?\n'
+  ]
+}
+17:30:08.171 [warn] Cell completed with errors iu [Error]: Unrecognized marker style 'c'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: "Unrecognized marker style 'c'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:326\x1B[0m, in \x1B[0;36mMarkerStyle._set_marker\x1B[0;34m(self, marker)\x1B[0m\n' +
+      '\x1B[1;32m    325\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 326\x1B[0m     Path(marker)\n' +
+      '\x1B[1;32m    327\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker_function \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_vertices\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/path.py:129\x1B[0m, in \x1B[0;36mPath.__init__\x1B[0;34m(self, vertices, codes, _interpolation_steps, closed, readonly)\x1B[0m\n' +
+      '\x1B[1;32m    101\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m    102\x1B[0m \x1B[38;5;124;03mCreate a new path with the given vertices and codes.\x1B[39;00m\n' +
+      '\x1B[1;32m    103\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    127\x1B[0m \x1B[38;5;124;03m    and codes as read-only arrays.\x1B[39;00m\n' +
+      '\x1B[1;32m    128\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[0;32m--> 129\x1B[0m vertices \x1B[38;5;241m=\x1B[39m _to_unmasked_float_array(vertices)\n' +
+      '\x1B[1;32m    130\x1B[0m _api\x1B[38;5;241m.\x1B[39mcheck_shape((\x1B[38;5;28;01mNone\x1B[39;00m, \x1B[38;5;241m2\x1B[39m), vertices\x1B[38;5;241m=\x1B[39mvertices)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/cbook.py:1345\x1B[0m, in \x1B[0;36m_to_unmasked_float_array\x1B[0;34m(x)\x1B[0m\n' +
+      '\x1B[1;32m   1344\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1345\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m np\x1B[38;5;241m.\x1B[39masarray(x, \x1B[38;5;28mfloat\x1B[39m)\n',
+    "\x1B[0;31mValueError\x1B[0m: could not convert string to float: 'c'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[23], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m fig,axes \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m1\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m16\x1B[39m,\x1B[38;5;241m9\x1B[39m), dpi \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m300\x1B[39m)\n' +
+      "\x1B[0;32m----> 2\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC10A, IC10A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mc\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 10$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      3\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC20A, IC20A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mc\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 20$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC30A, IC30A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mc\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 30$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777\x1B[0m, in \x1B[0;36mAxes.plot\x1B[0;34m(self, scalex, scaley, data, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1534\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1535\x1B[0m \x1B[38;5;124;03mPlot y versus x as lines and/or markers.\x1B[39;00m\n' +
+      '\x1B[1;32m   1536\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      "\x1B[1;32m   1774\x1B[0m \x1B[38;5;124;03m(``'green'``) or hex strings (``'#008000'``).\x1B[39;00m\n" +
+      '\x1B[1;32m   1775\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1776\x1B[0m kwargs \x1B[38;5;241m=\x1B[39m cbook\x1B[38;5;241m.\x1B[39mnormalize_kwargs(kwargs, mlines\x1B[38;5;241m.\x1B[39mLine2D)\n' +
+      '\x1B[0;32m-> 1777\x1B[0m lines \x1B[38;5;241m=\x1B[39m [\x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_lines(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;241m*\x1B[39margs, data\x1B[38;5;241m=\x1B[39mdata, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)]\n' +
+      '\x1B[1;32m   1778\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m lines:\n' +
+      '\x1B[1;32m   1779\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39madd_line(line)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:297\x1B[0m, in \x1B[0;36m_process_plot_var_args.__call__\x1B[0;34m(self, axes, data, return_kwargs, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    295\x1B[0m     this \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m],\n' +
+      '\x1B[1;32m    296\x1B[0m     args \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m1\x1B[39m:]\n' +
+      '\x1B[0;32m--> 297\x1B[0m \x1B[38;5;28;01myield from\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_plot_args(\n' +
+      '\x1B[1;32m    298\x1B[0m     axes, this, kwargs, ambiguous_fmt_datakey\x1B[38;5;241m=\x1B[39mambiguous_fmt_datakey,\n' +
+      '\x1B[1;32m    299\x1B[0m     return_kwargs\x1B[38;5;241m=\x1B[39mreturn_kwargs\n' +
+      '\x1B[1;32m    300\x1B[0m )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:546\x1B[0m, in \x1B[0;36m_process_plot_var_args._plot_args\x1B[0;34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\x1B[0m\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n' +
+      '\x1B[1;32m    545\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 546\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [l[\x1B[38;5;241m0\x1B[39m] \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m result]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:539\x1B[0m, in \x1B[0;36m<genexpr>\x1B[0;34m(.0)\x1B[0m\n' +
+      '\x1B[1;32m    534\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    535\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    536\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabel must be scalar or have the same length as the input \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    537\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdata, but found \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(label)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mn_datasets\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m datasets.\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m--> 539\x1B[0m result \x1B[38;5;241m=\x1B[39m (make_artist(axes, x[:, j \x1B[38;5;241m%\x1B[39m ncx], y[:, j \x1B[38;5;241m%\x1B[39m ncy], kw,\n' +
+      "\x1B[1;32m    540\x1B[0m                       {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabel\x1B[39m\x1B[38;5;124m'\x1B[39m: label})\n" +
+      '\x1B[1;32m    541\x1B[0m           \x1B[38;5;28;01mfor\x1B[39;00m j, label \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(labels))\n' +
+      '\x1B[1;32m    543\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m return_kwargs:\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:338\x1B[0m, in \x1B[0;36m_process_plot_var_args._make_line\x1B[0;34m(self, axes, x, y, kw, kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    336\x1B[0m kw \x1B[38;5;241m=\x1B[39m {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs}  \x1B[38;5;66;03m# Don't modify the original kw.\x1B[39;00m\n" +
+      '\x1B[1;32m    337\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_setdefaults(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getdefaults(kw), kw)\n' +
+      '\x1B[0;32m--> 338\x1B[0m seg \x1B[38;5;241m=\x1B[39m mlines\x1B[38;5;241m.\x1B[39mLine2D(x, y, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw)\n' +
+      '\x1B[1;32m    339\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m seg, kw\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:380\x1B[0m, in \x1B[0;36mLine2D.__init__\x1B[0;34m(self, xdata, ydata, linewidth, linestyle, color, gapcolor, marker, markersize, markeredgewidth, markeredgecolor, markerfacecolor, markerfacecoloralt, fillstyle, antialiased, dash_capstyle, solid_capstyle, dash_joinstyle, solid_joinstyle, pickradius, drawstyle, markevery, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    378\x1B[0m     marker \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mnone\x1B[39m\x1B[38;5;124m'\x1B[39m  \x1B[38;5;66;03m# Default.\x1B[39;00m\n" +
+      '\x1B[1;32m    379\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(marker, MarkerStyle):\n' +
+      '\x1B[0;32m--> 380\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m MarkerStyle(marker, fillstyle)\n' +
+      '\x1B[1;32m    381\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    382\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m marker\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:248\x1B[0m, in \x1B[0;36mMarkerStyle.__init__\x1B[0;34m(self, marker, fillstyle, transform, capstyle, joinstyle)\x1B[0m\n' +
+      '\x1B[1;32m    246\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_user_joinstyle \x1B[38;5;241m=\x1B[39m JoinStyle(joinstyle) \x1B[38;5;28;01mif\x1B[39;00m joinstyle \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01melse\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[1;32m    247\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_fillstyle(fillstyle)\n' +
+      '\x1B[0;32m--> 248\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_marker(marker)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:329\x1B[0m, in \x1B[0;36mMarkerStyle._set_marker\x1B[0;34m(self, marker)\x1B[0m\n' +
+      '\x1B[1;32m    327\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker_function \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_vertices\n' +
+      '\x1B[1;32m    328\x1B[0m     \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[0;32m--> 329\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      "\x1B[1;32m    330\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mUnrecognized marker style \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mmarker\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n" +
+      '\x1B[1;32m    332\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(marker, MarkerStyle):\n' +
+      '\x1B[1;32m    333\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m marker\n',
+    "\x1B[0;31mValueError\x1B[0m: Unrecognized marker style 'c'"
+  ]
+}
+17:30:18.410 [warn] Cell completed with errors iu [Error]: Unrecognized marker style 't'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: "Unrecognized marker style 't'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:326\x1B[0m, in \x1B[0;36mMarkerStyle._set_marker\x1B[0;34m(self, marker)\x1B[0m\n' +
+      '\x1B[1;32m    325\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 326\x1B[0m     Path(marker)\n' +
+      '\x1B[1;32m    327\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker_function \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_vertices\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/path.py:129\x1B[0m, in \x1B[0;36mPath.__init__\x1B[0;34m(self, vertices, codes, _interpolation_steps, closed, readonly)\x1B[0m\n' +
+      '\x1B[1;32m    101\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m    102\x1B[0m \x1B[38;5;124;03mCreate a new path with the given vertices and codes.\x1B[39;00m\n' +
+      '\x1B[1;32m    103\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    127\x1B[0m \x1B[38;5;124;03m    and codes as read-only arrays.\x1B[39;00m\n' +
+      '\x1B[1;32m    128\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[0;32m--> 129\x1B[0m vertices \x1B[38;5;241m=\x1B[39m _to_unmasked_float_array(vertices)\n' +
+      '\x1B[1;32m    130\x1B[0m _api\x1B[38;5;241m.\x1B[39mcheck_shape((\x1B[38;5;28;01mNone\x1B[39;00m, \x1B[38;5;241m2\x1B[39m), vertices\x1B[38;5;241m=\x1B[39mvertices)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/cbook.py:1345\x1B[0m, in \x1B[0;36m_to_unmasked_float_array\x1B[0;34m(x)\x1B[0m\n' +
+      '\x1B[1;32m   1344\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1345\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m np\x1B[38;5;241m.\x1B[39masarray(x, \x1B[38;5;28mfloat\x1B[39m)\n',
+    "\x1B[0;31mValueError\x1B[0m: could not convert string to float: 't'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[24], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m fig,axes \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m1\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m16\x1B[39m,\x1B[38;5;241m9\x1B[39m), dpi \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m300\x1B[39m)\n' +
+      "\x1B[0;32m----> 2\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC10A, IC10A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 10$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      3\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC20A, IC20A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 20$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(VC30A, IC30A, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m,marker\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt\x1B[39m\x1B[38;5;124m'\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$I_C$ = 30$\x1B[39m\x1B[38;5;124m\\\x1B[39m\x1B[38;5;124mmu$A\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777\x1B[0m, in \x1B[0;36mAxes.plot\x1B[0;34m(self, scalex, scaley, data, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1534\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1535\x1B[0m \x1B[38;5;124;03mPlot y versus x as lines and/or markers.\x1B[39;00m\n' +
+      '\x1B[1;32m   1536\x1B[0m \n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      "\x1B[1;32m   1774\x1B[0m \x1B[38;5;124;03m(``'green'``) or hex strings (``'#008000'``).\x1B[39;00m\n" +
+      '\x1B[1;32m   1775\x1B[0m \x1B[38;5;124;03m"""\x1B[39;00m\n' +
+      '\x1B[1;32m   1776\x1B[0m kwargs \x1B[38;5;241m=\x1B[39m cbook\x1B[38;5;241m.\x1B[39mnormalize_kwargs(kwargs, mlines\x1B[38;5;241m.\x1B[39mLine2D)\n' +
+      '\x1B[0;32m-> 1777\x1B[0m lines \x1B[38;5;241m=\x1B[39m [\x1B[38;5;241m*\x1B[39m\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_lines(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;241m*\x1B[39margs, data\x1B[38;5;241m=\x1B[39mdata, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)]\n' +
+      '\x1B[1;32m   1778\x1B[0m \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m lines:\n' +
+      '\x1B[1;32m   1779\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39madd_line(line)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:297\x1B[0m, in \x1B[0;36m_process_plot_var_args.__call__\x1B[0;34m(self, axes, data, return_kwargs, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    295\x1B[0m     this \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m0\x1B[39m],\n' +
+      '\x1B[1;32m    296\x1B[0m     args \x1B[38;5;241m=\x1B[39m args[\x1B[38;5;241m1\x1B[39m:]\n' +
+      '\x1B[0;32m--> 297\x1B[0m \x1B[38;5;28;01myield from\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_plot_args(\n' +
+      '\x1B[1;32m    298\x1B[0m     axes, this, kwargs, ambiguous_fmt_datakey\x1B[38;5;241m=\x1B[39mambiguous_fmt_datakey,\n' +
+      '\x1B[1;32m    299\x1B[0m     return_kwargs\x1B[38;5;241m=\x1B[39mreturn_kwargs\n' +
+      '\x1B[1;32m    300\x1B[0m )\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:546\x1B[0m, in \x1B[0;36m_process_plot_var_args._plot_args\x1B[0;34m(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\x1B[0m\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n' +
+      '\x1B[1;32m    545\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 546\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [l[\x1B[38;5;241m0\x1B[39m] \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m result]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:539\x1B[0m, in \x1B[0;36m<genexpr>\x1B[0;34m(.0)\x1B[0m\n' +
+      '\x1B[1;32m    534\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    535\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    536\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabel must be scalar or have the same length as the input \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    537\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdata, but found \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(label)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m for \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mn_datasets\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m datasets.\x1B[39m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m--> 539\x1B[0m result \x1B[38;5;241m=\x1B[39m (make_artist(axes, x[:, j \x1B[38;5;241m%\x1B[39m ncx], y[:, j \x1B[38;5;241m%\x1B[39m ncy], kw,\n' +
+      "\x1B[1;32m    540\x1B[0m                       {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabel\x1B[39m\x1B[38;5;124m'\x1B[39m: label})\n" +
+      '\x1B[1;32m    541\x1B[0m           \x1B[38;5;28;01mfor\x1B[39;00m j, label \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(labels))\n' +
+      '\x1B[1;32m    543\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m return_kwargs:\n' +
+      '\x1B[1;32m    544\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mlist\x1B[39m(result)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/axes/_base.py:338\x1B[0m, in \x1B[0;36m_process_plot_var_args._make_line\x1B[0;34m(self, axes, x, y, kw, kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    336\x1B[0m kw \x1B[38;5;241m=\x1B[39m {\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs}  \x1B[38;5;66;03m# Don't modify the original kw.\x1B[39;00m\n" +
+      '\x1B[1;32m    337\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_setdefaults(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getdefaults(kw), kw)\n' +
+      '\x1B[0;32m--> 338\x1B[0m seg \x1B[38;5;241m=\x1B[39m mlines\x1B[38;5;241m.\x1B[39mLine2D(x, y, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkw)\n' +
+      '\x1B[1;32m    339\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m seg, kw\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/lines.py:380\x1B[0m, in \x1B[0;36mLine2D.__init__\x1B[0;34m(self, xdata, ydata, linewidth, linestyle, color, gapcolor, marker, markersize, markeredgewidth, markeredgecolor, markerfacecolor, markerfacecoloralt, fillstyle, antialiased, dash_capstyle, solid_capstyle, dash_joinstyle, solid_joinstyle, pickradius, drawstyle, markevery, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m    378\x1B[0m     marker \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mnone\x1B[39m\x1B[38;5;124m'\x1B[39m  \x1B[38;5;66;03m# Default.\x1B[39;00m\n" +
+      '\x1B[1;32m    379\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(marker, MarkerStyle):\n' +
+      '\x1B[0;32m--> 380\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m MarkerStyle(marker, fillstyle)\n' +
+      '\x1B[1;32m    381\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m    382\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m marker\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:248\x1B[0m, in \x1B[0;36mMarkerStyle.__init__\x1B[0;34m(self, marker, fillstyle, transform, capstyle, joinstyle)\x1B[0m\n' +
+      '\x1B[1;32m    246\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_user_joinstyle \x1B[38;5;241m=\x1B[39m JoinStyle(joinstyle) \x1B[38;5;28;01mif\x1B[39;00m joinstyle \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01melse\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m\n' +
+      '\x1B[1;32m    247\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_fillstyle(fillstyle)\n' +
+      '\x1B[0;32m--> 248\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_marker(marker)\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/matplotlib/markers.py:329\x1B[0m, in \x1B[0;36mMarkerStyle._set_marker\x1B[0;34m(self, marker)\x1B[0m\n' +
+      '\x1B[1;32m    327\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker_function \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_set_vertices\n' +
+      '\x1B[1;32m    328\x1B[0m     \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n' +
+      '\x1B[0;32m--> 329\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      "\x1B[1;32m    330\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mUnrecognized marker style \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mmarker\x1B[38;5;132;01m!r}\x1B[39;00m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n" +
+      '\x1B[1;32m    332\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(marker, MarkerStyle):\n' +
+      '\x1B[1;32m    333\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_marker \x1B[38;5;241m=\x1B[39m marker\n',
+    "\x1B[0;31mValueError\x1B[0m: Unrecognized marker style 't'"
+  ]
+}
+18:37:33.231 [warn] Cell completed with errors iu [Error]: 'I_c(mA))'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'I_c(mA))'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3805\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3804\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 3805\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_engine\x1B[38;5;241m.\x1B[39mget_loc(casted_key)\n' +
+      '\x1B[1;32m   3806\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32mindex.pyx:167\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mindex.pyx:196\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA))'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[27], line 3\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m VB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      2\x1B[0m IB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[0;32m----> 3\x1B[0m IC2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_c(mA))\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      5\x1B[0m VB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      6\x1B[0m IB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/frame.py:4102\x1B[0m, in \x1B[0;36mDataFrame.__getitem__\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   4100\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mnlevels \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m1\x1B[39m:\n' +
+      '\x1B[1;32m   4101\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getitem_multilevel(key)\n' +
+      '\x1B[0;32m-> 4102\x1B[0m indexer \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mget_loc(key)\n' +
+      '\x1B[1;32m   4103\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[1;32m   4104\x1B[0m     indexer \x1B[38;5;241m=\x1B[39m [indexer]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3807\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[1;32m   3808\x1B[0m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc\x1B[38;5;241m.\x1B[39mIterable)\n' +
+      '\x1B[1;32m   3809\x1B[0m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[1;32m   3810\x1B[0m     ):\n' +
+      '\x1B[1;32m   3811\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[0;32m-> 3812\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m   3813\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[1;32m   3814\x1B[0m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3815\x1B[0m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3816\x1B[0m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[1;32m   3817\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_indexing_error(key)\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA))'"
+  ]
+}
+18:37:43.944 [warn] Cell completed with errors iu [Error]: 'I_c(mA)'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'I_c(mA)'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3805\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3804\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 3805\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_engine\x1B[38;5;241m.\x1B[39mget_loc(casted_key)\n' +
+      '\x1B[1;32m   3806\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32mindex.pyx:167\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mindex.pyx:196\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA)'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[28], line 3\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m VB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      2\x1B[0m IB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[0;32m----> 3\x1B[0m IC2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_c(mA)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      5\x1B[0m VB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      6\x1B[0m IB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/frame.py:4102\x1B[0m, in \x1B[0;36mDataFrame.__getitem__\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   4100\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mnlevels \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m1\x1B[39m:\n' +
+      '\x1B[1;32m   4101\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getitem_multilevel(key)\n' +
+      '\x1B[0;32m-> 4102\x1B[0m indexer \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mget_loc(key)\n' +
+      '\x1B[1;32m   4103\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[1;32m   4104\x1B[0m     indexer \x1B[38;5;241m=\x1B[39m [indexer]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3807\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[1;32m   3808\x1B[0m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc\x1B[38;5;241m.\x1B[39mIterable)\n' +
+      '\x1B[1;32m   3809\x1B[0m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[1;32m   3810\x1B[0m     ):\n' +
+      '\x1B[1;32m   3811\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[0;32m-> 3812\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m   3813\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[1;32m   3814\x1B[0m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3815\x1B[0m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3816\x1B[0m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[1;32m   3817\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_indexing_error(key)\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA)'"
+  ]
+}
+18:37:49.299 [warn] Cell completed with errors iu [Error]: 'I_c(mA)'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'I_c(mA)'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3805\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3804\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 3805\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_engine\x1B[38;5;241m.\x1B[39mget_loc(casted_key)\n' +
+      '\x1B[1;32m   3806\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32mindex.pyx:167\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mindex.pyx:196\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA)'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[29], line 3\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m VB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      2\x1B[0m IB2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[0;32m----> 3\x1B[0m IC2V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_c(mA)\x1B[39m\x1B[38;5;124m'\x1B[39m][:\x1B[38;5;241m12\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      5\x1B[0m VB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mV_BE\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      6\x1B[0m IB3V \x1B[38;5;241m=\x1B[39m np\x1B[38;5;241m.\x1B[39masarray(df[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mI_b (micro)\x1B[39m\x1B[38;5;124m'\x1B[39m][\x1B[38;5;241m12\x1B[39m:\x1B[38;5;241m24\x1B[39m], dtype\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mfloat64\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/frame.py:4102\x1B[0m, in \x1B[0;36mDataFrame.__getitem__\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   4100\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mnlevels \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m1\x1B[39m:\n' +
+      '\x1B[1;32m   4101\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getitem_multilevel(key)\n' +
+      '\x1B[0;32m-> 4102\x1B[0m indexer \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mget_loc(key)\n' +
+      '\x1B[1;32m   4103\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[1;32m   4104\x1B[0m     indexer \x1B[38;5;241m=\x1B[39m [indexer]\n',
+    'File \x1B[0;32m~/miniconda3/envs/jupyter/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3807\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[1;32m   3808\x1B[0m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc\x1B[38;5;241m.\x1B[39mIterable)\n' +
+      '\x1B[1;32m   3809\x1B[0m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[1;32m   3810\x1B[0m     ):\n' +
+      '\x1B[1;32m   3811\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[0;32m-> 3812\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m   3813\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[1;32m   3814\x1B[0m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3815\x1B[0m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3816\x1B[0m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[1;32m   3817\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_indexing_error(key)\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'I_c(mA)'"
+  ]
+}
+18:41:59.262 [warn] Cell completed with errors iu [Error]: name 'xval' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'xval' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[37], line 5\x1B[0m\n' +
+      `\x1B[1;32m      3\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(IB3V, IC3V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 3V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n` +
+      `\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(IB4V, IC4V, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m-\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, marker \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124ms\x1B[39m\x1B[38;5;124m"\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124mr\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m$V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 4V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n` +
+      "\x1B[0;32m----> 5\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(xval, y2v, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m--\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m Linear Fit $V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 2V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      6\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(xval, y3v, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m--\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m Linear Fit $V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 3V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      "\x1B[1;32m      7\x1B[0m axes\x1B[38;5;241m.\x1B[39mplot(xval, y4v, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124m--\x1B[39m\x1B[38;5;124m'\x1B[39m,lw \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m3\x1B[39m, label\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m Linear Fit $V_\x1B[39m\x1B[38;5;132;01m{BB}\x1B[39;00m\x1B[38;5;124m$ = 4V\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    "\x1B[0;31mNameError\x1B[0m: name 'xval' is not defined"
+  ]
+}
+19:47:42.876 [info] Dispose Kernel '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb' associated with '~/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT/code/exp2.ipynb'
+19:47:42.971 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v375753db860126017a6c18afb20687d3064efcca3.json for pid 69770 Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at Bc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:239:15448)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}

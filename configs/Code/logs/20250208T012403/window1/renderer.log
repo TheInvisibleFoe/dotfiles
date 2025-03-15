@@ -1,0 +1,49 @@
+2025-02-08 01:24:06.400 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-08 01:24:06.400 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-08 01:24:06.400 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-08 01:24:06.786 [info] Started local extension host with pid 3524.
+2025-02-08 01:24:07.011 [error] [/home/sab/.vscode/extensions/github.copilot-chat-0.24.0]: Extension is not compatible with Code 1.96.3. Extension requires: ^1.97.0.
+2025-02-08 01:24:07.012 [error] [/home/sab/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64]: Extension is not compatible with Code 1.96.3. Extension requires: ^1.97.0.
+2025-02-08 01:24:07.156 [warning] [REditorSupport.r]: Cannot register 'r.rpath.windows'. This property is already registered.
+2025-02-08 01:24:07.156 [warning] [REditorSupport.r]: Cannot register 'r.rpath.mac'. This property is already registered.
+2025-02-08 01:24:07.156 [warning] [REditorSupport.r]: Cannot register 'r.rpath.linux'. This property is already registered.
+2025-02-08 01:24:10.882 [info] [perf] Render performance baseline is 31ms
+2025-02-08 01:24:11.931 [info] Settings Sync: Token updated for the account TheInvisibleFoe
+2025-02-08 01:24:11.931 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-08 01:24:37.344 [error] Cannot read the extension from /home/sab/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64: ScanningExtension: Cannot read the extension from /home/sab/.vscode/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64
+    at dh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-02-08 01:24:37.356 [error] Cannot read the extension from /home/sab/.vscode/extensions/github.copilot-chat-0.24.0: ScanningExtension: Cannot read the extension from /home/sab/.vscode/extensions/github.copilot-chat-0.24.0
+    at dh.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:73895)
+2025-02-08 01:29:47.971 [error] [15d] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at xTe.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at Object.u [as onWillAddFirstListener] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:407:108934)
+    at Sse.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1298)
+    at Tpe.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1713:43835)
+    at Tpe.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1713:43421)
+    at Tpe.didRenderCell (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1713:43568)
+    at Tpe.renderCell (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1518:24236)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1518:24963
+    at sw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1518:24420)
+2025-02-08 01:55:07.017 [error] [1a6] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at lpi.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at PI (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:75941)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95439
+    at xn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:70119)
+    at nBi.h (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:93133)
+    at nBi.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:91031)
+    at rBi.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95753)
+    at oee.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:92519)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+2025-02-08 01:55:07.083 [error] [1a6] potential listener LEAK detected, having 263 listeners already. MOST frequent listener (89):: Error
+    at Phi.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at lpi.q [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:28:1110)
+    at PI (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:75941)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95439
+    at xn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:70119)
+    at nBi.h (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:93133)
+    at nBi.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:91031)
+    at rBi.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:95753)
+    at oee.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:410:92519)
+    at x.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)

@@ -1,0 +1,50 @@
+2025-02-10 21:50:38.040 [info] Extension host with pid 10474 started
+2025-02-10 21:50:38.040 [info] Skipping acquiring lock for /home/sab/.config/Code/User/workspaceStorage/916442bd60b60914accdb2bf06b36207.
+2025-02-10 21:50:38.247 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-10 21:50:38.293 [info] ExtensionService#_doActivateExtension istarwyh.writinghelper, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-02-10 21:50:38.333 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-10 21:50:38.360 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: benjamin-simmonds.pythoncpp-debug
+2025-02-10 21:50:38.603 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:python', root cause: benjamin-simmonds.pythoncpp-debug
+2025-02-10 21:50:38.773 [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:38.784 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:38.786 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:38.794 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:38.944 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:39.528 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-02-10 21:50:39.541 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-10 21:50:39.632 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-10 21:50:39.728 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-10 21:50:39.786 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:39.852 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:50:40.608 [info] Eager extensions activated
+2025-02-10 21:50:40.613 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-10 21:50:40.625 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-10 21:50:40.697 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-10 21:50:40.758 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:40.760 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:40.785 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:40.871 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:41.333 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:41.932 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-02-10 21:50:45.387 [info] ExtensionService#_doActivateExtension benjamin-simmonds.pythoncpp-debug, startup: false, activationEvent: 'onLanguage:python'
+2025-02-10 21:51:48.368 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-02-10 21:51:48.497 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-10 21:51:48.500 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-02-10 21:51:48.502 [info] ExtensionService#_doActivateExtension valentjn.vscode-ltex, startup: false, activationEvent: 'onNotebook:*'
+2025-02-10 21:51:53.022 [error] Error: Canceled future for complete_request message before replies were done
+    at Ms.dispose (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/default.js:17:43412)
+    at /home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/default.js:17:57955
+    at Map.forEach (<anonymous>)
+    at n._clearKernelState (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/default.js:17:57941)
+    at n.dispose (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/default.js:17:51207)
+    at /home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:11117
+    at ti (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:60:10691)
+    at $_.start (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:11093)
+    at $_.restart (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:10878)
+    at L_.restart (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:282:30759)
+    at d_.restart (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:285:33142)
+    at Function.wrapKernelMethodImpl (/home/sab/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:304:83649)
+2025-02-10 22:20:42.934 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-02-10 22:20:42.934 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model184)
+2025-02-10 23:38:41.983 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-02-10 23:38:41.983 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model467)

@@ -1,0 +1,6 @@
+2025-02-16 11:26:36.139 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-16 11:26:36.139 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-16 11:26:36.139 [info] Experiment 'pythonTestAdapter' is active
+2025-02-16 11:26:36.139 [warning] Dir "/home/sab/Projects/PH3205/10.0.1.68/.pixi/envs" is not watchable (directory does not exist)
+2025-02-16 11:26:36.139 [info] > pyenv which python
+2025-02-16 11:26:36.139 [info] cwd: .

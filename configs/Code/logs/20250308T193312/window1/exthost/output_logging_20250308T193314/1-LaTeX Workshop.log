@@ -1,0 +1,63 @@
+[19:33:15.131][Logger] New log placeholder %WS1% registered for /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT .
+[19:33:15.131][Extension] Initializing LaTeX Workshop.
+[19:33:15.415][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[19:33:15.416][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_PATH: "docker"
+[19:33:15.481][Server] Creating LaTeX Workshop http and websocket server.
+[19:33:15.618][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[19:33:15.675][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":37679} .
+[19:33:15.805][Extension] Extension root: /home/sab/.vscode/extensions/james-yu.latex-workshop-10.7.5
+[19:33:15.805][Extension] $PATH: /home/sab/miniconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/home/sab/miniconda3/bin:/home/sab/miniconda3/condabin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+[19:33:15.805][Extension] $SHELL: /usr/bin/fish
+[19:33:15.806][Extension] $LANG: en_IN.UTF-8
+[19:33:15.806][Extension] $LC_ALL: undefined
+[19:33:15.806][Extension] process.platform: linux
+[19:33:15.806][Extension] process.arch: x64
+[19:33:15.807][Extension] vscode.env.appName: Visual Studio Code
+[19:33:15.807][Extension] vscode.env.remoteName: undefined
+[19:33:15.807][Extension] vscode.env.uiKind: 1
+[19:33:15.810][Config] latex-workshop.latex.recipes: [{"name":"lualatex","tools":["lualatex"]},{"name":"pdfLaTeX","tools":["pdflatex"]},{"name":"latexmk 🔃","tools":["latexmk"]},{"name":"xelatex","tools":["xelatex"]},{"name":"pdflatex ➞ bibtex ➞ pdflatex`×2","tools":["pdflatex","bibtex","pdflatex","pdflatex"]},{"name":"xelatex ➞ bibtex ➞ xelatex`×2","tools":["xelatex","bibtex","xelatex","xelatex"]}] .
+[19:33:15.811][Config] latex-workshop.latex.recipe.default: "lualatex" .
+[19:33:15.813][Config] latex-workshop.latex.tools: [{"name":"latexmk","command":"latexmk","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%OUTDIR%","%DOC%"],"env":{}},{"name":"lualatex","command":"lualatex","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","%DOC%"],"env":{}},{"name":"xelatex","command":"xelatex","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","%DOC%"],"env":{}},{"name":"pdflatex","command":"pdflatex","args":["-synctex=1","-interaction=nonstopmode","-file-line-error","%DOC%"],"env":{}},{"name":"bibtex","command":"bibtex","args":["%DOCFILE%"],"env":{}}] .
+[19:33:15.821][Config] latex-workshop.latex.autoBuild.run: "never" .
+[19:33:15.833][Config] latex-workshop.synctex.afterBuild.enabled: true .
+[19:33:15.890][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{","}"]
+[19:33:15.892][Root] Current workspace folders: ["file://%WS1%"]
+[19:33:15.893][Root] Try finding root from magic comment.
+[19:33:15.894][Extension] LaTeX Workshop initialized.
+[19:33:15.894][Root] Try finding root from active editor.
+[19:33:15.895][Root] Found root file from active editor: %WS1%/main.tex
+[19:33:15.896][Root] Root file changed: from %WS1%/main.tex to %WS1%/main.tex, langID latex . Refresh dependencies
+[19:33:15.896][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[19:33:15.897][Cacher][Watcher] Reset.
+[19:33:15.898][Cacher][Watcher] Reset.
+[19:33:15.905][Cacher] Adding %WS1%/main.tex .
+[19:33:15.908][Cacher][Watcher] Watched file://%WS1%/main.tex with a new .* watcher on %WS1% .
+[19:33:15.908][Event] FILE_WATCHED: "file://%WS1%/main.tex"
+[19:33:15.912][Cacher] Caching %WS1%/main.tex .
+[19:33:15.913][Event] ROOT_FILE_SEARCHED
+[19:33:15.935][Server] validOrigin is http://127.0.0.1:37679
+[19:33:17.694][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:37679/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZzYWIlMkZnaXRodWIlMkZUaGVJbnZpc2libGVGb2UlMkZQSDMxMDUtTGFiLXJlcG9ydHMlMkZEUFMtTGFiX3JlcG9ydHMlMkZQSDMyMDQlMkZleHAtMkJKVCUyRm1haW4ucGRm .
+[19:33:17.697][Cacher][Watcher] Watched file://%WS1%/main.pdf with a new .pdf watcher on %WS1% .
+[19:33:17.697][Event] FILE_WATCHED: "file://%WS1%/main.pdf"
+[19:33:17.889][Structure][LaTeX] Error loading AST during structuring: %WS1%/main.tex .
+[19:33:20.386][Cacher] Input %WS1%/bjt.tex from %WS1%/main.tex .
+[19:33:20.388][Cacher] Adding %WS1%/bjt.tex .
+[19:33:20.388][Cacher][Watcher] Watched file://%WS1%/bjt.tex by the .* watcher.
+[19:33:20.388][Event] FILE_WATCHED: "file://%WS1%/bjt.tex"
+[19:33:20.390][Cacher] Caching %WS1%/bjt.tex .
+[19:33:20.391][Cacher] Updated inputs of %WS1%/main.tex .
+[19:33:20.392][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[19:33:21.624][Cacher] Parsed LaTeX AST in 1231.23 ms: %WS1%/main.tex .
+[19:33:21.626][File] Calling kpsewhich to resolve scrartcl.cls .
+[19:33:21.815][File] kpsewhich returned with '/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls'.
+[19:33:21.858][Cacher] Updated elements in 233.35 ms: %WS1%/main.tex .
+[19:33:21.861][Event] FILE_PARSED: "%WS1%/main.tex"
+[19:33:22.560][Cacher] Updated inputs of %WS1%/bjt.tex .
+[19:33:22.561][Cacher] Parse LaTeX AST: %WS1%/bjt.tex .
+[19:33:22.643][Cacher] Parsed LaTeX AST in 81.21 ms: %WS1%/bjt.tex .
+[19:33:22.644][Cacher] Updated elements in 0.75 ms: %WS1%/bjt.tex .
+[19:33:22.645][Event] FILE_PARSED: "%WS1%/bjt.tex"
+[19:33:25.141][Cacher][Watcher] Reset.
+[19:33:25.141][Cacher][Watcher] Reset.
+[19:33:25.159][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[19:33:25.160][Event] STRUCTURE_UPDATED

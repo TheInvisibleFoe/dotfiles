@@ -1,0 +1,121 @@
+[Info  - 22:17:11] Starting ltex-ls...
+Feb 06, 2025 10:17:18 PM org.bsplines.ltexls.server.LtexLanguageServer initialize
+INFO: ltex-ls 15.2.0 - initializing...
+Feb 06, 2025 10:17:18 PM org.bsplines.ltexls.tools.I18n setLocale
+INFO: Setting locale to 'en'
+Feb 06, 2025 10:17:18 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Worksheet 2 - Root Finding methods"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q1\n\nOur function is given by\n\n\n\n"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Newton Raphson"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q2\n\nFor equilibrium we need to check where Dummy0. The derivative of our potential is given by\n\n\n\n\n"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q3\n\nThe turning points are defined as the points where\n\n\n"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Turning points using bisection"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Left well Turning points"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Right Well turning points"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Turning Points using secant"
+Feb 06, 2025 10:17:21 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Left Well turning point"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Right well turning points"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Comments on the error in the last question\n\nThe last question requires the error in the position to "... (truncated to 100 characters)
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q1\n\nWe need to evaluate Dummy0$ at Dummy1 using\nForward Diff\nCentral Diff\nBackward Diff\nFive point"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q2"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Boole Error cannot be calculated since the error is too small for python to take a np.log value and "... (truncated to 100 characters)
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q3"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Worksheet 4\nName : Sabarno Saha 22MS037"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 2 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "The methods used for solving ODE's used today are\nEuler Method :\n\n\n\nMidpoint Method: $$ k1 = f(x_n,y"... (truncated to 100 characters)
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Question 1\n\n\n\n\n"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Q2\n\nThe exact solutions for the p and y equations are\n\n"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Calculation of Errors in the Momentum Solution"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Calculation of Errors in Position Solution"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Note:  The error fit parameters vary with the end points. The errors obey theoretical consideration "... (truncated to 100 characters)
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Question 1"
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 0 rule matches
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "Question 2\n\nA projectile of mass Dummy0 kg is thrown with a speed of Dummy1 at an angle Dummy2 w.r.t"... (truncated to 100 characters)
+Feb 06, 2025 10:17:22 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 1 rule match
+Feb 06, 2025 10:21:04 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "The methods used for solving ODE's used today are\nEuler Method :\n\n\n\nMidpoint Method: $$ k1 = f(x_n,y"... (truncated to 100 characters)
+Feb 06, 2025 10:21:04 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches
+Feb 06, 2025 10:21:07 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "The methods used for solving ODE's used today are\nEuler Method :\n\n\n\nMidpoint Method: $$ k1 = f(x_n,y"... (truncated to 100 characters)
+Feb 06, 2025 10:21:07 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches
+Feb 06, 2025 10:21:23 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "The methods used for solving ODE's used today are\nEuler Method :\n\n\n\nMidpoint Method: $$ k1 = f(x_n,y"... (truncated to 100 characters)
+Feb 06, 2025 10:21:23 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches
+Feb 06, 2025 10:21:25 PM org.bsplines.ltexls.server.DocumentChecker logTextToBeChecked
+FINE: Checking the following text in language 'en-US' via LanguageTool: "The methods used for solving ODE's used today are\nEuler Method :\n\n\n\nMidpoint Method: $$ k1 = f(x_n,y"... (truncated to 100 characters)
+Feb 06, 2025 10:21:25 PM org.bsplines.ltexls.server.DocumentChecker checkAnnotatedTextFragment
+FINE: Obtained 3 rule matches

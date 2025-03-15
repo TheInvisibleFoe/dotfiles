@@ -1,0 +1,47 @@
+2025-02-03 22:12:22.362 [info] [main] Log level: Info
+2025-02-03 22:12:22.362 [info] [main] Validating found git in: "git"
+2025-02-03 22:12:22.362 [info] [main] Using git "2.47.1" from "git"
+2025-02-03 22:12:22.362 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-03 22:12:22.362 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-03 22:12:22.362 [info] [Model][openRepository] Opened repository: /home/sab/github/TheInvisibleFoe/JupyterNotebooks
+2025-02-03 22:12:22.362 [info] > git config --get commit.template [6ms]
+2025-02-03 22:12:22.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-03 22:12:22.362 [info] > git status -z -uall [8ms]
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-03 22:12:22.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-03 22:12:22.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-02-03 22:12:22.362 [info] > git config --local branch.main.vscode-merge-base [1971ms]
+2025-02-03 22:12:22.362 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-03 22:12:22.362 [info] > git config --get commit.template [1985ms]
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [1993ms]
+2025-02-03 22:12:22.362 [info] > git reflog main --grep-reflog=branch: Created from *. [2064ms]
+2025-02-03 22:12:22.362 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1151ms]
+2025-02-03 22:12:22.362 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-03 22:12:22.362 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [1199ms]
+2025-02-03 22:12:22.362 [info] > git merge-base refs/heads/main refs/remotes/origin/main [89ms]
+2025-02-03 22:12:22.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [150ms]
+2025-02-03 22:12:22.362 [info] > git diff --name-status -z --diff-filter=ADMR 2fb2bf397dbf6388f4a3d970cd421baf1b5508c3...refs/remotes/origin/main [299ms]
+2025-02-03 22:12:22.362 [info] > git rev-parse --show-toplevel [318ms]
+2025-02-03 22:12:22.394 [info] > git check-ignore -v -z --stdin [617ms]
+2025-02-03 22:12:22.396 [info] > git rev-parse --show-toplevel [494ms]
+2025-02-03 22:12:22.615 [info] > git status -z -uall [87ms]
+2025-02-03 22:12:22.615 [info] > git rev-parse --show-toplevel [60ms]
+2025-02-03 22:12:22.615 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [75ms]
+2025-02-03 22:12:22.697 [info] > git rev-parse --show-toplevel [47ms]
+2025-02-03 22:12:22.779 [info] > git rev-parse --show-toplevel [27ms]
+2025-02-03 22:12:22.780 [info] > git config --get commit.template [41ms]
+2025-02-03 22:12:22.896 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-03 22:12:22.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2025-02-03 22:12:22.933 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-03 22:12:22.983 [info] > git status -z -uall [15ms]
+2025-02-03 22:12:22.983 [info] > git rev-parse --show-toplevel [34ms]
+2025-02-03 22:12:24.502 [info] > git rev-parse --show-toplevel [1503ms]
+2025-02-03 22:12:24.502 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1520ms]
+2025-02-03 22:12:24.628 [info] > git rev-parse --show-toplevel [109ms]
+2025-02-03 22:12:24.683 [info] > git rev-parse --show-toplevel [23ms]
+2025-02-03 22:12:24.726 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-03 22:12:24.755 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-03 22:12:24.759 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)

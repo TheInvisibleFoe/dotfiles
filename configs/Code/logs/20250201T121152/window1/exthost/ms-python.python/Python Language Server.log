@@ -1,0 +1,50 @@
+2025-02-01 12:12:12.050 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-01 12:12:12.660 [info] [Info  - 12:12:12] (11030) Server root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 12:12:12.660 [info] [Info  - 12:12:12] (11030) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-01 12:12:12.666 [info] [Info  - 12:12:12] (11030) Starting service instance "JupyterNotebooks"
+2025-02-01 12:12:12.734 [info] [Info  - 12:12:12] (11030) Setting environmentName for service "JupyterNotebooks": "3.12.8 (jupyter conda)"
+2025-02-01 12:12:12.734 [info] [Info  - 12:12:12] (11030) Setting pythonPath for service "JupyterNotebooks": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-01 12:12:12.735 [info] [Info  - 12:12:12] (11030) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/JupyterNotebooks
+2025-02-01 12:12:12.735 [info] [Info  - 12:12:12] (11030) Auto-excluding **/node_modules
+2025-02-01 12:12:12.735 [info] [Info  - 12:12:12] (11030) Auto-excluding **/__pycache__
+2025-02-01 12:12:12.735 [info] [Info  - 12:12:12] (11030) Auto-excluding **/.*
+2025-02-01 12:12:12.758 [info] [Info  - 12:12:12] (11030) Assuming Python version 3.12.8.final.0
+2025-02-01 12:12:12.874 [info] [Info  - 12:12:12] (11030) Found 15 source files
+2025-02-01 12:12:12.883 [info] [Info  - 12:12:12] (11030) Starting service instance "JupyterNotebooks"
+2025-02-01 12:12:12.917 [info] [Info  - 12:12:12] (11030) Setting environmentName for service "JupyterNotebooks": "3.12.8 (jupyter conda)"
+2025-02-01 12:12:12.917 [info] [Info  - 12:12:12] (11030) Setting pythonPath for service "JupyterNotebooks": "/home/sab/github/TheInvisibleFoe/JupyterNotebooks"
+2025-02-01 12:12:12.917 [info] [Info  - 12:12:12] (11030) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/JupyterNotebooks
+2025-02-01 12:12:12.917 [info] [Info  - 12:12:12] (11030) Auto-excluding **/node_modules
+2025-02-01 12:12:12.917 [info] [Info  - 12:12:12] (11030) Auto-excluding **/__pycache__
+2025-02-01 12:12:12.918 [info] [Info  - 12:12:12] (11030) Auto-excluding **/.*
+2025-02-01 12:12:12.964 [info] [Info  - 12:12:12] (11030) Found 15 source files
+2025-02-01 12:12:13.586 [info] [Info  - 12:12:13] (11030) Background analysis(1) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 12:12:13.591 [info] [Info  - 12:12:13] (11030) Background analysis(1) started
+2025-02-01 12:12:13.823 [info] [Info  - 12:12:13] (11030) Background analysis(2) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 12:12:13.826 [info] [Info  - 12:12:13] (11030) Background analysis(2) started
+2025-02-01 12:12:13.886 [info] [Info  - 12:12:13] (11030) Indexer background runner(3) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-01 12:12:13.886 [info] [Info  - 12:12:13] (11030) Indexing(3) started
+2025-02-01 12:12:14.347 [info] [Info  - 12:12:14] (11030) scanned(3) 1 files over 1 exec env
+2025-02-01 12:12:14.630 [info] [Info  - 12:12:14] (11030) Starting service instance "<default>"
+2025-02-01 12:12:14.659 [info] [Info  - 12:12:14] (11030) Setting environmentName for service "<default>": "3.12.8 (jupyter conda)"
+2025-02-01 12:12:14.659 [info] [Info  - 12:12:14] (11030) Setting pythonPath for service "<default>": "/home/sab/miniconda3/envs/jupyter/bin/python"
+2025-02-01 12:12:14.659 [info] [Info  - 12:12:14] (11030) No include entries specified; assuming /<default workspace root>
+2025-02-01 12:12:14.660 [info] [Info  - 12:12:14] (11030) Auto-excluding **/node_modules
+2025-02-01 12:12:14.660 [info] [Info  - 12:12:14] (11030) Auto-excluding **/__pycache__
+2025-02-01 12:12:14.660 [info] [Info  - 12:12:14] (11030) Auto-excluding **/.*
+2025-02-01 12:12:14.710 [info] [Info  - 12:12:14] (11030) Assuming Python version 3.12.8.final.0
+2025-02-01 12:12:14.774 [info] [Error - 12:12:14] (11030) File or directory "/<default workspace root>" does not exist.
+2025-02-01 12:12:14.775 [info] [Info  - 12:12:14] (11030) No source files found.
+2025-02-01 12:12:15.092 [info] [Info  - 12:12:15] (11030) indexed(3) 1 files over 1 exec env
+2025-02-01 12:12:15.106 [info] [Info  - 12:12:15] (11030) Indexing finished(3).
+2025-02-01 12:12:15.450 [info] [Info  - 12:12:15] (11030) Background analysis(4) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-01 12:12:15.454 [info] [Info  - 12:12:15] (11030) Background analysis(4) started
+2025-02-01 12:12:35.989 [info] [Info  - 12:12:35] (11030) Found 29 source files
+2025-02-01 12:12:36.048 [info] [Info  - 12:12:36] (11030) Found 16 source files
+2025-02-01 12:12:36.484 [info] [Info  - 12:12:36] (11030) Indexer background runner(5) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-02-01 12:12:36.484 [info] [Info  - 12:12:36] (11030) Indexing(5) started
+2025-02-01 12:12:36.995 [info] [Info  - 12:12:36] (11030) scanned(5) 240 files over 1 exec env
+2025-02-01 12:12:39.503 [info] [Info  - 12:12:39] (11030) [IDX(5)] Long operation: index execution environment file:///home/sab/github/TheInvisibleFoe/JupyterNotebooks (2325ms)
+2025-02-01 12:12:39.523 [info] [Info  - 12:12:39] (11030) [IDX(5)] Long operation: index packages file:///home/sab/github/TheInvisibleFoe/JupyterNotebooks (2352ms)
+2025-02-01 12:12:39.523 [info] [Info  - 12:12:39] (11030) indexed(5) 240 files over 1 exec env
+2025-02-01 12:12:39.582 [info] [Info  - 12:12:39] (11030) Indexing finished(5).

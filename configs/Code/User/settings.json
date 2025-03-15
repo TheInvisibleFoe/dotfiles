@@ -1,0 +1,149 @@
+{
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "git.openRepositoryInParentFolders": "never",
+    "autoDocstring.docstringFormat": "numpy",
+    "autoDocstring.includeName": true,
+    "autoDocstring.startOnNewLine": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "relative"
+,
+"latex-workshop.latex.tools": [
+ {
+  "name": "latexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-pdf",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "lualatex",
+  "command": "lualatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "xelatex",
+  "command": "xelatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "pdflatex",
+  "command": "pdflatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "bibtex",
+  "command": "bibtex",
+  "args": [
+   "%DOCFILE%"
+  ],
+  "env": {}
+ }
+],
+"latex-workshop.latex.recipes": [
+ {
+  "name": "lualatex",
+  "tools": [
+   "lualatex"
+  ]
+ },
+ {
+  "name": "pdfLaTeX",
+  "tools": [
+   "pdflatex"
+  ]
+ },
+ {
+  "name": "latexmk 🔃",
+  "tools": [
+   "latexmk"
+  ]
+ },
+ {
+  "name": "xelatex",
+  "tools": [
+   "xelatex"
+  ]
+ },
+ {
+  "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+  "tools": [
+   "pdflatex",
+   "bibtex",
+   "pdflatex",
+   "pdflatex"
+  ]
+ },
+ {
+ "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+ "tools": [
+   "xelatex",
+   "bibtex",
+   "xelatex",
+   "xelatex"
+  ]
+ }
+],
+"latex-workshop.latex.recipe.default": "lualatex",
+"terminal.integrated.profiles.linux": {
+    "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+    },
+    "zsh": {
+        "path": "zsh"
+    },
+    "fish": {
+        "path": "fish"
+    },
+    "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+    },
+    "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+    },
+    "bash (2)": {
+        "path": "/usr/bin/bash"
+    }
+},
+"terminal.integrated.defaultProfile.linux": "bash (2)",
+"latex-workshop.latex.autoBuild.run": "never",
+"latex-workshop.synctex.synctexjs.enabled": true,
+"latex-workshop.synctex.afterBuild.enabled": true,
+"latex-workshop.view.pdf.viewer": "tab",
+"editor.minimap.enabled": false,
+"jupyter.askForKernelRestart": false,
+}

@@ -1,0 +1,241 @@
+Visual Studio Code (1.96.3, undefined, desktop)
+Jupyter Extension Version: 2024.11.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0
+Workspace folder ~/Projects/PH3205/10.0.1.68, Home = /home/sab
+01:24:16.730 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/Projects/PH3205/10.0.1.68/test.ipynb' (di~leUI=true)
+01:24:20.314 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:24:20.341 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v39071764969c60c1f13ae194317cc0214081c150a.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:24:20.379 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+01:24:21.573 [info] Kernel successfully started
+01:24:21.593 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py
+01:29:56.857 [info] Starting Kernel (Python Path: ~/miniconda3/envs/jupyter/bin/python, Conda, 3.12.8) for '~/Projects/PH3205/10.0.1.68/test2.ipynb' (di~leUI=true)
+01:29:56.880 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m pip list
+01:29:56.896 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:29:56.928 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3b73a6230952d9bdad6a04a704b06622a2cb3f83c.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:29:57.522 [info] Kernel successfully started
+01:30:18.652 [warn] Cell completed with errors iu [Error]: No module named 'comphy.root_find'; 'comphy' is not a package
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'comphy.root_find'; 'comphy' is not a package",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[0;32m----> 3\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mcomphy\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mroot_find\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mrf\x1B[39;00m\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'comphy.root_find'; 'comphy' is not a package"
+  ]
+}
+01:35:12.976 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+01:35:14.281 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:35:14.299 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3dd24ca634fd4d1915f2ad58c1132641036daf0c8.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:35:14.763 [info] Restarted 6c9fda98-e1cf-4388-8b39-751aab37921b
+01:36:05.144 [warn] Cell completed with errors iu [Error]: name 'plt' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'plt' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m fig3,axes3 \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m3\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m9\x1B[39m,\x1B[38;5;241m9\x1B[39m\x1B[38;5;241m*\x1B[39m\x1B[38;5;241m3\x1B[39m), dpi\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m100\x1B[39m)\n' +
+      '\x1B[1;32m      2\x1B[0m axes3[\x1B[38;5;241m0\x1B[39m]\x1B[38;5;241m.\x1B[39mscatter(xs, ysE[:,\x1B[38;5;241m0\x1B[39m], color \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblue\x1B[39m\x1B[38;5;124m"\x1B[39m,label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEuler Method for y \x1B[39m\x1B[38;5;124m"\x1B[39m, s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m2\x1B[39m)\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;66;03m# axes3[0].scatter(xs, ysE[:,1], color ="red",label = "Euler Method for p ", s=1)\x1B[39;00m\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;66;03m# axes3[0].plot(xs,y_ex, color = "cyan", label = "Exact Solution for y ")\x1B[39;00m\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'plt' is not defined"
+  ]
+}
+01:36:27.347 [warn] Cell completed with errors iu [Error]: module 'comphy.diff_eq' has no attribute 'call'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.diff_eq' has no attribute 'call'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_euler \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39meuler,a,b,N,y0,f1)\n' +
+      '\x1B[1;32m      2\x1B[0m y_mid \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mmidpoint,a,b,N,y0,f1)\n' +
+      '\x1B[1;32m      3\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y0,f1)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.diff_eq' has no attribute 'call'"
+  ]
+}
+01:36:28.429 [warn] Cell completed with errors iu [Error]: name 'y_euler' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'y_euler' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m fig,axes \x1B[38;5;241m=\x1B[39m plt\x1B[38;5;241m.\x1B[39msubplots(\x1B[38;5;241m1\x1B[39m,\x1B[38;5;241m1\x1B[39m,figsize\x1B[38;5;241m=\x1B[39m(\x1B[38;5;241m9\x1B[39m,\x1B[38;5;241m9\x1B[39m), dpi\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m100\x1B[39m)\n' +
+      '\x1B[1;32m      2\x1B[0m axes\x1B[38;5;241m.\x1B[39mset_xlim([a,b])\n' +
+      '\x1B[0;32m----> 3\x1B[0m axes\x1B[38;5;241m.\x1B[39mscatter(xval, y_euler, color \x1B[38;5;241m=\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mblack\x1B[39m\x1B[38;5;124m"\x1B[39m,label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEuler Method\x1B[39m\x1B[38;5;124m"\x1B[39m, s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m10\x1B[39m)\n' +
+      '\x1B[1;32m      4\x1B[0m axes\x1B[38;5;241m.\x1B[39mscatter(xval, y_mid, color\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mseagreen\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mMidpoint Method\x1B[39m\x1B[38;5;124m"\x1B[39m, marker\x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m+\x1B[39m\x1B[38;5;124m"\x1B[39m,s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m100\x1B[39m)\n' +
+      '\x1B[1;32m      5\x1B[0m axes\x1B[38;5;241m.\x1B[39mscatter(xval, y_rk4, color \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mred\x1B[39m\x1B[38;5;124m"\x1B[39m, label \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mRunge-Kutta 4\x1B[39m\x1B[38;5;124m"\x1B[39m, marker \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124md\x1B[39m\x1B[38;5;124m"\x1B[39m,s\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m20\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'y_euler' is not defined"
+  ]
+}
+01:37:08.541 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test.ipynb
+01:37:08.603 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:37:08.631 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3152f9fa4f98cd016330ae6bcc1bdf798dcf6ff41.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:37:09.074 [info] Restarted 18126d27-5168-4578-8dc7-8d7bf52fab57
+01:37:15.087 [warn] Cell completed with errors iu [Error]: module 'comphy.diff_eq' has no attribute 'call'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.diff_eq' has no attribute 'call'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m y_euler \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39meuler,a,b,N,y0,f1)\n' +
+      '\x1B[1;32m      2\x1B[0m y_mid \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mmidpoint,a,b,N,y0,f1)\n' +
+      '\x1B[1;32m      3\x1B[0m y_rk4 \x1B[38;5;241m=\x1B[39m comphy\x1B[38;5;241m.\x1B[39mcall(comphy\x1B[38;5;241m.\x1B[39mrk4,a,b,N,y0,f1)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.diff_eq' has no attribute 'call'"
+  ]
+}
+01:39:01.916 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 2\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+01:42:16.771 [warn] Cell completed with errors iu [Error]: cannot import name 'rf' from 'comphy' (/home/~/Projects/PH3205/10.0.1.68/comphy/__init__.py)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'rf' from 'comphy' (/home/~/Projects/PH3205/10.0.1.68/comphy/__init__.py)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnumpy\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mnp\x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[0;32m----> 3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mcomphy\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m rf\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'rf' from 'comphy' (/home/~/Projects/PH3205/10.0.1.68/comphy/__init__.py)"
+  ]
+}
+01:42:38.424 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+01:42:46.327 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+01:42:46.362 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:42:46.386 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3e07069455db307c9862e195d4bdb77c2150dad9c.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:42:46.853 [info] Restarted 6c9fda98-e1cf-4388-8b39-751aab37921b
+01:42:51.074 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+01:43:03.531 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 2\x1B[0m root_find\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+01:45:26.691 [warn] Cell completed with errors iu [Error]: 'module' object is not callable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'module' object is not callable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find()\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m      3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'module' object is not callable"
+  ]
+}
+01:46:47.745 [warn] Python environment /. excluded as Uri is undefined
+01:46:47.745 [warn] Python environment /. excluded as Uri is undefined
+01:46:57.407 [info] Restart requested ~/Projects/PH3205/10.0.1.68/test2.ipynb
+01:46:58.646 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:46:58.660 [info] Process Execution: ~/miniconda3/envs/jupyter/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v354cc6f088c26ddb6c203cc0e52b18eb4f194ca08.json
+    > cwd: //home/~/Projects/PH3205/10.0.1.68
+01:46:59.163 [info] Restarted 6c9fda98-e1cf-4388-8b39-751aab37921b
+01:47:02.103 [warn] Cell completed with errors iu [Error]: 'module' object is not callable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'module' object is not callable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find()\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m      3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'module' object is not callable"
+  ]
+}
+01:47:05.586 [warn] Cell completed with errors iu [Error]: module 'comphy.root_find' has no attribute 'bisection'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'comphy.root_find' has no attribute 'bisection'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m rf \x1B[38;5;241m=\x1B[39m root_find\n' +
+      '\x1B[1;32m      2\x1B[0m f \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mlambda\x1B[39;00m x: x\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[0;32m----> 3\x1B[0m rf\x1B[38;5;241m.\x1B[39mbisection( \x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m2\x1B[39m, f, \x1B[38;5;241m1e-10\x1B[39m,\x1B[38;5;241m1000\x1B[39m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: module 'comphy.root_find' has no attribute 'bisection'"
+  ]
+}
+01:55:06.833 [info] Dispose Kernel '~/Projects/PH3205/10.0.1.68/test.ipynb' associated with '~/Projects/PH3205/10.0.1.68/test.ipynb'
+01:55:06.847 [info] Dispose Kernel '~/Projects/PH3205/10.0.1.68/test2.ipynb' associated with '~/Projects/PH3205/10.0.1.68/test2.ipynb'
+01:55:06.920 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v354cc6f088c26ddb6c203cc0e52b18eb4f194ca08.json for pid 6588 Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at Bc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:239:15448)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}
+01:55:06.921 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v3152f9fa4f98cd016330ae6bcc1bdf798dcf6ff41.json for pid 5198 Canceled (FileSystemError): Canceled
+    at Function.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at Bc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:239:15448)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}

@@ -1,0 +1,41 @@
+2025-02-16 17:14:14.873 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-16 17:14:15.770 [info] [Info  - 17:14:15] (69526) Server root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 17:14:15.771 [info] [Info  - 17:14:15] (69526) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-16 17:14:15.778 [info] [Info  - 17:14:15] (69526) Starting service instance "exp-2BJT"
+2025-02-16 17:14:15.873 [info] [Info  - 17:14:15] (69526) Setting environmentName for service "exp-2BJT": "3.12.8 (base conda)"
+2025-02-16 17:14:15.873 [info] [Info  - 17:14:15] (69526) Setting pythonPath for service "exp-2BJT": "/home/sab/miniconda3/bin/python"
+2025-02-16 17:14:15.873 [info] [Info  - 17:14:15] (69526) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT
+2025-02-16 17:14:15.875 [info] [Info  - 17:14:15] (69526) Auto-excluding **/node_modules
+2025-02-16 17:14:15.875 [info] [Info  - 17:14:15] (69526) Auto-excluding **/__pycache__
+2025-02-16 17:14:15.876 [info] [Info  - 17:14:15] (69526) Auto-excluding **/.*
+2025-02-16 17:14:15.906 [info] [Info  - 17:14:15] (69526) Assuming Python version 3.12.8.final.0
+2025-02-16 17:14:15.983 [info] [Info  - 17:14:15] (69526) No source files found.
+2025-02-16 17:14:16.016 [info] [Info  - 17:14:16] (69526) Starting service instance "exp-2BJT"
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) Setting environmentName for service "exp-2BJT": "3.12.8 (base conda)"
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) Setting pythonPath for service "exp-2BJT": "/home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT"
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) No include entries specified; assuming /home/sab/github/TheInvisibleFoe/PH3105-Lab-reports/DPS-Lab_reports/PH3204/exp-2BJT
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) Auto-excluding **/node_modules
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) Auto-excluding **/__pycache__
+2025-02-16 17:14:16.042 [info] [Info  - 17:14:16] (69526) Auto-excluding **/.*
+2025-02-16 17:14:16.081 [info] [Info  - 17:14:16] (69526) No source files found.
+2025-02-16 17:14:17.097 [info] [Info  - 17:14:17] (69526) Background analysis(1) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 17:14:17.102 [info] [Info  - 17:14:17] (69526) Background analysis(1) started
+2025-02-16 17:14:17.165 [info] [Info  - 17:14:17] (69526) Background analysis(2) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 17:14:17.170 [info] [Info  - 17:14:17] (69526) Background analysis(2) started
+2025-02-16 17:14:17.183 [info] [Info  - 17:14:17] (69526) Indexer background runner(3) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-16 17:14:17.183 [info] [Info  - 17:14:17] (69526) Indexing(3) started
+2025-02-16 17:14:17.579 [info] [Info  - 17:14:17] (69526) scanned(3) 1 files over 1 exec env
+2025-02-16 17:14:17.771 [info] [Info  - 17:14:17] (69526) indexed(3) 1 files over 1 exec env
+2025-02-16 17:14:17.790 [info] [Info  - 17:14:17] (69526) Indexing finished(3).
+2025-02-16 17:14:19.179 [info] [Info  - 17:14:19] (69526) Starting service instance "<default>"
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) Setting environmentName for service "<default>": "3.12.8 (base conda)"
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) Setting pythonPath for service "<default>": "/home/sab/miniconda3/bin/python"
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) No include entries specified; assuming /<default workspace root>
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) Auto-excluding **/node_modules
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) Auto-excluding **/__pycache__
+2025-02-16 17:14:19.195 [info] [Info  - 17:14:19] (69526) Auto-excluding **/.*
+2025-02-16 17:14:19.218 [info] [Info  - 17:14:19] (69526) Assuming Python version 3.12.8.final.0
+2025-02-16 17:14:19.252 [info] [Error - 17:14:19] (69526) File or directory "/<default workspace root>" does not exist.
+2025-02-16 17:14:19.252 [info] [Info  - 17:14:19] (69526) No source files found.
+2025-02-16 17:14:19.875 [info] [Info  - 17:14:19] (69526) Background analysis(4) root directory: file:///home/sab/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-16 17:14:19.879 [info] [Info  - 17:14:19] (69526) Background analysis(4) started
