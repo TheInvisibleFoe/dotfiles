@@ -1,6 +1,6 @@
 import os
 import datetime
-loc = ["~/.config/hypr","~/.config/alacritty","~/.config/waybar","~/.config/rofi","~/.config/nvim","~/.config/starship.toml"]
+loc = ["~/.config/hypr","~/.config/alacritty","~/.config/waybar","~/.config/copyq","~/.config/rofi","~/.config/nvim","~/.config/starship.toml","~/.config/fish","~/.config/ml4w",]
 for i in loc:
     os.system("cp -r "+i+" ../dotfiles")
 os.system("git add . ")
